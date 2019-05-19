@@ -92,9 +92,9 @@ Write a program to print your name at the first line and calculate and print the
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-||Maria|
+|Catlyn|Catlyn|
 ||8|
-||Peter|
+|Peter|Peter|
 ||8|
 [/slide]
 
@@ -103,7 +103,7 @@ Write a program to print your name at the first line and calculate and print the
 [code-task title="Name and Expression" executionStrategy="python-code"]
 [code-editor language=python]
 ```
-print("Maria")
+print("Catlyn")
 print(5 + 3)
 ```
 [/code-editor]
@@ -173,13 +173,21 @@ Write a program, which calculates and prints the value of the following express
 Write a program, which:
 
 Prints a square of 7 * 7 stars like this:
+
 \* \* \* \* \* \* \*
+
 \* \* \* \* \* \* \*
+
 \* \* \* \* \* \* \*
+
 \* \* \* \* \* \* \*
+
 \* \* \* \* \* \* \*
+
 \* \* \* \* \* \* \*
+
 \* \* \* \* \* \* \*
+
 [/task-description]
 [code-io /]
 [/code-task]
@@ -191,11 +199,17 @@ Prints a square of 7 * 7 stars like this:
 [code-editor language=python]
 ```
 print("* * * * * * *")
+print()
 print("* * * * * * *")
+print()
 print("* * * * * * *")
+print()
 print("* * * * * * *")
+print()
 print("* * * * * * *")
+print()
 print("* * * * * * *")
+print()
 print("* * * * * * *")
 ```
 [/code-editor]
@@ -203,13 +217,21 @@ print("* * * * * * *")
 Write a program, which:
 
 Prints a square of 7 * 7 stars like this:
+
 \* \* \* \* \* \* \*
+
 \* \* \* \* \* \* \*
+
 \* \* \* \* \* \* \*
+
 \* \* \* \* \* \* \*
+
 \* \* \* \* \* \* \*
+
 \* \* \* \* \* \* \*
+
 \* \* \* \* \* \* \*
+
 [/task-description]
 [code-io /]
 [/code-task]
