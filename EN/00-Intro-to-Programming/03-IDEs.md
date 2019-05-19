@@ -4,35 +4,29 @@ Integrated Development Environments (**IDE**) simplify software development
 
 IDEs save time and eases the process of coding
 
-Writing, running, testing, and debugging the code
+For programming in Python, we use **PyCharm Community**
 
-For programming in C#, we use **Visual Studio**
+To write programs, we need an **IDE**
 
-Free C# IDE from Microsoft
-[/slide]
+For **Python**:
 
-[slide]
-# Integrated Development Environments (IDE)
-To write programs, we need an IDE
+* **PyCharm** (IDE)
+* **Visual Studio Code** (free editor)
+* **Eclipse** (IDE)
 
-For C#:
+For **Java** -> IntelliJ IDEA / Eclipse / NetBeans
 
-* Visual Studio (for Windows)
-* Visual Studio / Raider (for macOS)
-* Visual Studio Code / Raider (for Linux)
+For **JavaScript** -> VS Code / WebStorm
 
-For Java -> IntelliJ IDEA / Eclipse / NetBeans
-
-For Python -> PyCharm / Eclipse / VS Code
-
-For JavaScript -> WebStorm / VS Code
+For **C#** -> Visual Studio / Raider
 [/slide]
 
 [slide]
 # Development Environments: Desktop and Online
-Install Microsoft Visual Studio Community
 
-* https://visualstudio.com/products/visual-studio-community-vs
+Install JetBrains PyCharm Community
+
+* https://www.jetbrains.com/pycharm/download/#section=windows
 * You can use an older version, but it is not recommended
 
 Alternative IDE (online)
@@ -40,13 +34,7 @@ Alternative IDE (online)
 * C#: https://dotnetfiddle.net
 * Java: https://compilejava.net 
 * Python: https://repl.it
-* JavaScript: directly use the browser console (press \[F12\] key)
-[/slide]
+* JavaScript: directly use thebrowser console (press \[F12\] key)
 
-[slide]
-# Online Coding Environments (IDEs)
-The .NET Fiddle Online IDE: https://dotnetfiddle.net
-
-[image src="https://github.com/tany1610/programming-basics-interactive-csharp/blob/master/assets/intro-to-programming-3.png"/]
-
+The repl.it Online IDE: https://repl.it
 [/slide]

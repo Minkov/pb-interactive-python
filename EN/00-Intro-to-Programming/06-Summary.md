@@ -4,12 +4,11 @@ What is Coding?
 
 * Commands and Programs
 
-The C# Language
+The Python Language
 
-The Visual Studio IDE
+The PyCharm
 
-* Installing VS
+* Installing PyCharm Community
 
-* Writing C# Console Apps
-
+* Writing Python Console Apps
 [/slide]
