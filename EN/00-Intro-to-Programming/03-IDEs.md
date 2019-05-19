@@ -1,6 +1,6 @@
 [slide]
-# Integrated Development Environments (IDE)
-Integrated Development Environments (**IDE**) simplify software development
+# Integrated Development Environment (IDE)
+Integrated Development Environment (**IDE**) simplify software development
 
 IDEs save time and eases the process of coding
 

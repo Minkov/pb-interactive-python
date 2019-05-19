@@ -1,6 +1,13 @@
 [slide]
+# Homework
+Now, it's your turn to practice what you have learned in the training session.
+
+We have prepared some simple problems for you to solve. If you struggle you can see the solution after each problem. 
+[/slide]
+
+[slide]
 # Problem: Print "Hello Python"
-[code-task title="Print "Hello Python" executionStrategy="python-code" requiresInput]
+[code-task title="Print Hello Python" executionStrategy="python-code"]
 [code-editor language=python]
 ```
 # Write your code here
@@ -17,7 +24,7 @@ Prints "Hello Python" on the console
 
 [slide]
 # Solution: Print "Hello Python"
-[code-task title="Print "Hello python" executionStrategy="python-code" requiresInput]
+[code-task title="Print Hello Python" executionStrategy="python-code"]
 [code-editor language=python]
 ```
 print("Hello Python")
@@ -34,7 +41,7 @@ Prints "Hello Python" on the console
 
 [slide]
 # Problem: Calculate and Print 5 * 5
-[code-task title="Calculate and Print 5 * 5" executionStrategy="python-code" requiresInput]
+[code-task title="Calculate and Print 5 * 5" executionStrategy="python-code"]
 [code-editor language=python]
 ```
 # Write your code here
@@ -53,7 +60,7 @@ Write a python program, which:
 
 [slide]
 # Solution: Calculate and Print 5 * 5
-[code-task title="Calculate and Print 5 * 5" executionStrategy="python-code" requiresInput]
+[code-task title="Calculate and Print 5 * 5" executionStrategy="python-code"]
 [code-editor language=python]
 ```
 print(5 * 5)
@@ -71,7 +78,7 @@ Write a python program, which:
 
 [slide]
 # Problem: Name and Expression
-[code-task title="Name and Expression" executionStrategy="python-code" requiresInput]
+[code-task title="Name and Expression" executionStrategy="python-code"]
 [code-editor language=python]
 ```
 # Write your code here
@@ -93,7 +100,7 @@ Write a program to print your name at the first line and calculate and print the
 
 [slide]
 # Solution: Name and Expression
-[code-task title="Name and Expression" executionStrategy="python-code" requiresInput]
+[code-task title="Name and Expression" executionStrategy="python-code"]
 [code-editor language=python]
 ```
 print("Maria")
@@ -116,7 +123,7 @@ Write a program to print your name at the first line and calculate and print the
 
 [slide]
 # Problem: Calculations
-[code-task title="Calculations" executionStrategy="python-code" requiresInput]
+[code-task title="Calculations" executionStrategy="python-code"]
 [code-editor language=python]
 ```
 # Write your code here
@@ -135,7 +142,7 @@ Write a program, which calculates and prints the value of the following express
 
 [slide]
 # Solution: Calculations
-[code-task title="Calculations" executionStrategy="python-code" requiresInput]
+[code-task title="Calculations" executionStrategy="python-code"]
 [code-editor language=python]
 ```
 print(5 + 3 * 2)
@@ -156,7 +163,7 @@ Write a program, which calculates and prints the value of the following express
 
 [slide]
 # Problem: Square of 7 * 7 Stars
-[code-task title="Square of 7 * 7 Stars" executionStrategy="python-code" requiresInput]
+[code-task title="Square of 7 * 7 Stars" executionStrategy="python-code"]
 [code-editor language=python]
 ```
 # Write your code here
@@ -180,7 +187,7 @@ Prints a square of 7 * 7 stars like this:
 
 [slide]
 # Solution: Square of 7 * 7 Stars
-[code-task title="Square of 7 * 7 Stars" executionStrategy="python-code" requiresInput]
+[code-task title="Square of 7 * 7 Stars" executionStrategy="python-code"]
 [code-editor language=python]
 ```
 print("* * * * * * *")

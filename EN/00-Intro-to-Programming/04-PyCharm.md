@@ -1,4 +1,5 @@
 [slide]
+# PyCharm
 # What is PyCharm?
 The Python IDE with intelligent code completion, quick-fixes, and much more…
 
