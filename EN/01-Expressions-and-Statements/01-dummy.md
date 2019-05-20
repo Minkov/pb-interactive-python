@@ -1,3 +1,3 @@
 [slide]
-# Dummy
+# Introduction
 [/slide]
