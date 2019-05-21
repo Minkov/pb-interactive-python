@@ -1,1 +1,1 @@
-# programming-basics-with-python
+# programming-basics-interactive-python
