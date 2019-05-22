@@ -10,7 +10,7 @@ Data is stored by using variables
 
 [slide]
 # Variables
-A **Variable** is a container of information
+A **variable** is a container of information
 
 * The information can be changed at any time
 * In Python programming variables are used all the time
@@ -20,10 +20,7 @@ A **Variable** is a container of information
 * **Storing** information
 * **Retrieving** stored info
 * **Modifying** stored info
-[/slide]
 
-[slide]
-# Variables
 Variables are characterized by:
 
 * **name** (identifier)
