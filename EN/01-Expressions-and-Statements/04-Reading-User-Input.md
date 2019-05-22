@@ -95,3 +95,51 @@ python {file_name}
 ```
 [image src="https://github.com/AlenPaunov/pb-interactive-course/blob/01-python-expressions-and-statements/assets/expressions-and-statements-1.png"/]
 [/slide]
+
+[slide]
+# Problem: Greeting
+[code-task title="Greeting" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
+```
+# Write your code here
+```
+[/code-editor]
+[task-description]
+Write a program, which:
+
+* Reads a user input - name, from the console
+* Prints "Hello, \{name\}!", where \{name\} is the user input
+[/task-description]
+[code-io /]
+[/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|John|Hello, John|
+|Dave|Hello, Dave|
+[/slide]
+
+[slide]
+# Solution: Greeting
+[code-task title="Greeting" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
+```
+name = input()
+print('Hello, ', end=" ")
+print(name)
+```
+[/code-editor]
+[task-description]
+Write a program, which:
+
+* Reads a user input - name, from the console
+* Prints "Hello, \{name\}!", where \{name\} is the user input
+[/task-description]
+[code-io /]
+[/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|John|Hello, John|
+|Dave|Hello, Dave|
+[/slide]
