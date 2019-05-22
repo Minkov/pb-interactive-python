@@ -1,4 +1,6 @@
 [slide]
+# Simple Operations
+
 # Concatenating Text and Numbers
 Examples:
 
