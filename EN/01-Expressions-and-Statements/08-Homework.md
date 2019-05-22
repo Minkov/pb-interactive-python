@@ -22,15 +22,13 @@ Write a program, which:
 [code-io /]
 [/code-task]
 # Sample Input and Output
-|Input|Output|
+|||
 |-----|------|
-|John|Welcome, John|
+|||
 
-| Tables        | Are           | Cool  |
+| Input        | Output           | 
 | ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| John      | Welcome, John |
 [/slide]
 
 [slide]
