@@ -1,6 +1,6 @@
 [slide]
 # Technical Session
 
-[youtube-video videoId="BHrUGocsZNg" /]
+[youtube-video videoId="uTSIZm9md6M" /]
 
 [/slide]

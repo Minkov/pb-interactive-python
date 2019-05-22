@@ -16,4 +16,4 @@ English
 Beginner
 
 ## Authors
-Technical Trainers Team, SoftUni
+Unnamed
