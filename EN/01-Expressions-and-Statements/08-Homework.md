@@ -22,13 +22,9 @@ Write a program, which:
 [code-io /]
 [/code-task]
 # Sample Input and Output
-|||
+|Input|Output|
 |-----|------|
-|||
-
-| Input        | Output           | 
-| ------------- |:-------------:| -----:|
-| John      | Welcome, John |
+|John|Welcome, John|
 [/slide]
 
 [slide]
