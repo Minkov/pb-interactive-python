@@ -83,7 +83,7 @@ Examples
 ```python
 import math      # import math library
 import sys       # import sys library
-import math, sys # import all
+import math, sys # import both math and sys libraries
 ```
 [/slide]
 

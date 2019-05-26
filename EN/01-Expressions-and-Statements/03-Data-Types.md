@@ -12,22 +12,8 @@ Variables can be used to hold different data types
 [/slide]
 
 [slide]
-# Variables
-Variables are containers for different data types
-```python
-first_name = "John"
-``` 
-You get the value by calling the variable name
-```python
-first_name # "John"
-```
-[/slide]
-
-[slide]
 # Assigning Values to Variables
-You can assign a **value** to a **variable** and use it later
-
-Use **"="** to assign a value
+You can assign a **value** to a **variable** using **"="**:
 ```python
 first_num = 10
 second_num = 5
@@ -37,8 +23,9 @@ first_num + second_num   # 15
 
 [slide]
 # Naming Conventions
-In Python the convention for naming variables is ***"snake_case"***
+In computer programming, a naming convention is a set of rules for choosing the name to be used for variables
 
+In Python the convention for naming variables is ***"snake_case"***:
 * Words consist only of **lowercase** letters
 * Words are separated with **underscore** "_"
 
@@ -48,6 +35,18 @@ thisIsNotCorrect
 This_Is_Not_Correct
 This_is_also_not_correct
 ```
+
+There are other conventions such as:
+* Pascal Case - capitalizes each word:
+```python
+FirstName = "Peter"
+```
+
+* Camel Case - similiar to pascal case but the first word is not capitalized:
+```python
+firstName = "Peter"
+```
+
 [/slide]
 
 [slide]

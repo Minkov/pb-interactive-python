@@ -274,6 +274,8 @@ Write a function, which:
 [code-task title="Circle Area and Perimeter" executionStrategy="python-code" requiresInput]
 [code-editor language="python"]
 ```
+import math
+
 # Write your code here
 ```
 [/code-editor]
@@ -301,6 +303,7 @@ Write a function, which:
 [code-editor language="python"]
 ```
 import math
+
 radius = float(input())
 area = radius * radius * math.pi
 perimeter = 2 * math.pi * radius
