@@ -34,7 +34,7 @@ Alternative IDE (online)
 * C#: https://dotnetfiddle.net
 * Java: https://compilejava.net 
 * Python: https://repl.it
-* JavaScript: directly use thebrowser console (press \[F12\] key)
+* JavaScript: directly use the browser console (press \[F12\] key)
 
 The repl.it Online IDE: https://repl.it
 [/slide]

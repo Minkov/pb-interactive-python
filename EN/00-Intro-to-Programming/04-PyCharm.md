@@ -18,7 +18,7 @@ Choose your operating system and follow the instructions of the installer
 
 Download from: https://www.jetbrains.com/pycharm/download/#section=windows
 
-# Solutions and Projects in VS Code
+# Solutions and Projects in PyCharm
 PyCharm **explorer** hold projects (Alt + 1)
 
 Project hold source code files: **.py files**
