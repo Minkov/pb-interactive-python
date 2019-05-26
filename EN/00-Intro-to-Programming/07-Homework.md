@@ -104,7 +104,7 @@ Write a program to print your name at the first line and calculate and print the
 [code-task title="Name and Expression" executionStrategy="python-code" ]
 [code-editor language=python]
 ```
-print("Maria")
+print("Catlyn")
 print(5 + 3)
 ```
 [/code-editor]
