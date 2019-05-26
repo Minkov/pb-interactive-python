@@ -93,9 +93,9 @@ Write a program to print your name at the first line and calculate and print the
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-||Maria|
+|Catlyn|Catlyn|
 ||8|
-||Peter|
+|Peter|Peter|
 ||8|
 [/slide]
 
@@ -116,9 +116,9 @@ Write a program to print your name at the first line and calculate and print the
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-||Maria|
+|Catlyn|Catlyn|
 ||8|
-||Peter|
+|Peter|Peter|
 ||8|
 [/slide]
 
@@ -175,11 +175,17 @@ Write a program, which:
 
 Prints a square of 7 * 7 stars like this:
 \* \* \* \* \* \* \*
+
 \* \* \* \* \* \* \*
+
 \* \* \* \* \* \* \*
+
 \* \* \* \* \* \* \*
+
 \* \* \* \* \* \* \*
+
 \* \* \* \* \* \* \*
+
 \* \* \* \* \* \* \*
 [/task-description]
 [code-io /]
@@ -192,11 +198,17 @@ Prints a square of 7 * 7 stars like this:
 [code-editor language=python]
 ```
 print("* * * * * * *")
+print()
 print("* * * * * * *")
+print()
 print("* * * * * * *")
+print()
 print("* * * * * * *")
+print()
 print("* * * * * * *")
+print()
 print("* * * * * * *")
+print()
 print("* * * * * * *")
 ```
 [/code-editor]
