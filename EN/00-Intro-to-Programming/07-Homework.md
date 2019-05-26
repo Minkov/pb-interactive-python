@@ -8,7 +8,7 @@ We have prepared some simple problems for you to solve. If you struggle you can 
 
 [slide]
 # Problem: Print "Hello Python"
-[code-task title="Print "Hello Python" executionStrategy="python-code"]
+[code-task title="Print Hello Python" executionStrategy="python-code"]
 [code-editor language=python]
 ```
 # Write your code here
@@ -25,7 +25,7 @@ Prints "Hello Python" on the console
 
 [slide]
 # Solution: Print "Hello Python"
-[code-task title="Print "Hello python" executionStrategy="python-code"]
+[code-task title="Print Hello Python" executionStrategy="python-code"]
 [code-editor language=python]
 ```
 print("Hello Python")
