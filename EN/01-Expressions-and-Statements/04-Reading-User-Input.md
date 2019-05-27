@@ -143,3 +143,10 @@ Write a program, which:
 |John|Hello, John|
 |Dave|Hello, Dave|
 [/slide]
+
+[slide]
+# Video
+
+[youtube-video videoId="YGMQIGXrdNg" startTimeInSeconds="3264" endTimeInSeconds="4530" /]
+
+[/slide]
