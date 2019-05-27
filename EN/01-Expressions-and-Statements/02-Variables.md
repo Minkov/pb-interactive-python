@@ -41,10 +41,3 @@ age = 25
 # variable value (type: integer)
 ```
 [/slide]
-
-[slide]
-# Video
-
-[youtube-video videoId="YGMQIGXrdNg" startTimeInSeconds="1095" endTimeInSeconds="1870" /]
-
-[/slide]

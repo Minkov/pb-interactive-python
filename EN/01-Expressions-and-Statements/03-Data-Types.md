@@ -88,10 +88,3 @@ A comment is text in your program that is not executed as a code
 # name = "John" <- this code will not be executed
 ```
 [/slide]
-
-[slide]
-# Video
-
-[youtube-video videoId="YGMQIGXrdNg" startTimeInSeconds="1873" endTimeInSeconds="2654" /]
-
-[/slide]

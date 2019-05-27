@@ -53,10 +53,3 @@ print(4 % 2) # 0
 print(3.5 % 1) # 0.5
 ```
 [/slide]
-
-[slide]
-# Video
-
-[youtube-video videoId="YGMQIGXrdNg" startTimeInSeconds="4533" endTimeInSeconds="4916" /]
-
-[/slide]

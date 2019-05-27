@@ -13,10 +13,3 @@ Simple Operations
 
 Expressions
 [/slide]
-
-[slide]
-# Video
-
-[youtube-video videoId="YGMQIGXrdNg" startTimeInSeconds="9591" endTimeInSeconds="9642‬" /]
-
-[/slide]

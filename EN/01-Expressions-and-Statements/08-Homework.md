@@ -6,13 +6,6 @@ We have prepared some simple problems for you to solve. If you struggle you can 
 [/slide]
 
 [slide]
-# Video
-
-[youtube-video videoId="YGMQIGXrdNg" startTimeInSeconds="8423" endTimeInSeconds="9589" /]
-
-[/slide]
-
-[slide]
 # Problem: Welcome
 [code-task title="Welcome" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
