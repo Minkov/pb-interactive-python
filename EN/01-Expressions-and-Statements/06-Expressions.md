@@ -18,6 +18,6 @@ r = (150-20) / 2 + 5
 [slide]
 # Video
 
-[youtube-video videoId="YGMQIGXrdNg" startTimeInSeconds="5280" endTimeInSeconds="5035" /]
+[youtube-video videoId="YGMQIGXrdNg" startTimeInSeconds="4920" endTimeInSeconds="5035" /]
 
 [/slide]
