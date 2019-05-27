@@ -147,6 +147,6 @@ Write a program, which:
 [slide]
 # Video
 
-[youtube-video videoId="YGMQIGXrdNg" startTimeInSeconds="3264" endTimeInSeconds="4530" /]
+[youtube-video videoId="YGMQIGXrdNg" startTimeInSeconds="3268" endTimeInSeconds="4530" /]
 
 [/slide]
