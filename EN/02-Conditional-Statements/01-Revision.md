@@ -1,4 +1,6 @@
 [slide]
+# Revision
+
 # Variables
 Data is stored by using variables
 
@@ -13,9 +15,7 @@ age = 5
 ```python
 name = "John"
 ```
-[/slide]
 
-[slide]
 # Data Types
 ***int*** - integer number : 1, 2, 3, 4 …
 
@@ -24,9 +24,7 @@ name = "John"
 ***str*** - string and chars : "a", "Hello", …
 
 ***bool*** - boolean: True, False
-[/slide]
 
-[slide]
 # Expressions
 Any **reference** to a variable or value
 
@@ -39,9 +37,7 @@ a = b * 2
 # b is a variable expression
 # b * 2 is an arithmetic expression
 ```
-[/slide]
 
-[slide]
 # Statements
 A group of words, numbers, and operators
 
