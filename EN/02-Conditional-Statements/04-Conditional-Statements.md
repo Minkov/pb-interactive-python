@@ -70,14 +70,14 @@ Write a program, which:
 
 * Reads a temperature in Celsius
 * **Checks** whether the temperature is **below zero**
-* Prints ***"Freezing weather!"***, if the temperature is equal or lower than 0, otherwise print ***"No output"***
+* Prints ***"Freezing weather!"***, if the temperature is equal or lower than 0
 [/task-description]
 [code-io /]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|4|No output|
+|4||
 |-2|Freezing weather!|
 [/slide]
 
@@ -89,8 +89,6 @@ Write a program, which:
 temperature = float(input())
 if temperature <= 0:
    print("Freezing weather!")
-else:
-   print("No output")
 ```
 [/code-editor]
 [task-description]
@@ -98,13 +96,13 @@ Write a program, which:
 
 * Reads a temperature in Celsius
 * **Checks** whether the temperature is **below zero**
-* Prints ***"Freezing weather!"***, if the temperature is equal or lower than 0, otherwise print ***"No output"***
+* Prints ***"Freezing weather!"***, if the temperature is equal or lower than 0
 [/task-description]
 [code-io /]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|4|No output|
+|4||
 |-2|Freezing weather!|
 [/slide]
