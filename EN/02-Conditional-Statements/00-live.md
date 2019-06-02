@@ -1,5 +1,5 @@
 [slide]
-# Live stream
+# Live Stream
 [live-stream id="UF0NejOoq8k" /]
 
 [slido id="ujvuibfo" /]
