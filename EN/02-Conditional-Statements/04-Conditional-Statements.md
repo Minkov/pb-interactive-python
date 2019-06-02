@@ -13,18 +13,16 @@ if condition:
 
 [slide]
 # Indentation
-Most of the programming languages like C, C++, Java use braces \{ \} to define a block of code
+Most of the programming languages like C, C++, Java use braces **\{** **\}** to define a block of code
+  * **Python** uses indentation
 
-Python uses indentation
+A code block (body of a function, loop, if statement, etc.) **starts with indentation and ends with the first unindented line**
 
-A code block (body of a function, loop, if statement, etc.) starts with indentation and ends with the first unindented line
+The amount of indentation is up to you, but it **must be consistent** throughout that block
+  * Generally **four whitespaces** are used for indentation and is preferred over tabs 
 
-The amount of indentation is up to you, but it must be consistent throughout that block
-
-Generally four whitespaces are used for indentation and is preferred over tabs 
-
-The enforcement of indentation in Python makes the code look neat and clean
-  * This results into Python programs that look similar and consistent
+The enforcement of indentation in **Python** makes the code look neat and clean
+  * This results into **Python** programs that look **similar and consistent**
 
 Here is an example:
 ```python
@@ -33,7 +31,7 @@ if name == "John":
   print(name)
 ```
 
-Indentation can be ignored in line continuation, but it's a good idea to always indent, because it makes the code more readable
+Indentation **can be ignored** in line continuation, **but it's a good idea to always indent**, because it makes the code more readable
 
 For example:
 ```python
@@ -48,7 +46,7 @@ and
 if True: print('Hello'); a = 5
 ```
 
-Both are valid and do the same thing, but the former style is clearer and more readable
+Both are valid and do the same thing, but the **former style is clearer and more readable**
 
 Incorrect indentation will result into **`IndentationError`**:
 ```python
