@@ -87,7 +87,7 @@ Write a program, which:
 [code-editor language=python]
 ```
 degrees = float(input())
-if degrees > 100 :
+if degrees > 100:
   print("The water is boiling") 
 else :
   print("The water is not hot enough")
@@ -166,6 +166,8 @@ Write a program, which:
 [code-task title="Area of Figures" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
+import math
+
 # Write your code here
 ```
 [/code-editor]
@@ -257,11 +259,11 @@ Write a program which:
 ```
 ticket_type = input()
 if ticket_type == "student":
-  print("$1.00")
+    print("$1.00")
 elif ticket_type == "regular":
     print("$1.60")
-else :
-  print("Invalid ticket type!")
+else:
+    print("Invalid ticket type!")
 ```
 [/code-editor]
 [task-description]
@@ -290,13 +292,20 @@ Write a program, which:
 
 * Reads an **order** - either **"coffee"** or **"tea"**
 * Reads an **extra** - either **"sugar"** or **"no"**
-* Prints a price in format "Final price: $\{price\}"
+* Prints a price in format "Final price: $\{price\}", the price should be formatted to 2nd digit after the decimal point
     * Price for coffee - 1.00
     * Price for tea - 0.60
     * Price for the sugar - 0.40
 [/task-description]
 [code-io /]
 [/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|coffee|$1.40|
+|sugar||
+|tea|$0.60|
+|no||
 [/slide]
 
 [slide]
@@ -308,12 +317,12 @@ order = input()
 extra = input()
 price = 0
 if order == "coffee":
-  price = 1.00
+    price = 1.00
 elif order == "tea":
-  price = 0.60
+    price = 0.60
 if extra == "sugar":
-  price += 0.40
-print(f"Final price: {price}")
+    price = price + 0.40
+print(f"Final price: ${price:.2f}")
 ```
 [/code-editor]
 [task-description]
@@ -321,71 +330,20 @@ Write a program, which:
 
 * Reads an **order** - either **"coffee"** or **"tea"**
 * Reads an **extra** - either **"sugar"** or **"no"**
-* Prints a price in format "Final price: $\{price\}"
+* Prints a price in format "Final price: $\{price\}", the price should be formatted to 2nd digit after the decimal point
     * Price for coffee - 1.00
     * Price for tea - 0.60
     * Price for the sugar - 0.40
 [/task-description]
 [code-io /]
 [/code-task]
-[/slide]
-
-[slide]
-# Problem: Frozen Fire
-[code-task title="Frozen Fire" executionStrategy="python-code" requiresInput]
-[code-editor language=python]
-```
-# Write your code here
-```
-[/code-editor]
-[task-description]
-Write a program, which:
-
-* Reads 3 positive numbers
-* Calculates the **differences** between:
-    * The **1st** and the **2nd** number - as **n**
-    * The **2nd** and the **3rd** number - as **p**
-
-* Prints ***"Ice prevails"*** if **n** is greater than p
-* Prints ***"Fire prevails"*** if **p** is greater than n
-* Prints ***"Frozen Fire"*** if they are **equal**
-[/task-description]
-[code-io /]
-[/code-task]
-[/slide]
-
-[slide]
-# Solution: Frozen Fire
-[code-task title="Frozen Fire" executionStrategy="python-code" requiresInput]
-[code-editor language=python]
-```
-ice = float(input())
-catalyst = float(input())
-fire = float(input())
-n = ice - catalyst
-p = catalyst - fire
-if n > p:
-  print("Ice prevails")
-elif n < p:
-  print("Fire prevails")
-else:
-  print("Frozen fire")
-```
-[/code-editor]
-[task-description]
-Write a program, which:
-
-* Reads 3 positive numbers
-* Calculates the **differences** between:
-    * The **1st** and the **2nd** number - as **n**
-    * The **2nd** and the **3rd** number - as **p**
-
-* Prints ***"Ice prevails"*** if **n** is greater than p
-* Prints ***"Fire prevails"*** if **p** is greater than n
-* Prints ***"Frozen Fire"*** if they are **equal**
-[/task-description]
-[code-io /]
-[/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|coffee|$1.40|
+|sugar||
+|tea|$0.60|
+|no||
 [/slide]
 
 [slide]
@@ -422,13 +380,13 @@ Write a program, which:
 a = int(input())
 b = int(input())
 c = int(input())
-is_valid_triangle = True
+is_valid_triangle = true
 if a + b <= c:
-  is_valid_triangle = False
+  is_valid_triangle = false
 elif a + c <= b:
-  is_valid_triangle = False
+  is_valid_triangle = false
 elif b + c <= a:
-  is_valid_triangle = False
+  is_valid_triangle = false
 if is_valid_triangle:
   print("Valid Triangle")
 else:
