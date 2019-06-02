@@ -1,6 +1,6 @@
 [slide]
 # Live stream
-[live-stream id="PQ_w7xz4PQA" /]
+[live-stream id="UF0NejOoq8k" /]
 
 [slido id="ujvuibfo" /]
 
