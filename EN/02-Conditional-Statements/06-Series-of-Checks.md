@@ -1,8 +1,10 @@
 [slide]
-# Series of Conditions
-The ***if-else*** statement can be used as a series of checks
+# Sequence of If-Else Conditions
+Sometimes we need to do a sequence of conditions before we decide what actions our program will execute
 
-If one condition is ***True***, the program will **NOT check** the rest of the conditions
+In such cases, we can apply the construction if-else if ... -else in series
+
+For this purpose, we use the following format:
 ```python
 if ... : 
   # Execution code
@@ -11,6 +13,7 @@ elif ... :
 elif ... :
   # Execution code
 ```
+
 # Example
 The program checks the first condition, finds that it is true and ends
 ```python
@@ -22,6 +25,8 @@ elif a > 5:
 else 
   print("Equal to 7") 
 ```
+
+The result of this program will be **`"Bigger than 4"`**
 [/slide]
 
 [slide]
