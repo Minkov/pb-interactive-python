@@ -58,6 +58,30 @@ if name == "John":
 [/slide]
 
 [slide]
+# Variable Lifetime
+Not all variables are accessible from all parts of our program, and not all variables exist for the same amount of time
+
+Where a variable is accessible and how long it exists depend on how it is defined
+
+A variable which is defined in the main body of a file is called a global variable
+
+Here is an example of variables in different scopes:
+```python
+currentDay = "Monday"
+if currentDay == "Monday":
+    salary = 1000
+print(salary)  # 1000
+```
+
+```python
+currentDay = "Tuesday" 
+if currentDay == "Monday":
+    salary = 1000
+print(salary)  # Error
+```
+[/slide]
+
+[slide]
 # Problem: Freezing Weather
 [code-task title="Freezing Weather" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
