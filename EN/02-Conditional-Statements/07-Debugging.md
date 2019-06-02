@@ -1,10 +1,13 @@
 [slide]
 # Debugging
-The process of **tracking** the execution of the program
+Debugging is the process of finding and resolving defects or problems within a computer program 
 
-* This allows us to find mistakes **(bugs)**
+Can be use to track the process of the execution of the program
 
-[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/02-python-conditional-statements/assets/conditional-statements-1.png"/]
+Sometimes it takes more time to debug a program than to code it
+
+[image src="https://github.com/AlenPaunov/pb-interactive-python/blob/master/assets/debugging.png"/]
+
 [/slide]
 
 [slide]
@@ -13,5 +16,9 @@ Pressing Shift + \[F9\] will start the program in debug mode
 
 We can go to the next step with \[F8\]
 
-[image ="https://github.com/AlenPaunov/pb-interactive-course/blob/02-python-conditional-statements/assets/conditional-statements-2.png"/]
+We can create breakpoints \[with Ctrl + F8\] стопери – breakpoints
+  * We can go directly to them by using \[F9\]
+
+[image ="https://github.com/AlenPaunov/pb-interactive-python/blob/master/assets/debugging.png"/]
+
 [/slide]
