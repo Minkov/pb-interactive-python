@@ -380,13 +380,13 @@ Write a program, which:
 a = int(input())
 b = int(input())
 c = int(input())
-is_valid_triangle = true
+is_valid_triangle = True
 if a + b <= c:
-  is_valid_triangle = false
+  is_valid_triangle = False
 elif a + c <= b:
-  is_valid_triangle = false
+  is_valid_triangle = False
 elif b + c <= a:
-  is_valid_triangle = false
+  is_valid_triangle = False
 if is_valid_triangle:
   print("Valid Triangle")
 else:
