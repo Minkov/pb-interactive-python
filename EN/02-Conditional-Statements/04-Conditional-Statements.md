@@ -1,30 +1,61 @@
 [slide]
-# Simple Conditions
-Often we have to check certain conditions and take action according to the result
+# If Statement
+One of the single most important statements in every programming language is the if statement
+
+The if statement needs a boolean result, that is, true or false
+  * If the boolean result is true take action 
 
 ```python
-if condition: 
-  # Code for execution
-  # if the condition is true
+if condition:
+  # Code for execution if the condition is true
 ```
-
-The result is either ***True*** or ***False***
 [/slide]
 
 [slide]
 # Indentation
-Leading whitespace is used to compute the indentation level of the line, which is used to determine the grouping of statements.
+Most of the programming languages like C, C++, Java use braces \{ \} to define a block of code
+
+Python uses indentation
+
+A code block (body of a function, loop, if statement, etc.) starts with indentation and ends with the first unindented line
+
+The amount of indentation is up to you, but it must be consistent throughout that block
+
+Generally four whitespaces are used for indentation and is preferred over tabs 
+
+The enforcement of indentation in Python makes the code look neat and clean
+  * This results into Python programs that look similar and consistent
+
+Here is an example:
+```python
+name = "John"
+if name == "John": 
+  print(name)
+```
+
+Indentation can be ignored in line continuation, but it's a good idea to always indent, because it makes the code more readable
+
+For example:
+```python
+if True:
+    print('Hello')
+    a = 5
+```
+
+and
+
+```python
+if True: print('Hello'); a = 5
+```
+
+Both are valid and do the same thing, but the former style is clearer and more readable
+
+Incorrect indentation will result into **`IndentationError`**:
 ```python
    name = "John"
 if name == "John": 
   print(name)
 # Indentation Error
-```
-```python
-name = "John"
-if name == "John": 
-  print(name)  #John
-# Correct Indentation
 ```
 [/slide]
 
