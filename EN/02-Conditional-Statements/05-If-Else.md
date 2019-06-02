@@ -7,7 +7,7 @@ Because condition can't be simultaneously true and false, the then-statement and
 In an if statement that doesn't include an else statement, if condition is true, the then-statement runs. If condition is false, control is transferred to the next statement after the if statement.
  
 ```python
-if ... :
+if condition:
   # then-statement
   # Commands to be executed if the condition is true
 else:
