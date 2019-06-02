@@ -12,12 +12,12 @@ Sometimes it takes more time to debug a program than to code it
 
 [slide]
 # Debugging in PyCharm
-Pressing **\[Shift + F9\]** will start the program in debug mode
+Pressing \[Shift + F9\] will start the program in debug mode
 
-We can go to the next step with **\[F8\]**
+We can go to the next step with \[F8\]
 
-We can create breakpoints using **\[Ctrl + F8\]**
-  * We can go directly to them by using **\[F9\]**
+We can create breakpoints using \[Ctrl + F8\]
+  * We can go directly to them by using \[F9\]
 
 [image ="https://github.com/AlenPaunov/pb-interactive-python/blob/master/assets/debugging.png"/]
 
