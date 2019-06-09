@@ -285,6 +285,7 @@ Write a program, which:
 
 * Reads season, accommodation type and count of the days
 * Prints the total expenses, formatted to the 2nd digit after the decimal point
+
 |Season|Hotel|Camping|Discount|
 |------|-----|-------|--------|
 |Spring|30|10|20%|
@@ -294,6 +295,12 @@ Write a program, which:
 [/task-description]
 [code-io /]
 [/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|Winter|180.00|
+|Hotel||
+|5||
 [/slide]
 
 [slide]
@@ -331,6 +338,7 @@ Write a program, which:
 
 * Reads season, accommodation type and count of the days
 * Prints the total expenses, formatted to the 2nd digit after the decimal point
+
 |Season|Hotel|Camping|Discount|
 |------|-----|-------|--------|
 |Spring|30|10|20%|
@@ -340,6 +348,12 @@ Write a program, which:
 [/task-description]
 [code-io /]
 [/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|Winter|180.00|
+|Hotel||
+|5||
 [/slide]
 
 [slide]
