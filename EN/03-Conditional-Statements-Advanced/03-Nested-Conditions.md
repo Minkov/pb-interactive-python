@@ -101,7 +101,7 @@ Print the price, formatted to 2nd digit, based on the price list:
 [task-description]
 Write a program, which:
 
-* Reads three numbers from the console
+* Reads three integers
 * Prints the biggest number
 [/task-description]
 [code-io /]
@@ -125,9 +125,9 @@ Write a program, which:
 [code-task title="Biggest Number of Three" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
-first = float(input())
-second = float(input())
-third = float(input())
+first = int(input())
+second = int(input())
+third = int(input())
 if first > second:
   if first > third:
     print(first)
@@ -143,7 +143,7 @@ else:
 [task-description]
 Write a program, which:
 
-* Reads three numbers from the console
+* Reads three integers
 * Prints the biggest number
 [/task-description]
 [code-io /]
