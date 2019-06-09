@@ -436,7 +436,7 @@ Write a program, which:
 [task-description]
 Write a program, which:
 
-* Reads two real numbers and math operator from the console
+* Reads two integers and math operator from the console
 * The math operator could be: "+", "-", "/", "%" and "\*"
 * The output should be in the following format: "\{N1\} \{operator\} \{N2\} = \{result\}"
 [/task-description]
@@ -455,8 +455,8 @@ Write a program, which:
 [code-task title="Number Operations" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
-num1 = float(input())
-num2 = float(input())
+num1 = int(input())
+num2 = int(input())
 operation = input()
 result = 0
 if operation == "+":
@@ -473,7 +473,7 @@ print(f"{num1} {operation} {num2} = {result}")
 [task-description]
 Write a program, which:
 
-* Reads two real numbers and math operator from the console
+* Reads two integers and math operator from the console
 * The math operator could be: "+", "-", "/", "%" and "\*"
 * The output should be in the following format: "\{N1\} \{operator\} \{N2\} = \{result\}"
 [/task-description]
