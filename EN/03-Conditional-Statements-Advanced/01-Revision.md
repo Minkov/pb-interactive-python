@@ -11,15 +11,42 @@ Suitable for numbers, dates, other comparable data types
 * Less than (<)
 * Less than or equal to (<=)
 
-# Conditional Statements
-The ***if-else*** statement can be in a series
+# The if Statement
+Very often you want to perform different actions for different conditions
+
+The if statement executes a statement if a specified condition is true
+
 ```python
-if ... : 
-  # Execution code
-elif ... :
-  # Execution code
-else :
-  # Execution code
-# If one condition is true, the program will NOT check the rest of the conditions
+hour = int(input())
+
+if hour < 18:
+    print("Good day")
+```
+
+# The else Statement
+If the condition is false, another statement can be executed
+
+```python
+hour = int(input())
+
+if hour < 18:
+    print("Good day")
+else:
+    print("Good evening")
+```
+
+# The elif Statement
+
+The ***if-else*** statement can be in a series
+
+```python
+hour = int(input())
+
+if hour < 10:
+    print("Good morning")
+elif hour < 18:
+    print("Good day")
+else:
+    print("Good evening")
 ```
 [/slide]
