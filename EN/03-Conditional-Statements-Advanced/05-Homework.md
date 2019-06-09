@@ -332,7 +332,7 @@ elif season == "Winter":
   elif accommodation == "Camping":
     totalPrice = days * 10 * 0.9
 
-print(f'%:.2f', totalPrice)
+print(f':.2f', totalPrice)
 ```
 [/code-editor]
 [task-description]
