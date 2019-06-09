@@ -380,6 +380,11 @@ Write a program, which:
 [/task-description]
 [code-io /]
 [/code-task]
+|Input|Output|
+|-----|------|
+|Normal|810.00|
+|12||
+|9||
 [/slide]
 
 [slide]
@@ -413,6 +418,11 @@ Write a program, which:
 [/task-description]
 [code-io /]
 [/code-task]
+|Input|Output|
+|-----|------|
+|Normal|810.00|
+|12||
+|9||
 [/slide]
 
 [slide]
