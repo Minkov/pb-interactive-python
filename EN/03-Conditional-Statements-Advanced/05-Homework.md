@@ -506,7 +506,7 @@ Write a program, which:
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|420|The withdraw was successful|
+|420|The withdraw was successful.|
 |20||
 |25||
 [/slide]
@@ -538,7 +538,7 @@ Write a program, which:
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|420|The withdraw was successful|
+|420|The withdraw was successful.|
 |20||
 |25||
 [/slide]
@@ -567,100 +567,4 @@ Write a program, which:
 |3||
 |4||
 |5||
-[/slide]
-
-[slide]
-# Solution: Five Numbers
-[code-task title="Five Numbers" executionStrategy="python-code" requiresInput]
-[code-editor language=python]
-```
-num1 = int(input())
-num2 = int(input())
-num3 = int(input())
-num4 = int(input())
-num5 = int(input())
-if num1 > num2 and num1 > num3 and num1 > num4 and num1 > num5:
-  print(num1)
-elif num2 > num1 and num2 > num3 and num2 > num4 and num2 > num5:
-  print(num2)
-elif num3 > num1 and num3 > num2 and num3 > num4 and num3 > num5:
-  print(num3)
-elif num4 > num1 and num4 > num2 and num4 > num3 and num4 > num5:
-  print(num4)
-elif num5 > num1 and num5 > num2 and num5 > num3 and num5 > num4:
-  print(num5)
-```
-[/code-editor]
-[task-description]
-Write a program, which:
-
-* Reads 5 integers
-* Prints the biggest number
-[/task-description]
-[code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|1|5|
-|2||
-|3||
-|4||
-|5||
-[/slide]
-
-[slide]
-# Problem: Biggest Character
-[code-task title="Biggest Character" executionStrategy="python-code" requiresInput]
-[code-editor language=python]
-```
-# Write your code here
-```
-[/code-editor]
-[task-description]
-Write a program, which:
-
-* Reads 3 characters on separate lines
-* Prints the character with the biggest ASCII value
-[/task-description]
-[code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|a|c|
-|b||
-|c||
-[/slide]
-
-[slide]
-# Solution: Biggest Character
-[code-task title="Biggest Character" executionStrategy="python-code" requiresInput]
-[code-editor language=python]
-```
-first_char = input()
-second_char = input()
-third_char = input()
-if ord(first_char) > ord(second_char) and ord(first_char) > ord(third_char):
-    print(first_char)
-elif ord(second_char) > ord(first_char) and ord(second_char) > ord(third_char):
-    print(second_char)
-else:
-  print(third_char)
-```
-[/code-editor]
-[task-description]
-Write a program, which:
-
-* Reads 3 characters on separate lines
-* Prints the character with the biggest ASCII value
-[/task-description]
-[code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|a|c|
-|b||
-|c||
 [/slide]
