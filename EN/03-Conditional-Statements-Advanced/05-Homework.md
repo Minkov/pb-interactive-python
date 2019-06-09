@@ -36,7 +36,7 @@ Write a program, which:
 [code-editor language=python]
 ```
 product = input()
-if product == "cucumber" or product == "pepper or product == "carrot":
+if product == "cucumber" or product == "pepper" or product == "carrot":
   print("vegetable")
 elif product == "apple" or product == "kiwi" or product == "cherry" or product == "lemon" or product == "grapes":
   print("fruit")
