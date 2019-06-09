@@ -1,4 +1,6 @@
 [slide]
+# Revision
+
 # Comparison Operators
 Suitable for numbers, dates, other comparable data types
 
@@ -8,9 +10,7 @@ Suitable for numbers, dates, other comparable data types
 * Greater than or equal to (>=)
 * Less than (<)
 * Less than or equal to (<=)
-[/slide]
 
-[slide]
 # Conditional Statements
 The ***if-else*** statement can be in a series
 ```python
