@@ -173,7 +173,7 @@ else:
   if n3 < 0: negative_numbers += 1
   if negative_numbers % 2 == 0:
     print("positive")
-  else
+  else:
     print("negative")
 ```
 [/code-editor]
