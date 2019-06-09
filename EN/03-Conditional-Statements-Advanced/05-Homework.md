@@ -244,7 +244,7 @@ if n1 > n2 and n2 > n3:
   print("Descending")
 elif n1 < n2 and n2 < n3:
   print("Ascending")
-else
+else:
   print("Not sorted")
 ```
 [/code-editor]
