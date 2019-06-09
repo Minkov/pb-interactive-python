@@ -50,6 +50,9 @@ Print the price, formatted to 2nd digit, based on the price list:
 [code-task title="Marketplace" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
+product = input()
+day_of_week = input()
+
 if product == "Banana":
   if day_of_week == "Weekday":
     print("2.50")
