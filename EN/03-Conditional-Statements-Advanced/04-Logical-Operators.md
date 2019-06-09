@@ -83,17 +83,10 @@ Write a program that applies bonus to given points
 
 [slide]
 # Problem: Food or Drink
-[code-task title="Food or Drink" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Food or Drink" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
 ```
-using System;
-public class Program
-{
-  public static void Main()
-    {
-      // Write code here
-    }
-}
+# Write code here
 ```
 [/code-editor]
 [task-description]
@@ -109,30 +102,16 @@ Write a program, which:
 
 [slide]
 # Solution: Food or Drink
-[code-task title="Food or Drink" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Food or Drink" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
 ```
-using System;
-
-public class Program
-{
-    public static void Main()
-    {
-        string s = Console.ReadLine();
-        if (s == "curry" || s == "noodles" || s == "sushi" || s == "spaghetti")
-        {
-            Console.WriteLine("food");
-        }
-        else if (s == "tea" || s == "water" || s == "coffee")
-        {
-            Console.WriteLine("drink");
-        }
-        else
-        {
-            Console.WriteLine("unknown");
-        }
-    }
-}
+input = input()
+if input == "curry" or input == "noodles" or input == "sushi" or input == "spaghetti":
+    print("food");
+elif input == "tea" or input == "water" or input == "coffee":
+    print("drink")
+else:
+    print("unknown")
 ```
 [/code-editor]
 [task-description]
