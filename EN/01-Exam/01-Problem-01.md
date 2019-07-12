@@ -50,7 +50,6 @@ You should keep in mind that an umbrella is enough for two people. It is known t
 The final price is: 115.50 + 70.40 + 68.20 = 254.10
 
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]

@@ -65,7 +65,6 @@ We receive the command "End of words"
 The most powerful word is "Experience"
 
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
