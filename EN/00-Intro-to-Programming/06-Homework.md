@@ -122,7 +122,7 @@ Write a python program, which:
 ```
 [/code-editor]
 [task-description]
-Write a program to print your name at the first line and calculate and print the expression 5 + 3 at the second line
+Write a program to 'Catlyn' at the first line and print the result of the expression 5 + 3 at the second line
 [/task-description]
 [code-io /]
 [tests]
@@ -155,7 +155,7 @@ print(5 + 3)
 ```
 [/code-editor]
 [task-description]
-Write a program to print your name at the first line and calculate and print the expression 5 + 3 at the second line
+Write a program to 'Catlyn' at the first line and print the result of the expression 5 + 3 at the second line
 [/task-description]
 [code-io /]
 [tests]
@@ -291,17 +291,11 @@ Prints a square of 7 * 7 stars like this:
 [code-editor language=python]
 ```
 print("* * * * * * *")
-print()
 print("* * * * * * *")
-print()
 print("* * * * * * *")
-print()
 print("* * * * * * *")
-print()
 print("* * * * * * *")
-print()
 print("* * * * * * *")
-print()
 print("* * * * * * *")
 ```
 [/code-editor]
