@@ -3,6 +3,6 @@
 
 [live-stream videoId="342601566" playerType="vimeo" /]
 
-[slido id="nvcd2302" /]
+[slido id="ujvuibfo" /]
 
 [/slide]
