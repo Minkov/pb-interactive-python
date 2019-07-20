@@ -7,7 +7,7 @@ We have prepared some simple problems for you to solve. If you struggle you can 
 
 [slide]
 # Problem: Welcome
-[code-task title="Welcome" executionStrategy="python-code" requiresInput]
+[code-task title="Welcome" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -20,6 +20,40 @@ Write a program, which:
 * Prints the following message: "Welcome, \{name\}"
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+George
+[/input]
+[output]
+Wlcome, George
+[/output]
+[/test]
+[test]
+[input]
+Pesho
+[/input]
+[output]
+Welcome, Pesho
+[/output]
+[/test]
+[test]
+[input]
+asd
+[/input]
+[output]
+Welcome, asd
+[/output]
+[/test]
+[test]
+[input]
+Ann
+[/input]
+[output]
+Welcome, Ann
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -52,7 +86,7 @@ Write a program, which:
 
 [slide]
 # Problem: Area of Triangle
-[code-task title="Area of Triangle" executionStrategy="python-code" requiresInput]
+[code-task title="Area of Triangle" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -66,6 +100,44 @@ Create a function that receives two numbers:
 * Print the area formatted to the 2nd digit
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+12.0
+2.0
+[/input]
+[output]
+12.00
+[/output]
+[/test]
+[test]
+[input]
+5.0
+4.0
+[/input]
+[output]
+10.00
+[/output]
+[/test]
+[test]
+[input]
+10.5
+2.5
+[/input]
+[output]
+13.13
+[/output]
+[/test]
+[test]
+[input]
+1.6
+2.8
+[/input]
+[output]
+2.24
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -103,7 +175,7 @@ Create a function that receives two numbers:
 
 [slide]
 # Problem: Four Operations
-[code-task title="Four Operations" executionStrategy="python-code" requiresInput]
+[code-task title="Four Operations" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language="python"]
 ```
 # Write your code here
@@ -116,6 +188,57 @@ Write a function, which:
 * Performs the 4 arithmetic operations, in the following order: +, -, *, /
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+10.0
+5.0
+[/input]
+[output]
+10.00 + 5.00 = 15.00
+10.00 - 5.00 = 5.00
+10.00 * 5.00 = 50.00
+10.00 / 5.00 = 2.00
+[/output]
+[/test]
+[test]
+[input]
+2.5
+6.5
+[/input]
+[output]
+2.50 + 6.50 = 9.00
+2.50 - 6.50 = -4.00
+2.50 * 6.50 = 16.25
+2.50 / 6.50 = 0.38
+[/output]
+[/test]
+[test]
+[input]
+10.5
+2.5
+[/input]
+[output]
+10.50 + 2.50 = 13.00
+10.50 - 2.50 = 8.00
+10.50 * 2.50 = 26.25
+10.50 / 2.50 = 4.20
+[/output]
+[/test]
+[test]
+[input]
+1.6
+2.8
+[/input]
+[output]
+1.60 + 2.80 = 4.40
+1.60 - 2.80 = -1.20
+1.60 * 2.80 = 4.48
+1.60 / 2.80 = 0.57
+[/output]
+[/test]
+[/tests]
+
 [/code-task]
 
 ## Sample Input and Output
@@ -162,7 +285,7 @@ Write a function, which:
 
 [slide]
 # Problem: Days to Minutes
-[code-task title="Days to Minutes" executionStrategy="python-code" requiresInput]
+[code-task title="Days to Minutes" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language="python"]
 ```
 # Write your code here
@@ -176,6 +299,40 @@ Write a function, which:
 * Prints the minutes
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+6
+[/input]
+[output]
+8640
+[/output]
+[/test]
+[test]
+[input]
+10
+[/input]
+[output]
+14400
+[/output]
+[/test]
+[test]
+[input]
+32
+[/input]
+[output]
+46080
+[/output]
+[/test]
+[test]
+[input]
+9
+[/input]
+[output]
+12960
+[/output]
+[/test]
+[/tests]
 [/code-task]
 
 ## Sample Input and Output
@@ -217,7 +374,7 @@ Write a function, which:
 
 [slide]
 # Problem: Currency Converter
-[code-task title="Currency Converter" executionStrategy="python-code" requiresInput]
+[code-task title="Currency Converter" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language="python"]
 ```
 # Write your code here
@@ -231,6 +388,40 @@ Write a function, which:
 * Prints the converted value in euro
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+10.0
+[/input]
+[output]
+8.8
+[/output]
+[/test]
+[test]
+[input]
+5.0
+[/input]
+[output]
+4.4
+[/output]
+[/test]
+[test]
+[input]
+25.5
+[/input]
+[output]
+22.44
+[/output]
+[/test]
+[test]
+[input]
+12.0
+[/input]
+[output]
+10.56
+[/output]
+[/test]
+[/tests]
 [/code-task]
 
 ## Sample Input and Output
@@ -271,7 +462,7 @@ Write a function, which:
 
 [slide]
 # Problem: Circle Area and Perimeter
-[code-task title="Circle Area and Perimeter" executionStrategy="python-code" requiresInput]
+[code-task title="Circle Area and Perimeter" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language="python"]
 ```
 import math
@@ -287,6 +478,44 @@ Write a function, which:
 * Prints the calculated values formatted to the 2nd decimal
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+12.0
+[/input]
+[output]
+Area = 452.389342
+Perimeter = 75.398224
+[/output]
+[/test]
+[test]
+[input]
+10.0
+[/input]
+[output]
+Area = 314.159265
+Perimeter = 62.831853
+[/output]
+[/test]
+[test]
+[input]
+5.5
+[/input]
+[output]
+Area = 95.033178
+Perimeter = 34.557519
+[/output]
+[/test]
+[test]
+[input]
+9.4
+[/input]
+[output]
+Area = 277.591127
+Perimeter = 59.061942
+[/output]
+[/test]
+[/tests]
 [/code-task]
 
 ## Sample Input and Output
@@ -330,7 +559,7 @@ Write a function, which:
 
 [slide]
 # Problem: Inches to Centimeters
-[code-task title="Inches to Centimeters" executionStrategy="python-code" requiresInput]
+[code-task title="Inches to Centimeters" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language="python"]
 ```
 # Write your code here
@@ -344,6 +573,40 @@ Write a function, which:
 * Prints the result 
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+10
+[/input]
+[output]
+25.4
+[/output]
+[/test]
+[test]
+[input]
+5
+[/input]
+[output]
+12.7
+[/output]
+[/test]
+[test]
+[input]
+15.5
+[/input]
+[output]
+39.37
+[/output]
+[/test]
+[test]
+[input]
+0.5
+[/input]
+[output]
+1.27
+[/output]
+[/test]
+[/tests]
 [/code-task]
 
 ## Sample Input and Output
@@ -384,7 +647,7 @@ Write a function, which:
 
 [slide]
 # Problem: Calculate Speed
-[code-task title="Calculate Speed" executionStrategy="python-code" requiresInput]
+[code-task title="Calculate Speed" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language="python"]
 ```
 # Write your code here
@@ -398,6 +661,44 @@ Write a function, which:
 * Prints the calculated result
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+10.0
+2.0
+[/input]
+[output]
+5.0
+[/output]
+[/test]
+[test]
+[input]
+2.0
+10.0
+[/input]
+[output]
+0.2
+[/output]
+[/test]
+[test]
+[input]
+4.0
+5.0
+[/input]
+[output]
+0.8
+[/output]
+[/test]
+[test]
+[input]
+4.5
+10.0
+[/input]
+[output]
+0.45
+[/output]
+[/test]
+[/tests]
 [/code-task]
 
 ## Sample Input and Output
@@ -439,7 +740,7 @@ Write a function, which:
 
 [slide]
 # Problem: Person Info
-[code-task title="Person Info" executionStrategy="python-code" requiresInput]
+[code-task title="Person Info" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language="python"]
 ```
 # Write your code here
@@ -452,6 +753,52 @@ Write a function, which:
 * Prints information about a person in the following format: "\{firstName\} \{lastName\} from \{country\} - \{town\}!"
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+John
+Smith
+USA
+LA
+[/input]
+[output]
+John Smith from USA - LA!
+[/output]
+[/test]
+[test]
+[input]
+Ann
+Green
+France
+Paris
+[/input]
+[output]
+Ann Green from France - Paris!
+[/output]
+[/test]
+[test]
+[input]
+Pesho
+Peshov
+Bulgaria
+Sofia
+[/input]
+[output]
+Pesho Peshov from Bulgaria - Sofia!
+[/output]
+[/test]
+[test]
+[input]
+A
+B
+C
+D
+[/input]
+[output]
+A B from C - D!
+[/output]
+[/test]
+[/tests]
 [/code-task]
 
 ## Sample Input and Output
@@ -497,7 +844,7 @@ Write a function, which:
 
 [slide]
 # Problem: Town Info
-[code-task title="Town Info" executionStrategy="python-code" requiresInput]
+[code-task title="Town Info" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language="python"]
 ```
 # Write your code here
@@ -510,6 +857,48 @@ Write a function, which:
 * Prints information about a town in the following format: "Town \{name\} has population of \{population\} and area \{area\} square km."
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+Sofia
+100000
+13000
+[/input]
+[output]
+Town Sofia has population of 100000 and area 13000 square km.
+[/output]
+[/test]
+[test]
+[input]
+Paris
+20065
+1200
+[/input]
+[output]
+Town Paris has population of 20065 and area 1200 square km.
+[/output]
+[/test]
+[test]
+[input]
+London
+350000
+1000
+[/input]
+[output]
+Town London has population of 350000 and area 1000 square km.
+[/output]
+[/test]
+[test]
+[input]
+A
+123456
+789
+[/input]
+[output]
+Town A has population of 123456 and area 789 square km.
+[/output]
+[/test]
+[/tests]
 [/code-task]
 
 ## Sample Input and Output
