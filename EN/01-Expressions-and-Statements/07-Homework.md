@@ -125,7 +125,7 @@ Create a function that receives two numbers:
 2.5
 [/input]
 [output]
-13.13
+13.12
 [/output]
 [/test]
 [test]
