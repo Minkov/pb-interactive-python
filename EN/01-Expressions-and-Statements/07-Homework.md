@@ -26,7 +26,7 @@ Write a program, which:
 George
 [/input]
 [output]
-Wlcome, George
+Welcome, George
 [/output]
 [/test]
 [test]
