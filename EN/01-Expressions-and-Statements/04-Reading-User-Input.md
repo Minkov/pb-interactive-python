@@ -98,7 +98,7 @@ python {file_name}
 
 [slide]
 # Problem: Greeting
-[code-task title="Greeting" executionStrategy="python-code" requiresInput]
+[code-task title="Greeting" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -111,6 +111,40 @@ Write a program, which:
 * Prints "Hello, \{name\}!", where \{name\} is the user input
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+John
+[/input]
+[output]
+Hello, John
+[/output]
+[/test]
+[test]
+[input]
+Marie
+[/input]
+[output]
+Hello, Marie
+[/output]
+[/test]
+[test]
+[input]
+asd
+[/input]
+[output]
+Hello, asd
+[/output]
+[/test]
+[test]
+[input]
+George
+[/input]
+[output]
+Hello, George
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -121,7 +155,7 @@ Write a program, which:
 
 [slide]
 # Solution: Greeting
-[code-task title="Greeting" executionStrategy="python-code" requiresInput]
+[code-task title="Greeting" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 name = input()
@@ -136,6 +170,40 @@ Write a program, which:
 * Prints "Hello, \{name\}!", where \{name\} is the user input
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+John
+[/input]
+[output]
+Hello, John
+[/output]
+[/test]
+[test]
+[input]
+Marie
+[/input]
+[output]
+Hello, Marie
+[/output]
+[/test]
+[test]
+[input]
+asd
+[/input]
+[output]
+Hello, asd
+[/output]
+[/test]
+[test]
+[input]
+George
+[/input]
+[output]
+Hello, George
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
