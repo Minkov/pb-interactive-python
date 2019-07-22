@@ -19,7 +19,6 @@ Write a program, which:
 * Receives a single line: name
 * Prints the following message: "Welcome, \{name\}"
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
@@ -76,7 +75,6 @@ Create a function that receives two numbers:
 * The height for that side - ha
 * Print the area formatted to the 2nd digit
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
@@ -137,7 +135,6 @@ Write a function, which:
 * Receives 2 parameters
 * Performs the 4 arithmetic operations, in the following order: +, -, *, /
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
@@ -216,7 +213,6 @@ Write a function, which:
 * Converts the days to minutes 
 * Prints the minutes
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
@@ -276,7 +272,6 @@ Write a function, which:
 * Converts dollars to euro (the rate of dollars to euro is 0.88)
 * Prints the converted value in euro
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
@@ -338,7 +333,6 @@ Write a function, which:
 * Calculates the area and perimeter of a circle
 * Prints the calculated values formatted to the 2nd decimal
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
@@ -402,7 +396,6 @@ Write a function, which:
 * Calculates them to centimeters 
 * Prints the result 
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
@@ -463,7 +456,6 @@ Write a function, which:
 * Calculates the speed needed to travel a given distance for a given time
 * Prints the calculated result
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
@@ -526,7 +518,6 @@ Write a function, which:
 * Receives 4 strings - first name, last name, country and town 
 * Prints information about a person in the following format: "\{firstName\} \{lastName\} from \{country\} - \{town\}!"
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
@@ -599,7 +590,6 @@ Write a function, which:
 * Receives name (string), population and area (numbers)
 * Prints information about a town in the following format: "Town \{name\} has population of \{population\} and area \{area\} square km."
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
