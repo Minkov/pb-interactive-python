@@ -159,7 +159,7 @@ Hello, George
 [code-editor language=python]
 ```
 name = input()
-print('Hello, ', end=" ")
+print('Hello, ', end="")
 print(name)
 ```
 [/code-editor]
