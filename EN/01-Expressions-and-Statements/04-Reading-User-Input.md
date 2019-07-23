@@ -96,6 +96,14 @@ python {file_name}
 [image src="https://github.com/AlenPaunov/pb-interactive-course/blob/01-python-expressions-and-statements/assets/expressions-and-statements-1.png"/]
 [/slide]
 
+
+[slide]
+# Reading User Input - Video
+
+[vimeo-video videoId="341528681" startTimeInSeconds="3268" endTimeInSeconds="4092" /]
+
+[/slide]
+
 [slide]
 # Problem: Greeting
 [code-task title="Greeting" executionType="tests-execution" executionStrategy="python-code" requiresInput]
@@ -208,4 +216,11 @@ Hello, George
 |-----|------|
 |John|Hello, John|
 |Dave|Hello, Dave|
+[/slide]
+
+[slide]
+# Problem: Greeting - Video
+
+[vimeo-video videoId="341528681" startTimeInSeconds="4420" endTimeInSeconds="4530" /]
+
 [/slide]

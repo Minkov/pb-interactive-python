@@ -14,3 +14,10 @@ name = "John Doe"
 r = (150-20) / 2 + 5
 ```
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341528681" startTimeInSeconds="4923" endTimeInSeconds="5034" /]
+
+[/slide]
