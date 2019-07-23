@@ -38,3 +38,10 @@ Alternative IDE (online)
 
 The repl.it Online IDE: https://repl.it
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="342601566" startTimeInSeconds="3558" endTimeInSeconds="4126" /]
+
+[/slide]

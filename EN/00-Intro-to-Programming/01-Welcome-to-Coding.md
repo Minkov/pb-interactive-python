@@ -60,3 +60,10 @@ print("Area = ", size * size)
 
 [image src="https://github.com/AlenPaunov/pb-interactive-course/blob/00-python-intro-to-programming/assets/intro-to-programming-1.png"/]
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="342601566" startTimeInSeconds="1795" endTimeInSeconds="2769" /]
+
+[/slide]
