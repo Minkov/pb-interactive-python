@@ -33,29 +33,51 @@ for i in range(1, 101):
 
 [slide]
 # Programming and Algorithms 
-**Programming** means writing computer programs (commands)
-
-* Using certain **programming language**, such as JavaScript or Python
+**Programming** means writing computer programs (commands). Computer programs usually execute
+some algorithm. Algorithms are a sequence of steps, necessary for the completion of a certain 
+task and for gaining some expected result, something like a "recipe". We need to use a certain 
+**programming language**, such as C# or Python, to write it.
 
 **Algorithm** == a sequence of commands that achieves certain result
+In programming the computer programs execute algorithms: a sequence of commands, necessary for 
+the completion of a certain task. For example, to arrange a sequence of numbers in an ascending 
+order, an algorithm is needed, e.g. find the smallest number and print it, then find the smallest 
+number among the rest of the numbers and print it, and this is repeated until there are no more 
+numbers left.
 
 Programming is done by **programmers** (developers)
 
-Programmers use IDE (like Visual Studio Code) to:
+Programmers use IDE (like Pycharm) to:
 
 * **Write** the code
 * **Run** and test the code
 * Find a fix **bugs** (debug the code)
+
+For convenience when creating programs, for writing programming code, for execution of programs 
+and other operations related to programming, we need a development environment.
 [/slide]
 
 [slide]
 # Computer Program – Example
+Computer programs represent a sequence of commands that are written in certain programming language, 
+like C#, Java, JavaScript, Python, C++, PHP, C, Ruby, Swift, Go or another.
+
 Sample **Python** (sequence of Python commands):
 
 ```python
 size = 5
 print("Size = ", size)
 print("Area = ", size * size)
+```
+The above program holds a sequence of 3 commands:
+ * Declaring and assigning a variable: size = 5;
+ * Calculating and printing an expression: print("Size = ", size)
+ * Calculating and printing an expression: print("Size = ", size)
+
+The result (output) from the above program is as follows:
+```csharp
+Size = 5
+Area = 25
 ```
 
 [image src="https://github.com/AlenPaunov/pb-interactive-course/blob/00-python-intro-to-programming/assets/intro-to-programming-1.png"/]
