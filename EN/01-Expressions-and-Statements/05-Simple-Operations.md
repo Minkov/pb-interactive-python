@@ -51,7 +51,9 @@ print(a * b) # 35
 ```
 
 Dividing numbers (operator **\/** )
+
 The **\/** operator works as a floor division in case all the arguments are integers. However, if one of the argument is float value the **\/** operator returns a float value.
+
 Division poses a problem: if the expressions for both arguments happen to have an integral type, it implements floor division rather than true division.
 ```python
 a = 25
