@@ -30,27 +30,27 @@ One thing to note is that Python cannot concatenate a string and integer. These 
 # Arithmetic Operators
 Arithmetic operators are used to perform **mathematical operations** like addition, subtraction, multiplication etc.
 
-Adding numbers (operator **+**)
+**Adding numbers** (operator **+**)
 ```python
 a = 5
 b = 7
 sum = a + b
 print(sum) # 12
 ```
-Subtracting numbers (operator **-**)
+**Subtracting numbers** (operator **-**)
 ```python
 a = 15
 b = 7
 print(a - b) # 8
 ```
-Multiplying numbers (operator **\***)
+**Multiplying numbers** (operator **\***)
 ```python
 a = 5
 b = 7
 print(a * b) # 35
 ```
 
-Dividing numbers (operator **\/** )
+**Dividing numbers** (operator **\/** )
 
 The **\/** operator works as a floor division in case all the arguments are integers. However, if one of the argument is float value the **\/** operator returns a float value.
 
@@ -60,8 +60,12 @@ a = 25
 b = 4
 print(a / b) # 6.25
 ```
-Integer devision (operator **\//**)
-It returns floor value for both integer and floating point arguments. When the result of floor division (//) is positive, it is as though the fractional portion is truncated off, leaving only the integer portion. When the result is negative, the result is rounded down to the next smallest (greater negative) integer:
+**Integer devision** (operator **\//**)
+It returns floor value for both integer and floating point arguments. 
+
+When the result of floor division (//) is positive, it is as though the fractional portion is truncated off, leaving only the integer portion. 
+
+When the result is negative, the result is rounded down to the next smallest (greater negative) integer.
 ```python
 a = 5.0
 b = 2
@@ -72,7 +76,7 @@ a = -5.0
 b = 2
 print(a // b) # -3.0
 ```
-Modulo / remainder from integer division (operator **%**)
+**Modulo / remainder from integer division** (operator **%**)
 
 Python modulo operation is used to get the reminder of a division. The basic syntax of Python Modulo is a % b. Here a is divided by b and the remainder of that division is returned.
 ```python
