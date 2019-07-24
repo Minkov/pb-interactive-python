@@ -28,25 +28,21 @@ In computer programming, a naming convention is a set of rules for choosing the 
 In Python the convention for naming variables is **"snake_case"**:
 * Words consist only of **lowercase** letters
 * Words are separated with **underscore** "_"
-
 ```python
 this_is_correct
 thisIsNotCorrect
 This_Is_Not_Correct
 This_is_also_not_correct
 ```
-
 There are other conventions such as:
 * Pascal Case - capitalizes each word, removes the space:
 ```python
 FirstName = "Peter"
 ```
-
 * Camel Case - similiar to Pascal Case but the first word is not capitalized:
 ```python
 firstName = "Peter"
 ```
-
 [/slide]
 
 [slide]
