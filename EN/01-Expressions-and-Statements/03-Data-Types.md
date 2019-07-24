@@ -13,12 +13,17 @@ Variables can be used to hold different data types
 
 [slide]
 # Assigning Values to Variables
+Python variables do not need explicit declaration to reserve memory space. 
+
+The declaration happens automatically when you assign a value to a variable.
+
 You can assign a **value** to a **variable** using **"="**:
 ```python
 first_num = 10
 second_num = 5
 first_num + second_num   # 15
 ```
+The operand to the left of the **"="** operator is the name of the variable and the operand to the right of the **"="** operator is the value stored in the variable. 
 [/slide]
 
 [slide]
@@ -47,9 +52,13 @@ firstName = "Peter"
 
 [slide]
 # Data Types are Dynamic
-In Python data types are dynamic
+In Python data types are dynamic.
 
-A single variable can be used to hold different data types
+Python variable assignment is different from some of the popular languages like C, C++ and Java. There is no declaration of a variable, just an assignment statement.
+
+It doesn’t know about the type of the variable until the code is run.
+
+A single variable can be used to hold different data types:
 ```python
 x = 5        # x is Number
 x = "John"   # x is String
@@ -61,7 +70,9 @@ x = True     # x is Boolean
 # Strings
 Strings are data types that can store text
 
-To set a string value to a variable you can use single or double quotes:
+Assigning a string to a variable is done with the variable name followed by an equal sign and the string.
+
+To set a string value to a variable you can use single or double quotes. 
 ```python
 first_name = "John" 
 last_name = 'Adams'
@@ -76,7 +87,11 @@ first_name = 'John"
 
 [slide]
 # Comments
-A comment is text in your program that is not executed as a code
+When writing code in Python, it’s important to make sure that your code can be easily understood by others. Giving variables obvious names, defining explicit functions, and organizing your code are all great ways to do this.
+
+Another easy way to increase the readability of your code is by using comments!
+
+A comment is text in your program that is **not executed as a code**.
 
 * Commonly used to document code
 
