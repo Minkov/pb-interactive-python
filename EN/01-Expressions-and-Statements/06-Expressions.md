@@ -1,9 +1,13 @@
 [slide]
 # Expressions
-Sequences of operators, literals and variables which represent a value
+**Expressions** == sequences of operators, literals and variables which are evaluated to a value.
 
-* Consist of at least one **operand**
-* Can have 1 or more **operators**
+Expressions are different from statements in the fact that statements do something while expressions are representation of value. 
+An expression can be broken down into operators and operands:
+
+  * at least one **operand**
+  * 1 or more **operators**
+
 ```python
 y = x + 5
 ```
