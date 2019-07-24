@@ -20,6 +20,15 @@ r = (150-20) / 2 + 5
 [/slide]
 
 [slide]
+# Priorities of arithmetic operations
+The standard rule for priorities of arithmetic operations is applied: multiplying and dividing are always done before adding and subtracting. In case of an expression in brackets, it is calculated first.
+
+ When two operators share an operand the operator with the higher **precedence** goes first. For example, **1 + 2 * 3** is treated as **1 + (2 * 3)**, 
+ whereas **1 * 2 + 3** is treated as **(1 * 2) + 3** since multiplication has a higher precedence than addition.
+
+[/slide]
+
+[slide]
 # Video
 
 [vimeo-video videoId="341528681" startTimeInSeconds="4923" endTimeInSeconds="5034" /]
