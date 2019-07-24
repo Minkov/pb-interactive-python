@@ -339,8 +339,8 @@ Write a function, which:
 12.0
 [/input]
 [output]
-Area = 452.389342
-Perimeter = 75.398224
+Area = 452.39
+Perimeter = 75.40
 [/output]
 [/test]
 [test]
@@ -348,8 +348,8 @@ Perimeter = 75.398224
 10.0
 [/input]
 [output]
-Area = 314.159265
-Perimeter = 62.831853
+Area = 314.16
+Perimeter = 62.83
 [/output]
 [/test]
 [test]
@@ -357,8 +357,8 @@ Perimeter = 62.831853
 5.5
 [/input]
 [output]
-Area = 95.033178
-Perimeter = 34.557519
+Area = 95.03
+Perimeter = 34.56
 [/output]
 [/test]
 [test]
@@ -366,8 +366,8 @@ Perimeter = 34.557519
 9.4
 [/input]
 [output]
-Area = 277.591127
-Perimeter = 59.061942
+Area = 277.59
+Perimeter = 59.06
 [/output]
 [/test]
 [/tests]
@@ -377,8 +377,8 @@ Perimeter = 59.061942
 
 |       Input       | Output |
 |-------------------|--------|
-|7|Area = 153.93804002589985|
-||Perimeter = 43.982297150257104|
+|7|Area = 153.94|
+||Perimeter = 43.98|
 [/slide]
 
 [slide]
