@@ -17,9 +17,7 @@ name = "John Doe"
 ```python
 r = (150-20) / 2 + 5
 ```
-[/slide]
 
-[slide]
 # Priorities of arithmetic operations
 The standard rule for priorities of arithmetic operations is applied: multiplying and dividing are always done before adding and subtracting. In case of an expression in brackets, it is calculated first.
 
