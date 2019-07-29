@@ -1,9 +1,13 @@
 [slide]
 # If Statement
-One of the single most important statements in every programming language is the if statement
+One of the single most important statements in every programming language is the **if statement**.
 
-The if statement needs a boolean result, that is, true or false
-  * If the boolean result is true take action 
+An if statement identifies which statement to run based on the value of a **boolean expression**. 
+
+In the following example, the bool variable condition is set to true and then checked in the **if** statement.
+
+The if statement needs a boolean result, that is, **true or false**
+  * If the boolean result is true, take action
 
 ```python
 if condition:
