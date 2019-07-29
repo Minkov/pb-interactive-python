@@ -83,7 +83,7 @@ print(salary)  # Error
 
 [slide]
 # Problem: Freezing Weather
-[code-task title="Freezing Weather" executionStrategy="python-code" requiresInput]
+[code-task title="Freezing Weather" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -96,7 +96,48 @@ Write a program, which:
 * **Checks** whether the temperature is **below zero**
 * Prints ***"Freezing weather!"***, if the temperature is equal or lower than 0
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+-5.5
+[/input]
+[output]
+Freezing weather!
+[/output]
+[/test]
+[test]
+[input]
+32.8
+[/input]
+[output]
+No output
+[/output]
+[/test]
+[test]
+[input]
+-10.6
+[/input]
+[output]
+Freezing weather!
+[/output]
+[/test]
+[test]
+[input]
+-2.13
+[/input]
+[output]
+Freezing weather!
+[/output]
+[/test]
+[test]
+[input]
+105
+[/input]
+[output]
+No output
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -107,7 +148,7 @@ Write a program, which:
 
 [slide]
 # Solution: Freezing Weather
-[code-task title="Freezing Weather" executionStrategy="python-code" requiresInput]
+[code-task title="Freezing Weather" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 temperature = float(input())
@@ -122,7 +163,48 @@ Write a program, which:
 * **Checks** whether the temperature is **below zero**
 * Prints ***"Freezing weather!"***, if the temperature is equal or lower than 0
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+-5.5
+[/input]
+[output]
+Freezing weather!
+[/output]
+[/test]
+[test]
+[input]
+32.8
+[/input]
+[output]
+No output
+[/output]
+[/test]
+[test]
+[input]
+-10.6
+[/input]
+[output]
+Freezing weather!
+[/output]
+[/test]
+[test]
+[input]
+-2.13
+[/input]
+[output]
+Freezing weather!
+[/output]
+[/test]
+[test]
+[input]
+105
+[/input]
+[output]
+No output
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|

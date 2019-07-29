@@ -30,7 +30,7 @@ else:
 
 [slide]
 # Problem: Even or Odd
-[code-task title="Even or Odd" executionStrategy="python-code" requiresInput]
+[code-task title="Even or Odd" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -43,7 +43,48 @@ Write a program, which:
 * If it's **even**, it should print ***"even"***
 * If it's **odd**, it should print ***"odd"***
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+4
+[/input]
+[output]
+even
+[/output]
+[/test]
+[test]
+[input]
+7
+[/input]
+[output]
+odd
+[/output]
+[/test]
+[test]
+[input]
+10
+[/input]
+[output]
+even
+[/output]
+[/test]
+[test]
+[input]
+91
+[/input]
+[output]
+odd
+[/output]
+[/test]
+[test]
+[input]
+105
+[/input]
+[output]
+odd
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -54,7 +95,7 @@ Write a program, which:
 
 [slide]
 # Solution: Even or Odd
-[code-task title="Even or Odd" executionStrategy="python-code" requiresInput]
+[code-task title="Even or Odd" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 num = int(input())
@@ -71,7 +112,48 @@ Write a program, which:
 * If it's **even**, it should print ***"even"***
 * If it's **odd**, it should print ***"odd"***
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+4
+[/input]
+[output]
+even
+[/output]
+[/test]
+[test]
+[input]
+7
+[/input]
+[output]
+odd
+[/output]
+[/test]
+[test]
+[input]
+10
+[/input]
+[output]
+even
+[/output]
+[/test]
+[test]
+[input]
+91
+[/input]
+[output]
+odd
+[/output]
+[/test]
+[test]
+[input]
+105
+[/input]
+[output]
+odd
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
