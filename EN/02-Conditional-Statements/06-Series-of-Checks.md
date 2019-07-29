@@ -31,7 +31,7 @@ The result of this program will be **`"Bigger than 4"`**
 
 [slide]
 # Problem: Number 1...9
-[code-task title="Number 1...9" executionStrategy="python-code" requiresInput]
+[code-task title="Number 1...9" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -44,7 +44,48 @@ Write a program, which:
 * Prints the value in the form of text
 * If the number is **greater** than 9 prints ***"Number too big"***
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+5
+[/input]
+[output]
+five
+[/output]
+[/test]
+[test]
+[input]
+3
+[/input]
+[output]
+three
+[/output]
+[/test]
+[test]
+[input]
+18
+[/input]
+[output]
+Number too big
+[/output]
+[/test]
+[test]
+[input]
+10
+[/input]
+[output]
+Number too big
+[/output]
+[/test]
+[test]
+[input]
+4
+[/input]
+[output]
+four
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -55,7 +96,7 @@ Write a program, which:
 
 [slide]
 # Solution: Number 1...9
-[code-task title="Number 1...9" executionStrategy="python-code" requiresInput]
+[code-task title="Number 1...9" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 num = int(input())
@@ -88,7 +129,48 @@ Write a program, which:
 * Prints the value in the form of text
 * If the number is **greater** than 9 prints ***"Number too big"***
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+5
+[/input]
+[output]
+five
+[/output]
+[/test]
+[test]
+[input]
+3
+[/input]
+[output]
+three
+[/output]
+[/test]
+[test]
+[input]
+18
+[/input]
+[output]
+Number too big
+[/output]
+[/test]
+[test]
+[input]
+10
+[/input]
+[output]
+Number too big
+[/output]
+[/test]
+[test]
+[input]
+4
+[/input]
+[output]
+four
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
