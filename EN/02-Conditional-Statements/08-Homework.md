@@ -20,7 +20,24 @@ Write a program which:
 * Prints ***"Welcome"*** if the password is ***"s3cr3t!"***
 * Prints ***"Wrong password!"*** in all other cases 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+s3cr3t!
+[/input]
+[output]
+Welcome
+[/output]
+[/test]
+[test]
+[input]
+qwerty
+[/input]
+[output]
+Wrong password!
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -48,7 +65,24 @@ Write a program which:
 * Prints ***"Welcome"*** if the password is ***"s3cr3t!"***
 * Prints ***"Wrong password!"*** in all other cases 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+s3cr3t!
+[/input]
+[output]
+Welcome
+[/output]
+[/test]
+[test]
+[input]
+qwerty
+[/input]
+[output]
+Wrong password!
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -72,7 +106,24 @@ Write a program, which:
 * Prints ***"The water is boiling"*** if the number **> 100**
 * Prints ***"The water is not hot enough"*** in all other cases
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+104.8
+[/input]
+[output]
+The water is boiling
+[/output]
+[/test]
+[test]
+[input]
+29
+[/input]
+[output]
+The water is not hot enough
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -100,7 +151,24 @@ Write a program, which:
 * Prints ***"The water is boiling"*** if the number **> 100**
 * Prints ***"The water is not hot enough"*** in all other cases
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+104.8
+[/input]
+[output]
+The water is boiling
+[/output]
+[/test]
+[test]
+[input]
+29
+[/input]
+[output]
+The water is not hot enough
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -124,7 +192,24 @@ Write a program, which:
 * Prints ***"Slow"*** if the number **<=** 30
 * Prints ***"Fast"*** if the number **>** 30
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+30
+[/input]
+[output]
+Slow
+[/output]
+[/test]
+[test]
+[input]
+60
+[/input]
+[output]
+Fast
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -152,7 +237,24 @@ Write a program, which:
 * Prints ***"Slow"*** if the number **<=** 30
 * Prints ***"Fast"*** if the number **>** 30
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+30
+[/input]
+[output]
+Slow
+[/output]
+[/test]
+[test]
+[input]
+60
+[/input]
+[output]
+Fast
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -180,7 +282,44 @@ Write a program, which:
 * Prints the calculated area **formatted** to the **second decimal**
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+square
+5
+[/input]
+[output]
+25.00
+[/output]
+[/test]
+[test]
+[input]
+rectangle
+5
+10
+[/input]
+[output]
+50.00
+[/output]
+[/test]
+[test]
+[input]
+circle
+2.5
+[/input]
+[output]
+19.63
+[/output]
+[/test]
+[test]
+[input]
+figure
+[/input]
+[output]
+Unknown figure
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -222,7 +361,44 @@ Write a program, which:
 * Prints the calculated area **formatted** to the **second decimal**
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+square
+5
+[/input]
+[output]
+25.00
+[/output]
+[/test]
+[test]
+[input]
+rectangle
+5
+10
+[/input]
+[output]
+50.00
+[/output]
+[/test]
+[test]
+[input]
+circle
+2.5
+[/input]
+[output]
+19.63
+[/output]
+[/test]
+[test]
+[input]
+figure
+[/input]
+[output]
+Unknown figure
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -248,7 +424,32 @@ Write a program which:
     * Regular ticket is **1.00**
     * For invalid type **"Invalid ticket type!"**
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+student
+[/input]
+[output]
+$1.00
+[/output]
+[/test]
+[test]
+[input]
+regular
+[/input]
+[output]
+$1.60
+[/output]
+[/test]
+[test]
+[input]
+ticket
+[/input]
+[output]
+Invalid ticket type!
+[/output]
+[/test]
+[/tests]
 [/code-task]
 [/slide]
 
@@ -275,7 +476,32 @@ Write a program which:
     * Regular ticket is **1.00**
     * For invalid type **"Invalid ticket type!"**
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+student
+[/input]
+[output]
+$1.00
+[/output]
+[/test]
+[test]
+[input]
+regular
+[/input]
+[output]
+$1.60
+[/output]
+[/test]
+[test]
+[input]
+ticket
+[/input]
+[output]
+Invalid ticket type!
+[/output]
+[/test]
+[/tests]
 [/code-task]
 [/slide]
 
@@ -297,7 +523,44 @@ Write a program, which:
     * Price for tea - 0.60
     * Price for the sugar - 0.40
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+coffee
+sugar
+[/input]
+[output]
+Final price: $1.40
+[/output]
+[/test]
+[test]
+[input]
+coffee
+no
+[/input]
+[output]
+Final price: $1.00
+[/output]
+[/test]
+[test]
+[input]
+tea
+sugar
+[/input]
+[output]
+Final price: $1.00
+[/output]
+[/test]
+[test]
+[input]
+tea
+no
+[/input]
+[output]
+Final price: $0.60
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -335,7 +598,44 @@ Write a program, which:
     * Price for tea - 0.60
     * Price for the sugar - 0.40
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+coffee
+sugar
+[/input]
+[output]
+Final price: $1.40
+[/output]
+[/test]
+[test]
+[input]
+coffee
+no
+[/input]
+[output]
+Final price: $1.00
+[/output]
+[/test]
+[test]
+[input]
+tea
+sugar
+[/input]
+[output]
+Final price: $1.00
+[/output]
+[/test]
+[test]
+[input]
+tea
+no
+[/input]
+[output]
+Final price: $0.60
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -362,7 +662,28 @@ Write a program, which:
 * Prints ***"Valid Triangle"*** if the above condition is met
 * Prints ***"Invalid Triangle"*** otherwise 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+3
+4
+5
+[/input]
+[output]
+Valid Triangle
+[/output]
+[/test]
+[test]
+[input]
+5
+8
+3
+[/input]
+[output]
+Invalid Triangle
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -401,7 +722,28 @@ Write a program, which:
 * Prints ***"Valid Triangle"*** if the above condition is met
 * Prints ***"Invalid Triangle"*** otherwise 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+3
+4
+5
+[/input]
+[output]
+Valid Triangle
+[/output]
+[/test]
+[test]
+[input]
+5
+8
+3
+[/input]
+[output]
+Invalid Triangle
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -426,7 +768,48 @@ Write a program, which:
 * Prints ***"True"*** if the **sum** of **2** of them is **equal** to the **third one**
 * Prints ***"False"*** if the condition above is **NOT met**
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+3
+4
+7
+[/input]
+[output]
+True
+[/output]
+[/test]
+[test]
+[input]
+5
+8
+3
+[/input]
+[output]
+True
+[/output]
+[/test]
+[test]
+[input]
+3
+4
+1
+[/input]
+[output]
+False
+[/output]
+[/test]
+[test]
+[input]
+5
+8
+100
+[/input]
+[output]
+False
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -467,7 +850,48 @@ Write a program, which:
 * Prints ***"True"*** if the **sum** of **2** of them is **equal** to the **third one**
 * Prints ***"False"*** if the condition above is **NOT met**
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+3
+4
+7
+[/input]
+[output]
+True
+[/output]
+[/test]
+[test]
+[input]
+5
+8
+3
+[/input]
+[output]
+True
+[/output]
+[/test]
+[test]
+[input]
+3
+4
+1
+[/input]
+[output]
+False
+[/output]
+[/test]
+[test]
+[input]
+5
+8
+100
+[/input]
+[output]
+False
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
