@@ -797,7 +797,7 @@ True
 [input]
 3
 4
-1
+25
 [/input]
 [output]
 False
