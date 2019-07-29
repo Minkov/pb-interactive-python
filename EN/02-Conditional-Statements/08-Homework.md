@@ -879,7 +879,7 @@ True
 [input]
 3
 4
-1
+2
 [/input]
 [output]
 False
