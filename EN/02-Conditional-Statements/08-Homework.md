@@ -344,7 +344,7 @@ if figure == "square":
 elif figure == "rectangle":
   width = float(input())
   height = float(input())
-  area = width * heihgt
+  area = width * height
   print(f'{area:.2f}')
 elif figure == "circle":
   radius = float(input())
@@ -359,6 +359,7 @@ Write a program, which:
 * Reads a **number** (**two** numbers for **rectangle**)
 * Checks if the figure is **square**, **rectangle** or **circle**
 * Prints the calculated area **formatted** to the **second decimal**
+* For unknown figure print **"Unknown figure"**
 
 [/task-description]
 [tests]
