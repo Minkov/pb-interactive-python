@@ -877,9 +877,9 @@ True
 [/test]
 [test]
 [input]
-3
 4
-2
+6
+15
 [/input]
 [output]
 False
