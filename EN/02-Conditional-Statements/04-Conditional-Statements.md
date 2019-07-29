@@ -110,7 +110,6 @@ Freezing weather!
 32.8
 [/input]
 [output]
-No output
 [/output]
 [/test]
 [test]
@@ -134,7 +133,6 @@ Freezing weather!
 105
 [/input]
 [output]
-No output
 [/output]
 [/test]
 [/tests]
@@ -177,7 +175,6 @@ Freezing weather!
 32.8
 [/input]
 [output]
-No output
 [/output]
 [/test]
 [test]
@@ -201,7 +198,6 @@ Freezing weather!
 105
 [/input]
 [output]
-No output
 [/output]
 [/test]
 [/tests]
