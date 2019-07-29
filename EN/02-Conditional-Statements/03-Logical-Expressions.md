@@ -39,12 +39,6 @@ The expressions on both sides of the comparison operator are evaluated, and the 
 
 If the value of the expression on the left side is greater than or equal to the value of the expression on the right, the entire expression evaluates to True; otherwise,it evaluates to False.
 
-Comparing text using the equality operator \(==\)
-```python
-a = "5"
-b = "5"
-print(a == b)     # True
-```
 [/slide]
 
 
