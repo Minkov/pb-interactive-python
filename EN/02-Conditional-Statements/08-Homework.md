@@ -7,7 +7,7 @@ We have prepared some simple problems for you to solve. If you struggle you can 
 
 [slide]
 # Problem: Guess the Password
-[code-task title="Guess the Password" executionStrategy="python-code" requiresInput]
+[code-task title="Guess the Password" taskId="p-01" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -93,7 +93,7 @@ Wrong password!
 
 [slide]
 # Problem: Boiling Water
-[code-task title="Boiling Water" executionStrategy="python-code" requiresInput]
+[code-task title="Boiling Water" taskId="p-02" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -179,7 +179,7 @@ The water is not hot enough
 
 [slide]
 # Problem: Speed Info
-[code-task title="Speed Info" executionStrategy="python-code" requiresInput]
+[code-task title="Speed Info" taskId="p-03" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -265,7 +265,7 @@ Fast
 
 [slide]
 # Problem: Area of Figures
-[code-task title="Area of Figures" executionStrategy="python-code" requiresInput]
+[code-task title="Area of Figures" taskId="p-04" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 import math
@@ -409,7 +409,7 @@ Unknown figure
 
 [slide]
 # Problem: Tickets
-[code-task title="Tickets" executionStrategy="python-code" requiresInput]
+[code-task title="Tickets" taskId="p-05" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -507,7 +507,7 @@ Invalid ticket type!
 
 [slide]
 # Problem: Coffee Shop
-[code-task title="Coffee Shop" executionStrategy="python-code" requiresInput]
+[code-task title="Coffee Shop" taskId="p-06" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -648,7 +648,7 @@ Final price: $0.60
 
 [slide]
 # Problem: Valid Triangle
-[code-task title="Valid Triangle" executionStrategy="python-code" requiresInput]
+[code-task title="Valid Triangle" taskId="p-07" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -755,7 +755,7 @@ Invalid Triangle
 
 [slide]
 # Problem: Sum of Numbers
-[code-task title="Sum of Numbers" executionStrategy="python-code" requiresInput]
+[code-task title="Sum of Numbers" taskId="p-09" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
