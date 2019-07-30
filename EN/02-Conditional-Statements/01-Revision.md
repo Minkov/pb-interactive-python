@@ -49,3 +49,10 @@ a = b * 2
 # Store the result back into another variable we call a
 ```
 [/slide]
+
+[slide]
+# Training Session
+
+[vimeo-video videoId="341553633" startTimeInSeconds="1028" endTimeInSeconds="1397" /]
+
+[/slide]

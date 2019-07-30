@@ -49,16 +49,16 @@ Comparing text using the equality operator \(==\). It compares two given strings
 If any character is not matched, it returns **false**. 
 
 ```python
-a = 'Example';
-b = 'Example2';
+a = 'Example'
+b = 'Example2'
 print(a == b)   // false
 ```
 
 If all characters are matched or both of them are **null**, it returns **true**.
 
 ```python
-a = "Example";
-b = a;
+a = "Example"
+b = a
 print(a == b)   // true
 ```
 ```python
@@ -66,7 +66,11 @@ a = "5"
 b = "5"
 print(a == b)  // true 
 ```
-
-
 [/slide]
 
+[slide]
+# Training Session
+
+[vimeo-video videoId="341553633" startTimeInSeconds="1448" endTimeInSeconds="2019" /]
+
+[/slide]

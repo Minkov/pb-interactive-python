@@ -23,3 +23,10 @@ We can create breakpoints using **Ctrl + F8**
 [image ="https://github.com/AlenPaunov/pb-interactive-python/blob/master/assets/debugging.png"/]
 
 [/slide]
+
+[slide]
+# Training Session
+
+[vimeo-video videoId="341553633" startTimeInSeconds="4025" endTimeInSeconds="4222" /]
+
+[/slide]
