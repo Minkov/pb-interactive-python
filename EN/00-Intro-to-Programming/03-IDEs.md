@@ -5,9 +5,7 @@ Integrated Development Environments (**IDE**) simplify software development
  * Writing, running, testing, and debugging the code
  * For programming in C#, we use **PyCharm Community**
 
-They are actually editors for programs, in which we write the program code 
-and we can compile it and run it to see the errors, fix them and start the 
-program again.
+They are actually editors for programs, in which we write the program code and we can compile it and run it to see the errors, fix them and start the program again.
 
 To write programs, we need an **IDE**
 
@@ -40,11 +38,4 @@ Alternative IDE (online)
 * JavaScript: directly use the browser console (press \[F12\] key)
 
 The repl.it Online IDE: https://repl.it
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="342601566" startTimeInSeconds="3558" endTimeInSeconds="4126" /]
-
 [/slide]

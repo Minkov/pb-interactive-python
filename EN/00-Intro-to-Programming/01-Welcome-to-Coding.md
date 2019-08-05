@@ -33,17 +33,19 @@ for i in range(1, 101):
 
 [slide]
 # Programming and Algorithms 
-**Programming** means writing computer programs (commands). Computer programs usually execute
-some algorithm. Algorithms are a sequence of steps, necessary for the completion of a certain 
-task and for gaining some expected result, something like a "recipe". We need to use a certain 
-**programming language**, such as C# or Python, to write it.
+**Programming** means writing computer programs (commands). Computer programs usually execute some algorithm. 
 
-**Algorithm** == a sequence of commands that achieves certain result
+## Programming
+Algorithms are a sequence of steps, necessary for the completion of a certain task and for gaining some expected result, something like a "recipe". 
+
+We need to use a certain **programming language**, such as C# or Python, to write it.
+
+## Algorithms
+**Algorithm** is a sequence of commands that achieves certain result
+
 In programming the computer programs execute algorithms: a sequence of commands, necessary for 
-the completion of a certain task. For example, to arrange a sequence of numbers in an ascending 
-order, an algorithm is needed, e.g. find the smallest number and print it, then find the smallest 
-number among the rest of the numbers and print it, and this is repeated until there are no more 
-numbers left.
+the completion of a certain task. 
+    - For example, to arrange a sequence of numbers in an ascending order, an algorithm is needed, e.g. find the smallest number and print it, then find the smallest number among the rest of the numbers and print it, and this is repeated until there are no more numbers left.
 
 Programming is done by **programmers** (developers)
 
@@ -53,14 +55,12 @@ Programmers use IDE (like Pycharm) to:
 * **Run** and test the code
 * Find a fix **bugs** (debug the code)
 
-For convenience when creating programs, for writing programming code, for execution of programs 
-and other operations related to programming, we need a development environment.
+For convenience when creating programs, for writing programming code, for execution of programs and other operations related to programming, we need a development environment.
 [/slide]
 
 [slide]
 # Computer Program – Example
-Computer programs represent a sequence of commands that are written in certain programming language, 
-like C#, Java, JavaScript, Python, C++, PHP, C, Ruby, Swift, Go or another.
+Computer programs represent a sequence of commands that are written in certain programming language, like C#, Java, JavaScript, Python, C++, PHP, C, Ruby, Swift, Go or another.
 
 Sample **Python** (sequence of Python commands):
 
@@ -81,11 +81,4 @@ Area = 25
 ```
 
 [image src="https://github.com/AlenPaunov/pb-interactive-course/blob/00-python-intro-to-programming/assets/intro-to-programming-1.png"/]
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="342601566" startTimeInSeconds="1795" endTimeInSeconds="2769" /]
-
 [/slide]
