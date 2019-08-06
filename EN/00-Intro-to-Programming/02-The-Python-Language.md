@@ -47,3 +47,10 @@ A program in Python is written in text format (**source code**)
 
 The **interpreter** executes the code line by line
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="351878876" startTimeInSeconds="2735" endTimeInSeconds="3258" /]
+
+[/slide]

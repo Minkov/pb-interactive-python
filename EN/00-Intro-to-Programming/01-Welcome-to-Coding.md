@@ -82,3 +82,10 @@ Area = 25
 
 [image src="https://github.com/AlenPaunov/pb-interactive-course/blob/00-python-intro-to-programming/assets/intro-to-programming-1.png"/]
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="351878876" startTimeInSeconds="1761" endTimeInSeconds="2734" /]
+
+[/slide]

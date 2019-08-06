@@ -23,3 +23,10 @@ The result will appear in the Console
 
 [image src="https://github.com/AlenPaunov/pb-interactive-course/blob/00-python-intro-to-programming/assets/intro-to-programming-5.png"/]
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="351878876" startTimeInSeconds="4271" endTimeInSeconds="4583" /]
+
+[/slide]

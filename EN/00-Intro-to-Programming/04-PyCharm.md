@@ -23,3 +23,10 @@ PyCharm **explorer** hold projects (Alt + 1)
 
 Project hold source code files: **.py files**
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="351878876" startTimeInSeconds="3983" endTimeInSeconds="4270" /]
+
+[/slide]
