@@ -1,5 +1,5 @@
 [slide]
-# Training Session
+# Introduction
 
 [vimeo-video videoId="351878876" startTimeInSeconds="1681" endTimeInSeconds="1760" /]
 
