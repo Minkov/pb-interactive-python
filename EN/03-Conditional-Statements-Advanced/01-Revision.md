@@ -50,3 +50,10 @@ else:
     print("Good evening")
 ```
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341568008" startTimeInSeconds="971" endTimeInSeconds="1025" /]
+
+[/slide]
