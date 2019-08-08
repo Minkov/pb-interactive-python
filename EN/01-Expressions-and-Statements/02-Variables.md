@@ -1,17 +1,18 @@
 [slide]
 # How computing works?
-Computers are machines that process data. The process of receiving 
-information is called **input**. The input needs to be stored in
-the computer memory and it can be done by using variables. 
+Computers are machines that process data. The process of receiving information is called **input**. 
+
+The input needs to be stored in the computer memory and it can be done by using variables. 
 
 [/slide]
 
 [slide]
 # Variables
-In programming, each **variable** stores a certain value of a particular type. 
-For example, data types can be: number, letter, text (string), date, color, 
-image, list and others. Here are some examples of data types:
+In programming, each **variable** stores a certain value of a particular type.
 
+For example, data types can be: number, letter, text (string), date, color, image, list and others. 
+
+Here are some examples of data types:
 * integer: 1, 2, 3, 4, 5, 20, …
 * float: 0.5, 3.14, -1.5, …
 * character (symbol): 'a', 'b', 'c', '@', 'X', …
@@ -24,39 +25,31 @@ A **variable** is a container of information:
 first_name = "John"
 ``` 
 
-* The information can be changed at any time
+The information can be changed at any time:
 ```python
 first_name = "John"
 first_name = "Peter"
 ``` 
-* In Python programming variables are used all the time
+In Python programming variables are used all the time.
 
-You can also imagine that **variables** are containers for data or named areas in the memory
-and the data that they are storing can be read and changed at any time. Basically **variables**
-provide means for:
+You can also imagine that **variables** are containers for data or named areas in the memory and the data that they are storing can be read and changed at any time. 
 
+**Variables** basically provide means for:
 * **Storing** information
 * **Retrieving** stored info
 * **Modifying** stored info
 
 Variables are characterized by:
-
 * **name** (identifier)
 * **type** (of the information preserved)
 * **value** (stored information)
 
-Each of the variables in Python has a name, a type and a value. Here is how we would 
-declare a variable and assign it with a value at the same time:
+Each of the variables in **Python** has a name, a type and a value. 
+
+Here is how we would declare a variable and assign it with a value at the same time:
 ```python
 age = 25
 # variable name
 # variable value (type: integer)
 ```
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341528681" startTimeInSeconds="1095" endTimeInSeconds="1869" /]
-
 [/slide]

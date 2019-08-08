@@ -1,6 +1,6 @@
 [slide]
 # Data Types
-Variables can be used to hold different data types
+Variables can be used to hold different data types:
 
 **int** - integer number : 1, 2, 3, 4 ….
 
@@ -17,18 +17,18 @@ Python variables do not need explicit declaration to reserve memory space.
 
 The declaration happens automatically when you assign a value to a variable.
 
-You can assign a **value** to a **variable** using **"="**:
+You can assign a **value** to a **variable** using **`=`**:
 ```python
 first_num = 10
 second_num = 5
 first_num + second_num   # 15
 ```
-The operand to the left of the **"="** operator is the name of the variable and the operand to the right of the **"="** operator is the value stored in the variable. 
+The operand to the left of the **`=`** operator is the name of the variable and the operand to the right of the **`=`** operator is the value stored in the variable. 
 [/slide]
 
 [slide]
 # Naming Conventions
-In computer programming, a naming convention is a set of rules for choosing the name to be used for variables
+In computer programming, a naming convention is a set of rules for choosing the name to be used for variables.
 
 In Python the convention for naming variables is **"snake_case"**:
 * Words consist only of **lowercase** letters
@@ -39,11 +39,13 @@ thisIsNotCorrect
 This_Is_Not_Correct
 This_is_also_not_correct
 ```
+
 There are other conventions such as:
 * Pascal Case - capitalizes each word, removes the space:
 ```python
 FirstName = "Peter"
 ```
+
 * Camel Case - similiar to Pascal Case but the first word is not capitalized:
 ```python
 firstName = "Peter"
@@ -54,9 +56,11 @@ firstName = "Peter"
 # Data Types are Dynamic
 In Python data types are dynamic.
 
-Python variable assignment is different from some of the popular languages like C, C++ and Java. There is no declaration of a variable, just an assignment statement.
+Python variable assignment is different from some of the popular languages like C, C++ and Java. 
 
-It doesn’t know about the type of the variable until the code is run.
+There is no declaration of a variable, just an assignment statement.
+
+It doesn't know about the type of the variable until the code is run.
 
 A single variable can be used to hold different data types:
 ```python
@@ -68,7 +72,7 @@ x = True     # x is Boolean
 
 [slide]
 # Strings
-Strings are data types that can store text
+Strings are data types that can store text.
 
 Assigning a string to a variable is done with the variable name followed by an equal sign and the string.
 
@@ -81,28 +85,20 @@ But you cannot use both together:
 ```python
 first_name = 'John" 
 # this will not work  
-
 ```
 [/slide]
 
 [slide]
 # Comments
-When writing code in Python, it’s important to make sure that your code can be easily understood by others. Giving variables obvious names, defining explicit functions, and organizing your code are all great ways to do this.
+When writing code in **Python**, it's important to make sure that your code can be easily understood by others. 
+
+Giving variables obvious names, defining explicit functions, and organizing your code are all great ways to do this.
 
 Another easy way to increase the readability of your code is by using comments!
 
 A comment is text in your program that is **not executed as a code**.
 
-* Commonly used to document code
-
 ```python
 # name = "John" <- this code will not be executed
 ```
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341528681" startTimeInSeconds="1873" endTimeInSeconds="2655" /]
-
 [/slide]

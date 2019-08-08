@@ -1,11 +1,12 @@
 [slide]
 # Reading User Input
-Everything we receive from the console comes as a string
+Everything we receive from the console comes as a string.
 
 Reading user input is done with a simple command:
 ```python
 name = input()
 ```
+
 Everything we print on the console is converted to string
 ```python
 print("Hello World!")
@@ -20,6 +21,7 @@ first_name = "John"
 last_name = "Doe"
 print(f"{first_name} {last_name}") # John Doe
 ```
+
 Formatting numbers with **placeholders**:
 ```python
 a = 5.123
@@ -48,8 +50,7 @@ Reading an integer number:
 num = int(input())
 ```
 Example:
-
-* Calculating square's area by given side a:
+* Calculating square's area by given side `a`:
 ```python
 a = int(input())
 area = a * a
@@ -75,7 +76,9 @@ print(centimeters)
 
 [slide]
 # Importing Libraries (import)
-Sometimes we need to import external libraries
+Sometimes we need to import external libraries.
+
+We can do that in the following way:
 ```python
 import name of the library
 ```
@@ -216,11 +219,4 @@ Hello, George
 |-----|------|
 |John|Hello, John|
 |Dave|Hello, Dave|
-[/slide]
-
-[slide]
-# Problem: Greeting - Video
-
-[vimeo-video videoId="341528681" startTimeInSeconds="4420" endTimeInSeconds="4530" /]
-
 [/slide]
