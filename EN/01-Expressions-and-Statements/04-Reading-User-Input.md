@@ -224,6 +224,6 @@ Hello, George
 [slide]
 # Problem: Greeting - Video
 
-[vimeo-video videoId="341528681" startTimeInSeconds="4420" endTimeInSeconds="4530" /]
+[vimeo-video videoId="341528681" startTimeInSeconds="4422" endTimeInSeconds="4530" /]
 
 [/slide]
