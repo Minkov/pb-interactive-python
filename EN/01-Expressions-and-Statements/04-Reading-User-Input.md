@@ -220,3 +220,10 @@ Hello, George
 |John|Hello, John|
 |Dave|Hello, Dave|
 [/slide]
+
+[slide]
+# Problem: Greeting - Video
+
+[vimeo-video videoId="341528681" startTimeInSeconds="4420" endTimeInSeconds="4530" /]
+
+[/slide]

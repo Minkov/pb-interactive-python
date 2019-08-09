@@ -29,3 +29,10 @@ When two operators share an operand the operator with the higher **precedence** 
 
 For example, `1 + 2 * 3` is treated as `1 + (2 * 3)`, whereas `1 * 2 + 3` is treated as `(1 * 2) + 3` since multiplication has a higher precedence than addition.
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341528681" startTimeInSeconds="4923" endTimeInSeconds="5034" /]
+
+[/slide]
