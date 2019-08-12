@@ -1,52 +1,27 @@
 [slide]
+# For Loop
+In programming it is often required to perform a block of commands multiple times. 
 
-# For Loop: Definition and Syntax
+A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
 
-Allows code to be executed repeatedly
-
-Repeating while the condition is met
-
-```python
+```py
 for i in iterable:
   print(i)
 ```
 
+Iterable means collection that can be iterated over. Example for that are strings.
+
+Let's examine an example of a `for` loop that passes sequentially through the letters in the word `"banana"`:
+```py
+for letter in "banana":
+  print(letter)
+```
 [/slide]
 
 [slide]
-
-# Iterable
-
-Iterable means collection that can be iterated over:
-
-- Example for that are strings:
-
-```
-"This is some random text"
-```
-
-- Using for loops, you can iterate through the text and get each character
-
-# Iterating Strings
-
-```python
-for char in "John":
-  print(char)
-# J
-# o
-# h
-# n
-```
-
-[/slide]
-
-[slide]
-
 # Problem: Characters
-
-[code-task title="Characters" executionStrategy="python-code" requiresInput]
+[code-task title="Characters" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
-
 ```
 # Write your code here
 ```
@@ -59,7 +34,19 @@ Write a program, which:
 - Print each character of that string on a new line
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+ball
+[/input]
+[output]
+b
+a
+l
+l
+[/output]
+[/test]
+[/tests]
 [/code-task]
 
 # Sample Input and Output
@@ -78,7 +65,7 @@ Write a program, which:
 
 # Solution: Characters
 
-[code-task title="Characters" executionStrategy="python-code" requiresInput]
+[code-task title="Characters" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 
 ```
@@ -95,7 +82,19 @@ Write a program, which:
 - Print each character of that string on a new line
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+ball
+[/input]
+[output]
+b
+a
+l
+l
+[/output]
+[/test]
+[/tests]
 [/code-task]
 
 # Sample Input and Output
