@@ -180,7 +180,7 @@ four
 [/slide]
 
 [slide]
-# Training Session
+# Video
 
 [vimeo-video videoId="341553633" startTimeInSeconds="3225" endTimeInSeconds="4025" /]
 

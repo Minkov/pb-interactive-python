@@ -69,7 +69,7 @@ print(a == b)  // true
 [/slide]
 
 [slide]
-# Training Session
+# Video
 
 [vimeo-video videoId="341553633" startTimeInSeconds="1448" endTimeInSeconds="2019" /]
 

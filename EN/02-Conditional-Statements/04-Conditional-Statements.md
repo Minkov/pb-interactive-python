@@ -214,7 +214,7 @@ Freezing weather!
 [/slide]
 
 [slide]
-# Training Session
+# Video
 
 [vimeo-video videoId="341553633" startTimeInSeconds="2020" endTimeInSeconds="2428" /]
 

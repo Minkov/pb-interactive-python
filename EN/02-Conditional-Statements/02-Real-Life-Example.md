@@ -11,7 +11,7 @@ Else:
 [/slide]
 
 [slide]
-# Training Session
+# Video
 
 [vimeo-video videoId="341553633" startTimeInSeconds="1408" endTimeInSeconds="1447" /]
 
