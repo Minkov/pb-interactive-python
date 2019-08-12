@@ -1,8 +1,8 @@
 [slide]
 # Sequence of If-Else Conditions
-Sometimes we need to do a sequence of conditions before we decide what actions our program will execute
+Sometimes we need to do a sequence of conditions before we decide what actions our program will execute.
 
-In such cases, we can apply the construction if-else if ... -else in series
+In such cases, we can apply the construction if-else if ... -else in series.
 
 For this purpose, we use the following format:
 ```python
@@ -15,7 +15,8 @@ elif ... :
 ```
 
 # Example
-The program checks the first condition, finds that it is true and ends
+The program checks the first condition, finds that it is true and ends.
+
 ```python
 a = 7
 if a > 4:
@@ -177,11 +178,4 @@ four
 |-----|------|
 |7|even|
 |10|Number too big|
-[/slide]
-
-[slide]
-# Training Session
-
-[vimeo-video videoId="341553633" startTimeInSeconds="3225" endTimeInSeconds="4025" /]
-
 [/slide]

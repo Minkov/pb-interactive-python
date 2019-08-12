@@ -9,10 +9,3 @@ Else:
 * I will have to water them
 [image src="https://github.com/AlenPaunov/pb-interactive-course/blob/02-condtional-statements/assets/02-coditional-statements-1.png"/]
 [/slide]
-
-[slide]
-# Training Session
-
-[vimeo-video videoId="341553633" startTimeInSeconds="1408" endTimeInSeconds="1447" /]
-
-[/slide]

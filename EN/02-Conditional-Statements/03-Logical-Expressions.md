@@ -67,10 +67,3 @@ b = "5"
 print(a == b)  // true 
 ```
 [/slide]
-
-[slide]
-# Training Session
-
-[vimeo-video videoId="341553633" startTimeInSeconds="1448" endTimeInSeconds="2019" /]
-
-[/slide]
