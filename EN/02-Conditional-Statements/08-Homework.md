@@ -207,8 +207,8 @@ Write a program which:
 
 * Reads a **ticket type** - either student or regular
 * Prints the price in the following format "$\{price\}":
-    * Student ticket is **1.60**
-    * Regular ticket is **1.00**
+    * Student ticket is **1.00**
+    * Regular ticket is **1.60**
     * For invalid type **"Invalid ticket type!"**
 [/task-description]
 [tests]
