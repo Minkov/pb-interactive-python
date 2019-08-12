@@ -1,42 +1,31 @@
 [slide]
 # Range
-Range is a function in python, which generates a collection of numbers in a given range
+To loop through a set of code a specified number of times, we can use the `range()` function.
 
-```python
-range(1, 5) # start and end
+The `range()` function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number.
+
+Note that range(6) is not the values of 0 to 6, but the values 0 to 5:
+```py
+for x in range(6):
+  print(x)
 ```
 
+The `range()` function defaults to 0 as a starting value, however it is possible to specify the starting value by adding a parameter: `range(2, 6)`, which means values from 2 to 6 (but not including 6):
 ```python
-range(1, 10, 2) # start, end, step (optional)
-# 1 3 5 7 9
-```
-[/slide]
-
-[slide]
-# Range in Loop
-We can use ranges in for-loops
-```python
-for num in range(1, 5):
-  print(num)
-# 1
-# 2
-# 3
-# 4
+for x in range(2, 6):
+  print(x)
 ```
 
+The `range()` function defaults to increment the sequence by 1, however it is possible to specify the increment value by adding a third parameter: `range(2, 30, 3)`:
 ```python
-for num in range(4, 0, -1):
-  print(num)
-# 4
-# 3
-# 2
-# 1
+for x in range(2, 30, 3):
+  print(x)
 ```
 [/slide]
 
 [slide]
 # Problem: Print Sum of N Numbers
-[code-task title="Print Sum of N Numbers" executionStrategy="python-code" requiresInput]
+[code-task title="Print Sum of N Numbers" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -49,7 +38,16 @@ Write a program, which:
 * Sums all numbers from 1 to n
 * Prints the sum on the console
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+7
+[/input]
+[output]
+28
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -60,7 +58,7 @@ Write a program, which:
 
 [slide]
 # Solution: Print Sum of N Numbers
-[code-task title="Print Sum of N Numbers" executionStrategy="python-code" requiresInput]
+[code-task title="Print Sum of N Numbers" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 n = int(input())
@@ -77,7 +75,16 @@ Write a program, which:
 * Sums all numbers from 1 to n
 * Prints the sum on the console
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+7
+[/input]
+[output]
+28
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -88,7 +95,7 @@ Write a program, which:
 
 [slide]
 # Problem: Calculate Monthly Salary
-[code-task title="Calculate Monthly Salary" executionStrategy="python-code" requiresInput]
+[code-task title="Calculate Monthly Salary" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -101,7 +108,19 @@ Write a program, which:
 * Calculates the salary for the month
 * Prints the result on the console
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+3
+100
+200
+300
+[/input]
+[output]
+600
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -119,7 +138,7 @@ Write a program, which:
 
 [slide]
 # Solution: Calculate Monthly Salary
-[code-task title="Calculate Monthly Salary" executionStrategy="python-code" requiresInput]
+[code-task title="Calculate Monthly Salary" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 days = int(input())
@@ -137,7 +156,19 @@ Write a program, which:
 * Calculates the salary for the month
 * Prints the result on the console
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+3
+100
+200
+300
+[/input]
+[output]
+600
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
