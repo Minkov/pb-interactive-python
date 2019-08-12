@@ -10,15 +10,7 @@ We have prepared some simple problems for you to solve. If you struggle you can 
 [code-task title="Bigger Number" taskId="p-04" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
-using System;
-
-public class Program
-{
-  public static void Main()
-  {
-    // Write code here
-  }
-}
+# Write code here
 ```
 [/code-editor]
 [task-description]
@@ -71,15 +63,7 @@ Write a program, which:
 [code-task title="Number Sequence" taskId="p-01" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
-using System;
-
-public class Program
-{
-  public static void Main()
-  {
-    // Write code here
-  }
-}
+# Write code here
 ```
 [/code-editor]
 [task-description]
@@ -143,15 +127,7 @@ Min number: -2
 [code-task title="Power Of Numbers" taskId="p-02" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
-using System;
-
-public class Program
-{
-  public static void Main()
-  {
-    // Write code here
-  }
-}
+# Write code here
 ```
 [/code-editor]
 [task-description]
@@ -187,15 +163,7 @@ Write a program, which:
 [code-task title="Equal Pairs" taskId="p-03" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
-using System;
-
-public class Program
-{
-  public static void Main()
-  {
-    // Write code here
-  }
-}
+# Write code here
 ```
 [/code-editor]
 [task-description]
@@ -346,15 +314,7 @@ Yes, value=10
 [code-task title="Zig Zag Sum" taskId="p-05" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
-using System;
-
-public class Program
-{
-  public static void Main()
-  {
-    // Write code here
-  }
-}
+# Write code here
 ```
 [/code-editor]
 [task-description]
@@ -404,15 +364,7 @@ Write a program, which:
 [code-task title="Divide Without Remainder" taskId="p-06" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
-using System;
-
-public class Program
-{
-  public static void Main()
-  {
-    // Write code here
-  }
-}
+# Write code here
 ```
 [/code-editor]
 [task-description]
@@ -452,15 +404,7 @@ Write a program, which:
 [code-task title="Vowel Sum" taskId="p-07" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
-using System;
-
-public class Program
-{
-  public static void Main()
-  {
-    // Write code here
-  }
-}
+# Write code here
 ```
 [/code-editor]
 [task-description]
@@ -542,15 +486,7 @@ s
 [code-task title="Rollercoaster" taskId="p-08" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
-using System;
-
-public class Program
-{
-  public static void Main()
-  {
-    // Write code here
-  }
-}
+# Write code here
 ```
 [/code-editor]
 [task-description]
@@ -642,15 +578,7 @@ The rollercoaster departures
 [code-task title="Multiply" taskId="p-09" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
-using System;
-
-public class Program
-{
-  public static void Main()
-  {
-    // Write code here
-  }
-}
+# Write code here
 ```
 [/code-editor]
 [task-description]
