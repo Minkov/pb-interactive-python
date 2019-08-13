@@ -172,3 +172,10 @@ odd
 |4|even|
 |7|odd|
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341553633" startTimeInSeconds="2429" endTimeInSeconds="2553" /]
+
+[/slide]

@@ -4,10 +4,10 @@ One of the single most important statements in every programming language is the
 
 An if statement identifies which statement to run based on the value of a **boolean expression**. 
 
-In the following example, the bool variable condition is set to true and then checked in the **if** statement.
+In the following example, the bool variable condition is set to true and then checked in the **`if`** statement.
 
-The if statement needs a boolean result, that is, **true or false**
-  * If the boolean result is true, take action
+The if statement needs a boolean result, that is, **`true` or `false`**
+  * If the boolean result is `true`, take action
 
 ```python
 if condition:
@@ -17,7 +17,7 @@ if condition:
 
 [slide]
 # Indentation
-Most of the programming languages like C, C++, Java use braces **\{** **\}** to define a block of code
+Most of the programming languages like C, C++, Java use braces `{ }` to define a block of code
   * **Python** uses indentation
 
 A code block (body of a function, loop, if statement, etc.) **starts with indentation and ends with the first unindented line**
@@ -63,11 +63,11 @@ if name == "John":
 
 [slide]
 # Variable Lifetime
-Not all variables are accessible from all parts of our program, and not all variables exist for the same amount of time
+Not all variables are accessible from all parts of our program, and not all variables exist for the same amount of time.
 
-Where a variable is accessible and how long it exists depend on how it is defined
+Where a variable is accessible and how long it exists depend on how it is defined.
 
-A variable which is defined in the main body of a file is called a global variable
+A variable which is defined in the main body of a file is called a global variable.
 
 Here is an example of variables in different scopes:
 ```python
@@ -211,4 +211,11 @@ Freezing weather!
 |-----|------|
 |4||
 |-2|Freezing weather!|
+[/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341553633" startTimeInSeconds="2020" endTimeInSeconds="2428" /]
+
 [/slide]

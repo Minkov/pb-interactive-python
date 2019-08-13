@@ -179,3 +179,10 @@ four
 |7|even|
 |10|Number too big|
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341553633" startTimeInSeconds="3225" endTimeInSeconds="4025" /]
+
+[/slide]
