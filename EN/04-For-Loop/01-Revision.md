@@ -54,3 +54,10 @@ The logical **"OR"** (operator `||`) means that **at least one** among a few con
 
 The operator `not` accepts as an **argument** a bool variable and **returns** its value.
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="342410322" startTimeInSeconds="996" endTimeInSeconds="1252" /]
+
+[/slide]
