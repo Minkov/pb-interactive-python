@@ -519,7 +519,7 @@ Write a program to apply an operator for given two numbers:
 /
 [/input]
 [output]
-10 / 2 = 5
+10 / 2 = 5.0
 [/output]
 [/test]
 [/tests]
