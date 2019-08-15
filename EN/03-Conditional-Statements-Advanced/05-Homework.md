@@ -476,7 +476,7 @@ Normal
 [task-description]
 Write a program to apply an operator for given two numbers:
 
-* Read two real numbers and math operator from the console
+* Read two integers and math operator from the console
 * The math operator could be: "+", "-", "/", "%" and "*"
 * The output should be in the following format: "\{N1\} \{operator\} \{N2\} = \{result\}"
 
