@@ -41,7 +41,32 @@ Write a program that applies bonus to given points
   * If points are between 4 and 6, adds 15
   * If points are between 7 and 9, adds 20
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+4
+[/input]
+[output]
+19
+[/output]
+[/test]
+[test]
+[input]
+8
+[/input]
+[output]
+28
+[/output]
+[/test]
+[test]
+[input]
+1
+[/input]
+[output]
+6
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -72,7 +97,32 @@ Write a program that applies bonus to given points
   * If points are between 4 and 6, adds 15
   * If points are between 7 and 9, adds 20
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+4
+[/input]
+[output]
+19
+[/output]
+[/test]
+[test]
+[input]
+8
+[/input]
+[output]
+28
+[/output]
+[/test]
+[test]
+[input]
+1
+[/input]
+[output]
+6
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -96,7 +146,32 @@ Write a program, which:
   * Drinks: tea, water, coffee
   * Everything else is unknown
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+curry
+[/input]
+[output]
+food
+[/output]
+[/test]
+[test]
+[input]
+tea
+[/input]
+[output]
+drink
+[/output]
+[/test]
+[test]
+[input]
+something
+[/input]
+[output]
+unknown
+[/output]
+[/test]
+[/tests]
 [/code-task]
 [/slide]
 
@@ -122,6 +197,31 @@ Write a program, which:
   * Drinks: tea, water, coffee
   * Everything else is unknown
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+curry
+[/input]
+[output]
+food
+[/output]
+[/test]
+[test]
+[input]
+tea
+[/input]
+[output]
+drink
+[/output]
+[/test]
+[test]
+[input]
+something
+[/input]
+[output]
+unknown
+[/output]
+[/test]
+[/tests]
 [/code-task]
 [/slide]

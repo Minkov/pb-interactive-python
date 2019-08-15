@@ -4,12 +4,12 @@
 # Comparison Operators
 Suitable for numbers, dates, other comparable data types
 
-* Equal to (==)
-* Not equal to (!=)
-* Greater than (>)
-* Greater than or equal to (>=)
-* Less than (<)
-* Less than or equal to (<=)
+* Equal to (`==`)
+* Not equal to (`!=`)
+* Greater than (`>`)
+* Greater than or equal to (`>=`)
+* Less than (`<`)
+* Less than or equal to (`<=`)
 
 # The if Statement
 Very often you want to perform different actions for different conditions
