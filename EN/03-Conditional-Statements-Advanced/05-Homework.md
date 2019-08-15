@@ -274,7 +274,7 @@ Write a program, which checks for sorted 3 numbers:
 3.5
 [/input]
 [output]
-not sorted
+Not sorted
 [/output]
 [/test]
 [test]
