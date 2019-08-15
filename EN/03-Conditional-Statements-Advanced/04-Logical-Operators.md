@@ -29,7 +29,7 @@ If you observe above table, **the `not` operator will always return the reverse 
 
 [slide]
 # Problem: Bonus Points
-[code-task title="Bonus Points" executionStrategy="python-code" requiresInput]
+[code-task title="Bonus Points" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -76,7 +76,7 @@ Write a program that applies bonus to given points
 
 [slide]
 # Solution: Bonus Points
-[code-task title="Bonus Points" executionStrategy="python-code" requiresInput]
+[code-task title="Bonus Points" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 points = int(input())
@@ -133,7 +133,7 @@ Write a program that applies bonus to given points
 
 [slide]
 # Problem: Food or Drink
-[code-task title="Food or Drink" executionStrategy="python-code" requiresInput]
+[code-task title="Food or Drink" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write code here
@@ -177,7 +177,7 @@ unknown
 
 [slide]
 # Solution: Food or Drink
-[code-task title="Food or Drink" executionStrategy="python-code" requiresInput]
+[code-task title="Food or Drink" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 input = input()

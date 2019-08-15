@@ -26,7 +26,7 @@ It has to be avoided, mostly through optimization of the structure/the algorithm
 
 [slide]
 # Problem: Marketplace
-[code-task title="Marketplace" executionStrategy="python-code" requiresInput]
+[code-task title="Marketplace" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -91,7 +91,7 @@ Weekday
 
 [slide]
 # Solution: Marketplace
-[code-task title="Marketplace" executionStrategy="python-code" requiresInput]
+[code-task title="Marketplace" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 product = input()
@@ -173,7 +173,7 @@ Weekday
 
 [slide]
 # Problem: Biggest Number of Three
-[code-task title="Biggest Number of Three" executionStrategy="python-code" requiresInput]
+[code-task title="Biggest Number of Three" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -244,7 +244,7 @@ Write a program, which:
 
 [slide]
 # Solution: Biggest Number of Three
-[code-task title="Biggest Number of Three" executionStrategy="python-code" requiresInput]
+[code-task title="Biggest Number of Three" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 first = int(input())
