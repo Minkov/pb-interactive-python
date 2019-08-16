@@ -682,3 +682,10 @@ Write a program to find the biggest among 5 numbers
 |-4||
 |-5||
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341568008" startTimeInSeconds="5964" endTimeInSeconds="8399" /]
+
+[/slide]

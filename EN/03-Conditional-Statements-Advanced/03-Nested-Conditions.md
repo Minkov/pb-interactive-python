@@ -324,3 +324,10 @@ Write a program, which:
 |-5||
 |-9||
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341568008" startTimeInSeconds="1121" endTimeInSeconds="2059" /]
+
+[/slide]
