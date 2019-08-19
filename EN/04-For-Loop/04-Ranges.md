@@ -178,10 +178,3 @@ Write a program, which:
 |110||
 |120||
 [/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="342410322" startTimeInSeconds="1656" endTimeInSeconds="2522" /]
-
-[/slide]
