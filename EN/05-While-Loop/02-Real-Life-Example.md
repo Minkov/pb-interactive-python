@@ -14,3 +14,10 @@ You never know how many mugs of water you use, but only be stopped when the buck
 
 In this exmaple, you work until satisfying a given condition.
 [/slide]
+
+[slide]
+# Real-Life Example: Box of Books - Video
+
+[vimeo-video videoId="343587107" startTimeInSeconds="1260" endTimeInSeconds="1330" /]
+
+[/slide]
