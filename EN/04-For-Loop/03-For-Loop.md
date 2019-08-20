@@ -106,5 +106,11 @@ l
 |       | l      |
 |       | l      |
 |       | o      |
+[/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="342410322" startTimeInSeconds="1330" endTimeInSeconds="1655" /]
 
 [/slide]
