@@ -1,17 +1,16 @@
 [slide]
-# Break Operator
-Used for prematurely **exiting** the loop
+# The break Operator
+The `break` operator stops the execution of a loop at the time it is called and continues from the first line after the end of the loop.
 
-Can only be executed from the loop's **body**
+This means that the current iteration of the loop will not be completed, accordingly, the rest of the code in the body of the loop will not be executed.
 
-When it is executed, the code inside the loop's body after it **is skipped** and does not execute
-
-# Example
+Example: Exit the loop when i is 3:
 ```python
-while True:
-  number = int(input())
-  if (number % 2) != 0:
+i = 1
+while i < 6:
+  print(i)
+  if i == 3:
     break
-  print("Enter an even number!")
+  i += 1 
 ```
 [/slide]

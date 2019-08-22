@@ -1,21 +1,25 @@
 [slide]
 # Infinite Loop
-An infinite loop is an instruction sequence that **loops endlessly** when a terminating condition has not been set
+We call an infinite loop one that repeats infinitely the performance of its body. 
 
-An infinite loop is also known as an **endless loop**
+In `while` and loops the end check is a conditional expression that always returns `True`. 
 
 # Example: Infinite While Loop (Bug)
 ```python
 command = "Add"
-while command != "END": # Always evaluated to True
+while command != "END":
    print(command)
 ```
+
+In the example above, the condition is always `True` because it is never changed.
 
 # Example: Finite Loop (Bug Fixed)
 ```python
 command = "Add"
 while command != "END":
    print(command)
-   command = input()      
+   command = input()
 ```
+
+Here, the value of the variable `command` is changed at each iteration and the **infinite loop** is avoided.
 [/slide]

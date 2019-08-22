@@ -2,53 +2,74 @@
 # Homework
 Now, it's your turn to practice what you have learned in the training session.
 
-We have prepared some simple problems for you to solve. If you struggle you can see the solution after each problem.
+We have prepared some simple problems for you to solve. If you struggle you can see the solution after each problem. 
 [/slide]
 
 [slide]
 # Problem: Sum Digits
-[code-task title="Sum Digits" executionStrategy="python-code" requiresInput]
+[code-task title="Sum Digits" taskId="p-01" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
-# Write your code here
+# Write code here
 ```
 [/code-editor]
 [task-description]
 Write a program, which:
 
 * Reads a number from the console
-* Sums the digits of a number
+* **Sums** the **digits** of a number
 * Prints the sum
 [/task-description]
-[code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|5634|18|
-[/slide]
-
-[slide]
-# Solution: Sum Digits
-[code-task title="Sum Digits" executionStrategy="python-code" requiresInput]
-[code-editor language=python]
-```
-n = int(input())
-sum = 0
-while n > 0:
-   sum += n % 10
-   n = int(n / 10);
-print(sum);
-```
-[/code-editor]
-[task-description]
-Write a program, which:
-
-* Reads a number from the console
-* Sums the digits of a number
-* Prints the sum
-[/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+123456
+[/input]
+[output]
+21
+[/output]
+[/test]
+[test]
+[input]
+489451
+[/input]
+[output]
+31
+[/output]
+[/test]
+[test]
+[input]
+8498498
+[/input]
+[output]
+50
+[/output]
+[/test]
+[test]
+[input]
+000000
+[/input]
+[output]
+0
+[/output]
+[/test]
+[test]
+[input]
+5684915
+[/input]
+[output]
+38
+[/output]
+[/test]
+[test]
+[input]
+8
+[/input]
+[output]
+8
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -58,117 +79,116 @@ Write a program, which:
 
 [slide]
 # Problem: Favorite Book
-[code-task title="Favorite Book" executionStrategy="python-code" requiresInput]
+[code-task title="Favorite Book" taskId="p-02" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
-# Write your code here
+# Write code here
 ```
 [/code-editor]
 [task-description]
 Write a program, which: 
 
-* Reads a book's name from the console
-* Receives names until it gets the same book
-* Prints "Book found!" and stops afterwards
+* Reads a **book's name** from the console
+* Receives names until it gets **book with the same name as the first one**
+* Prints "Book found! Attempts: \{attemptsCount\}" and stops afterwards
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+Fav Book
+Book1
+Book2
+Book3
+Fav Book
+[/input]
+[output]
+Book found! Attempts: 4
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|Alice in Wonderland|Book Found!|
+|Alice in Wonderland|Book Found! Attempts: 3|
 |Winnie the Pooh||
 |Peter Pan||
 |Alice in Wonderland||
 [/slide]
 
 [slide]
-# Solution: Favorite Book
-[code-task title="Favorite Book" executionStrategy="python-code" requiresInput]
+# Problem: Min and Max
+[code-task title="Min and Max" taskId="p-03" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
-favorite_book = input()
-book = input()
-while book != favorite_book:
-  book = input()
-print("Book found!")
+# Write code here
 ```
 [/code-editor]
 [task-description]
 Write a program, which: 
 
-* Reads a book's name from the console
-* Receives names until it gets the same book
-* Prints "Book found!" and stops afterwards
+* Receives integers until **"END"**
+* Prints the **biggest** and the **smallest** integer
 [/task-description]
-[code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|Alice in Wonderland|Book Found!|
-|Winnie the Pooh||
-|Peter Pan||
-|Alice in Wonderland||
-[/slide]
-
-[slide]
-# Problem: Find Min and Max
-[code-task title="Find Min and Max" executionStrategy="python-code" requiresInput]
-[code-editor language=python]
-```
-import math
-
-# Write your code here
-```
-[/code-editor]
-[task-description]
-Write a program, which: 
-
-* Receives integers until "END"
-* Prints the biggest and the smallest integer
-[/task-description]
-[code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|10|Max number: 304|
-|20|Min number: 0|
-|304||
-|0||
-|50||
-|END||
-[/slide]
-
-[slide]
-# Solution: Find Min and Max
-[code-task title="Find Min and Max" executionStrategy="python-code" requiresInput]
-[code-editor language=python]
-```
-import math
-
-line = input()
-min = math.inf
-max = -math.inf
-while line != "END":
-  n = int(line)
-  if n < min:
-    min = n
-  if n > max:
-    max = n
-  line = input() 
-print(f"Max number: {max}")
-print(f"Min number: {min}")
-```
-[/code-editor]
-[task-description]
-Write a program, which: 
-
-* Receives integers until "END"
-* Prints the biggest and the smallest integer
-[/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+5
+10
+66
+456
+-4
+1
+0
+END
+[/input]
+[output]
+Max number: 456
+Min number: -4
+[/output]
+[/test]
+[test]
+[input]
+3
+15
+56
+32
+7
+9
+END
+[/input]
+[output]
+Max number: 56
+Min number: 3
+[/output]
+[/test]
+[test]
+[input]
+-34
+-4
+-12
+-45
+END
+[/input]
+[output]
+Max number: -4
+Min number: -45
+[/output]
+[/test]
+[test]
+[input]
+0
+1
+4
+5
+END
+[/input]
+[output]
+Max number: 5
+Min number: 0
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -183,58 +203,38 @@ Write a program, which:
 
 [slide]
 # Problem: Special Number
-[code-task title="Special Number" executionStrategy="python-code" requiresInput]
+[code-task title="Special Number" taskId="p-04" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
-# Write your code here
+# Write code here
 ```
 [/code-editor]
 [task-description]
-Write a program, which: 
+Special number is number divisible by all of its digits without remainder. 
 
+Write a program, which: 
 * Receives integer
-* Prints "\{num\} is special" if the number is special
-    * Special number is number divisible by all of its digits without remainder
+* Prints "\{num\} is special", if the number is special
 * Otherwise, prints "\{num\} is not special"
 [/task-description]
-[code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|23|23 is not special|
-|44|44 is special|
-[/slide]
-
-[slide]
-# Solution: Special Number
-[code-task title="Special Number" executionStrategy="python-code" requiresInput]
-[code-editor language=python]
-```
-origin_number = int(input())
-number = origin_number
-is_special = True
-while number > 0:
-  digit = number % 10
-  number = int(number / 10)
-  if origin_number % digit != 0:
-    is_special = False
-    break
-if is_special:
-  print(f"{origin_number} is special")
-else:
-  print(f"{origin_number} is not special")
-```
-[/code-editor]
-[task-description]
-Write a program, which: 
-
-* Receives integer
-* Prints "\{num\} is special" if the number is special
-    * Special number is number divisible by all of its digits without remainder
-* Otherwise, prints "\{num\} is not special"
-[/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+55
+[/input]
+[output]
+55 is special
+[/output]
+[/test]
+[test]
+[input]
+43
+[/input]
+[output]
+43 is not special
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -245,60 +245,46 @@ Write a program, which:
 
 [slide]
 # Problem: Special Bonus
-[code-task title="Special Bonus" executionStrategy="python-code" requiresInput]
+[code-task title="Special Bonus" taskId="p-05" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
-# Write your code here
+# Write code here
 ```
 [/code-editor]
 [task-description]
-Write a program, which:
+Write a program, which: 
 
-* Reads a special integer number from the console
-* Keeps reading integers until it finds the same one
-* When it finds it, it increases the value of the previous number before it with 20% and prints it
+* Reads an integer number from the console
+* Keeps reading integers until it finds the same one as the first one
+* When it finds it, it increases the value of the **previous** number **before it** with 100% and prints it
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+20
+5
+5
+20
+[/input]
+[output]
+10
+[/output]
+[/test]
+[test]
+[input]
+20
+20
+[/input]
+[output]
+40
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|25|36.0|
-|20||
-|30||
-|25||
-[/slide]
-
-[slide]
-# Solution: Special Bonus
-[code-task title="Special Bonus" executionStrategy="python-code" requiresInput]
-[code-editor language=python]
-```
-special = int(input())
-number = int(input())
-previous = number
-while True:
-  if number == special:
-    previous += previous * 0.2
-    break
-  previous = number
-  number = int(input())
-print(previous)
-```
-[/code-editor]
-[task-description]
-Write a program, which:
-
-* Reads a special integer number from the console
-* Keeps reading integers until it finds the same one
-* When it finds it, it increases the value of the previous number before it with 20% and prints it
-[/task-description]
-[code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|25|36.0|
+|25|36|
 |20||
 |30||
 |25||
@@ -306,20 +292,88 @@ Write a program, which:
 
 [slide]
 # Problem: Sequence 2k + 1
-[code-task title="Sequence 2k + 1" executionStrategy="python-code" requiresInput]
+[code-task title="Sequence 2k + 1" taskId="p-06" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
-# Write your code here
+# Write code here
 ```
 [/code-editor]
 [task-description]
 Write a program, which: 
 
-* Reads a number n from the console
-* Prints a sequence of numbers, which are <= n and satisfy the following condition:
-    * Each number is equal to the previous onemultiplied by 2 plus 1
+* Reads a number **n** from the console
+* Prints a **sequence** of numbers, which are **<= n** and satisfy the following condition:
+* Each number is equal to the previous one multiplied by **2** plus **1**
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+1
+[/input]
+[output]
+1
+[/output]
+[/test]
+[test]
+[input]
+7
+[/input]
+[output]
+1
+3
+7
+[/output]
+[/test]
+[test]
+[input]
+100
+[/input]
+[output]
+1
+3
+7
+15
+31
+63
+[/output]
+[/test]
+[test]
+[input]
+511
+[/input]
+[output]
+1
+3
+7
+15
+31
+63
+127
+255
+511
+[/output]
+[/test]
+[test]
+[input]
+10000
+[/input]
+[output]
+1
+3
+7
+15
+31
+63
+127
+255
+511
+1023
+2047
+4095
+8191
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -327,153 +381,45 @@ Write a program, which:
 |8|1|
 ||3|
 ||7|
-|||
-[/slide]
-
-[slide]
-# Solution: Sequence 2k + 1
-[code-task title="Sequence 2k + 1" executionStrategy="python-code" requiresInput]
-[code-editor language=python]
-```
-n = int(input())
-k = 1
-while k <= n:
-  print(k)
-  k = k * 2 + 1
-```
-[/code-editor]
-[task-description]
-Write a program, which: 
-
-* Reads a number n from the console
-* Prints a sequence of numbers, which are <= n and satisfy the following condition:
-    * Each number is equal to the previous one multiplied by 2 plus 1
-[/task-description]
-[code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|8|1|
-||3|
-||7|
-|||
 [/slide]
 
 [slide]
 # Problem: Account Balance
-[code-task title="Account Balance" executionStrategy="python-code" requiresInput]
+[code-task title="Account Balance" taskId="p-07" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
-# Write your code here
+# Write code here
 ```
 [/code-editor]
 [task-description]
 Write a program, which: 
 
-* Receives an integer n - count of transactions
-* Receives the amount of money for each transaction
-* Adds the money to the balance and prints: "Increase: \{money\}" and calculates and prints the total balance
+* Receives the amount of money for each transaction untill "END"
+* Adds the money to the balance and prints: "Increase: \{money\}", format `money` to the 2nd digit after the decimal point
+* After "END" calculates and prints the total balance: "Total: \{balance\}", format `balance` to the 2nd digit after the decimal point
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+5.50
+60.23
+100
+END
+[/input]
+[output]
+Increase: 5.50
+Increase: 60.23
+Increase: 100.00
+Total: ‭165.73‬
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|3|Increase: 5.51|
-|5.51|Increase: 69.42|
-|69.42|Increase: 100.00|
-|100|Total: 174.93|
-[/slide]
-
-[slide]
-# Solution: Account Balance
-[code-task title="Account Balance" executionStrategy="python-code" requiresInput]
-[code-editor language=python]
-```
-n = int(input())
-balance = 0.0
-while n != 0:
-  amount = float(input())
-  balance += amount
-  print(f"Increase: {amount:.2f}")
-  n -= 1
-print(f"Total: {balance:.2f}")
-```
-[/code-editor]
-[task-description]
-Write a program, which: 
-
-* Receives an integer n - count of transactions
-* Receives the amount of money for each transaction
-* Adds the money to the balance and prints: "Increase: \{money\}" and calculates and prints the total balance
-[/task-description]
-[code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|3|Increase: 5.51|
-|5.51|Increase: 69.42|
-|69.42|Increase: 100.00|
-|100|Total: 174.93|
-[/slide]
-
-[slide]
-# Problem: Reverse Numbers
-[code-task title="Reverse Numbers" executionStrategy="python-code" requiresInput]
-[code-editor language=python]
-```
-# Write your code here
-```
-[/code-editor]
-[task-description]
-Write a program, which:
-
-* Receives a five-digit number: integer
-* Prints that number reversed: integer
-
-Use while loop
-
-You are not allowed to use strings
-[/task-description]
-[code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|12345|54321|
-[/slide]
-
-[slide]
-# Solution: Reverse Numbers
-[code-task title="Reverse Numbers" executionStrategy="python-code" requiresInput]
-[code-editor language=python]
-```
-num = int(input())
-result = 0
-counter = 10000
-while num != 0:
-    result += int((num % 10)) * counter
-    counter /= 10
-    num /= 10
-print(int(result))
-```
-[/code-editor]
-[task-description]
-Write a program, which:
-
-* Receives a five-digit number: integer
-* Prints that number reversed: integer
-
-Use while loop
-
-You are not allowed to use strings
-[/task-description]
-[code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|12345|54321|
+|5.51|Increase: 5.51|
+|69.42|Increase: 69.42|
+|100|Increase: 100.00|
+|END|Total: 174.93|
 [/slide]

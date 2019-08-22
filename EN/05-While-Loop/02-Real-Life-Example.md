@@ -1,6 +1,16 @@
 [slide]
-# Real Life Example
-When we fail at something, we try again until we achieve our goal
+# Real-Life Example: Fill a Bucket
+The next type of loops that we will get familiar with are called `while` loops. 
 
-We don't know the count of the "**iterations**", we just repeat until we arrive at the final destination
+The specific thing about them is that they repeat a block of commands while a condition is `true`. 
+
+As a structure, they differ from `for` loops, and even have a simple syntax.
+
+Before we jump to the lesson, let's cover an example which is from the real life.
+
+You have to fill a bucket with water using a mug.
+
+You never know how many mugs of water you use, but only be stopped when the bucket is full.
+
+In this exmaple, you work until satisfying a given condition.
 [/slide]
