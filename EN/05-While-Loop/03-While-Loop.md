@@ -195,3 +195,10 @@ Write a program, which:
 |101||
 |50||
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="343587107" startTimeInSeconds="1331" endTimeInSeconds="2144" /]
+
+[/slide]

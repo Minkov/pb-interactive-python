@@ -423,3 +423,10 @@ Total: ‭165.73‬
 |100|Increase: 100.00|
 |END|Total: 174.93|
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="343587107" startTimeInSeconds="7017" endTimeInSeconds="9705" /]
+
+[/slide]

@@ -14,3 +14,10 @@ while i < 6:
   i += 1 
 ```
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="343587107" startTimeInSeconds="2860" endTimeInSeconds="2967" /]
+
+[/slide]

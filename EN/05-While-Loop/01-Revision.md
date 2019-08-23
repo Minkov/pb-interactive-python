@@ -28,3 +28,10 @@ for x in range(1, 15, 2):
   print(x)
 ```
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="343587107" startTimeInSeconds="1025" endTimeInSeconds="1220" /]
+
+[/slide]
