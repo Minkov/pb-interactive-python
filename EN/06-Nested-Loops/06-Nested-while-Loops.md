@@ -1,14 +1,5 @@
 [slide]
 # Nested while Loops
-
-A nested while loop is a **while statement inside** another **while statement**. 
-
-In a nested while loop, one iteration of the outer loop is first executed, after which the inner loop is executed. 
-
-The execution of the inner loop continues till the condition described in the inner loop is satisfied. 
-
-Once the condition of the inner loop is satisfied, the program moves to the next iteration of the outer loop.
-
 ```python
 while condition:
   # Outer Loop 
@@ -20,7 +11,7 @@ while condition:
 
 [slide]
 # Problem: Triangle of Stars 2
-[code-task title="Triangle of Stars 2" executionStrategy="python-code" requiresInput]
+[code-task title="Triangle of Stars 2" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -33,7 +24,18 @@ Write a program, which:
 * Prints a triangle of stars
 * Use a while loop
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+3
+[/input]
+[output]
+\*
+\*\*
+\*\*\*
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -46,8 +48,8 @@ Write a program, which:
 [/slide]
 
 [slide]
-# Problem: Triangle of Stars 2
-[code-task title="Triangle of Stars 2" executionStrategy="python-code" requiresInput]
+# Solution: Triangle of Stars 2
+[code-task title="Triangle of Stars 2" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 height = 5
@@ -68,7 +70,18 @@ Write a program, which:
 * Prints a triangle of stars
 * Use a while loop
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+3
+[/input]
+[output]
+\*
+\*\*
+\*\*\*
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
