@@ -11,7 +11,7 @@ while condition:
 
 [slide]
 # Problem: Triangle of Stars 2
-[code-task title="Triangle of Stars 2" executionStrategy="python-code" requiresInput]
+[code-task title="Triangle of Stars 2" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -24,7 +24,18 @@ Write a program, which:
 * Prints a triangle of stars
 * Use a while loop
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+3
+[/input]
+[output]
+\*
+\*\*
+\*\*\*
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -37,8 +48,8 @@ Write a program, which:
 [/slide]
 
 [slide]
-# Problem: Triangle of Stars 2
-[code-task title="Triangle of Stars 2" executionStrategy="python-code" requiresInput]
+# Solution: Triangle of Stars 2
+[code-task title="Triangle of Stars 2" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 height = 5
@@ -59,7 +70,18 @@ Write a program, which:
 * Prints a triangle of stars
 * Use a while loop
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+3
+[/input]
+[output]
+\*
+\*\*
+\*\*\*
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
