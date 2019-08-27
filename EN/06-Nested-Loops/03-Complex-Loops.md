@@ -241,3 +241,10 @@ Write a program, which:
 |3|1|
 ||4|
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="345185854" startTimeInSeconds="1501" endTimeInSeconds="2677" /]
+
+[/slide]

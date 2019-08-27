@@ -28,4 +28,12 @@ while command != "END"
 ```python
 while True:
   # Commands
+```
+[/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="345185854" startTimeInSeconds="984" endTimeInSeconds="1500" /]
+
 [/slide]
