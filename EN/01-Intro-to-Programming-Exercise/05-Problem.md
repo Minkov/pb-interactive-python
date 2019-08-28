@@ -7,7 +7,7 @@
 ```
 [/code-editor]
 [task-description]
-Write a program, which prints a square of 7 * 7 stars like this:
+Write a program, which prints a triangle of stars like this:
 ```
 *
 **
