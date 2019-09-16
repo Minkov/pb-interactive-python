@@ -1,6 +1,6 @@
 [slide]
-# Problem: Print "Hello Java"
-[code-task title="Print Hello Java" executionType="tests-execution" executionStrategy="python-code"]
+# Problem: Print "Hello Python"
+[code-task title="Print Hello Python" executionType="tests-execution" executionStrategy="python-code"]
 [code-editor language=python]
 ```
 # Write code here
@@ -11,7 +11,7 @@
 
 Write a program, which:
 
-Prints "Hello Java" on the console
+Prints "Hello Python" on the console
 [/task-description]
 [code-io /]
 [tests]
@@ -19,7 +19,7 @@ Prints "Hello Java" on the console
 [input]
 [/input]
 [output]
-Hello Java
+Hello Python
 [/output]
 [/test]
 [/tests]
