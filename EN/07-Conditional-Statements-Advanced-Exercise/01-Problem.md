@@ -9,7 +9,7 @@
 [task-description]
 # Description
 
-Write a **console** program **that reads** age (floating-point number) and **gender**("**m**" or "**f**") and prints **address** among these:
+Write a **console** program **that reads** age (floating-point number) and **gender**("**m**" or "**f**") and prints **address**.
 
 # Input
 
