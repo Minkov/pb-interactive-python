@@ -33,7 +33,7 @@ Print on the console "**fruit**", "**vegetable**" or "**unknown**" according to 
 | --- | --- | --- |                  
 | water | | unknown |
 
-\* **Hint**: use conditional **if** statement with logical "**or**" - operator "\|\|".
+\* **Hint**: use conditional **if** statement with logical "**or**".
 [/task-description]
 [tests]
 [test]
