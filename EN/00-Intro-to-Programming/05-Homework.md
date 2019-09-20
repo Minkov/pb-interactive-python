@@ -1,60 +1,67 @@
 [slide]
 # Homework
+Welcome to the homework. 
 
-Now, it's your turn to practice what you have learned in the training session.
+Now we are going to write a couple of console applications, by which we are going to make a few more steps into programming. 
 
-We have prepared some simple problems for you to solve. If you struggle you can see the solution after each problem. 
+We have prepared some problems for you to solve.
+
+Let's solve a few problems to confirm what we have learned.
+
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/homeowrk.png"/]
 [/slide]
 
 [slide]
 # Problem: Print "Hello Python"
-[code-task title="Print Hello Python" executionStrategy="python-code"]
+[code-task title="Print Hello Python" taskId="p-01" executionType="tests-execution" executionStrategy="python-code"]
 [code-editor language=python]
 ```
 # Write your code here
 ```
 [/code-editor]
 [task-description]
-Write a python program, which:
+Write a Python program, which:
 
 Prints "Hello Python" on the console
 [/task-description]
 [code-io /]
-[/code-task]
-[/slide]
-
-[slide]
-# Solution: Print "Hello Python"
-[code-task title="Print Hello Python" executionStrategy="python-code"]
-[code-editor language=python]
-```
-print("Hello Python")
-```
-[/code-editor]
-[task-description]
-Write a python program, which:
-
-Prints "Hello Python" on the console
-[/task-description]
+[tests]
+[test]
+[input]
+[/input]
+[output]
+Hello Python
+[/output]
+[/test]
+[/tests]
 [code-io /]
 [/code-task]
 [/slide]
 
 [slide]
 # Problem: Calculate and Print 5 * 5
-[code-task title="Calculate and Print 5 * 5" executionStrategy="python-code" ]
+[code-task title="Calculate and Print 5 * 5" taskId="p-02" executionType="tests-execution" executionStrategy="python-code" ]
 [code-editor language=python]
 ```
 # Write your code here
 ```
 [/code-editor]
 [task-description]
-Write a python program, which:
+Write a Python program, which:
 
 * Calculates the value of 5 * 5
-
 * Prints the result
 [/task-description]
+[code-io /]
+[tests]
+[test]
+[input]
+[/input]
+[output]
+25
+[/output]
+[/test]
+[/tests]
 [code-io /]
 [/code-task]
 [/slide]
@@ -86,17 +93,22 @@ Write a python program, which:
 ```
 [/code-editor]
 [task-description]
-Write a program to print your name at the first line and calculate and print the expression 5 + 3 at the second line
+Write a program to print 'Catlyn' on the first line and calculate and print the result of the expression 5 + 3 on the second line
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+[/input]
+[output]
+Catlyn
+8
+[/output]
+[/test]
+[/tests]
+[code-io /]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|Catlyn|Catlyn|
-||8|
-|Peter|Peter|
-||8|
+
 [/slide]
 
 [slide]
@@ -138,6 +150,18 @@ Write a program, which calculates and prints the value of the following express
 * (2 + 5)  \*  (8 - 2) \/ 7
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+[/input]
+[output]
+11
+20
+6
+[/output]
+[/test]
+[/tests]
+[code-io /]
 [/code-task]
 [/slide]
 
@@ -174,20 +198,34 @@ Write a program, which calculates and prints the value of the following express
 Write a program, which:
 
 Prints a square of 7 * 7 stars like this:
-\* \* \* \* \* \* \*
 
-\* \* \* \* \* \* \*
+```
+* * * * * * *
+* * * * * * *
+* * * * * * *
+* * * * * * *
+* * * * * * *
+* * * * * * *
+* * * * * * *
+```
 
-\* \* \* \* \* \* \*
-
-\* \* \* \* \* \* \*
-
-\* \* \* \* \* \* \*
-
-\* \* \* \* \* \* \*
-
-\* \* \* \* \* \* \*
 [/task-description]
+[code-io /]
+[tests]
+[test]
+[input]
+[/input]
+[output]
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+[/output]
+[/test]
+[/tests]
 [code-io /]
 [/code-task]
 [/slide]
