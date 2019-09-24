@@ -67,24 +67,6 @@ Write a Python program, which:
 [/slide]
 
 [slide]
-# Solution: Calculate and Print 5 * 5
-[code-task title="Calculate and Print 5 * 5" executionStrategy="python-code" ]
-[code-editor language=python]
-```
-print(5 * 5)
-```
-[/code-editor]
-[task-description]
-Write a python program, which:
-
-* Calculates the value of 5 * 5
-* Prints the result
-[/task-description]
-[code-io /]
-[/code-task]
-[/slide]
-
-[slide]
 # Problem: Name and Expression
 [code-task title="Name and Expression" executionStrategy="python-code" ]
 [code-editor language=python]
@@ -109,29 +91,6 @@ Catlyn
 [code-io /]
 [/code-task]
 
-[/slide]
-
-[slide]
-# Solution: Name and Expression
-[code-task title="Name and Expression" executionStrategy="python-code" ]
-[code-editor language=python]
-```
-print("Catlyn")
-print(5 + 3)
-```
-[/code-editor]
-[task-description]
-Write a program to print your name at the first line and calculate and print the expression 5 + 3 at the second line
-[/task-description]
-[code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|Catlyn|Catlyn|
-||8|
-|Peter|Peter|
-||8|
 [/slide]
 
 [slide]
@@ -161,27 +120,6 @@ Write a program, which calculates and prints the value of the following express
 [/output]
 [/test]
 [/tests]
-[code-io /]
-[/code-task]
-[/slide]
-
-[slide]
-# Solution: Calculations
-[code-task title="Calculations" executionStrategy="python-code" ]
-[code-editor language=python]
-```
-print(5 + 3 * 2)
-print(4 * (2 + 3))
-print((2 + 5) * (8 - 2) / 7)
-```
-[/code-editor]
-[task-description]
-Write a program, which calculates and prints the value of the following expressions:
-
-* 5 + 3 \* 2
-* 4 \* (2 + 3)
-* (2 + 5)  \*  (8 - 2) \/ 7
-[/task-description]
 [code-io /]
 [/code-task]
 [/slide]
@@ -226,42 +164,6 @@ Prints a square of 7 * 7 stars like this:
 [/output]
 [/test]
 [/tests]
-[code-io /]
-[/code-task]
-[/slide]
-
-[slide]
-# Solution: Square of 7 * 7 Stars
-[code-task title="Square of 7 * 7 Stars" executionStrategy="python-code" ]
-[code-editor language=python]
-```
-print("* * * * * * *")
-print()
-print("* * * * * * *")
-print()
-print("* * * * * * *")
-print()
-print("* * * * * * *")
-print()
-print("* * * * * * *")
-print()
-print("* * * * * * *")
-print()
-print("* * * * * * *")
-```
-[/code-editor]
-[task-description]
-Write a program, which:
-
-Prints a square of 7 * 7 stars like this:
-\* \* \* \* \* \* \*
-\* \* \* \* \* \* \*
-\* \* \* \* \* \* \*
-\* \* \* \* \* \* \*
-\* \* \* \* \* \* \*
-\* \* \* \* \* \* \*
-\* \* \* \* \* \* \*
-[/task-description]
 [code-io /]
 [/code-task]
 [/slide]
