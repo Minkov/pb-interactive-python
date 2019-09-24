@@ -6,6 +6,7 @@ It usually looks like a black colored window like this one:
 
 [image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/00.Console-example.png"/]
 
+
 In most operating systems, the **console** is available as a standalone application on which we write console commands. 
 
 It is called a **Command Prompt** in Windows, and a **Terminal** in Linux and Mac. 
@@ -316,10 +317,12 @@ Console.WriteLine(sum);  // The sum is: 4
 
 [/slide]
 
-///////
 
 [slide]
 # Reading User Input
+
+///////
+
 Everything we receive from the console comes as a string
 
 Reading user input is done with a simple command:
