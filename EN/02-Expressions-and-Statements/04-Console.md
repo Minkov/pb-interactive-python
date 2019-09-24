@@ -6,7 +6,7 @@ It usually looks like a black colored window like this two:
 
 [image src="https://raw.githubusercontent.com/AtanasovAtanas/pb-interactive-csharp/master/assets/00.Console-example.png"/]
 
-[image src="https://raw.githubusercontent.com/AtanasovAtanas/pb-interactive-csharp/master/assets/00.Console-example.png" srcset="https://raw.githubusercontent.com/AtanasovAtanas/pb-interactive-csharp/master/assets/00.Console-example.png 320w"/]
+[image src="https://raw.githubusercontent.com/AtanasovAtanas/pb-interactive-csharp/master/assets/00.Console-example.png" srcSet="https://raw.githubusercontent.com/AtanasovAtanas/pb-interactive-csharp/master/assets/00.Console-example.png 320w"/]
 
 [image srcset="https://raw.githubusercontent.com/AtanasovAtanas/pb-interactive-csharp/master/assets/00.Console-example.png 1.5x"/]
 
