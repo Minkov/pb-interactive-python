@@ -2,15 +2,15 @@
 # Console (Terminal)
 Generally, the **system console** represents a text terminal, which means that it accepts and visualizes just **text** without any graphical elements like buttons, menus,etc. 
 
-It usually looks like a black colored window like this one:
+It usually looks like a black colored window like this two:
 
-[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/00.Console-example.png"/]
+[image src="https://raw.githubusercontent.com/AtanasovAtanas/pb-interactive-csharp/master/assets/00.Console-example.png"/]
 
-[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/00.Console-example.png" srcset="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/00.Console-example.png 320w"/]
+[image src="https://raw.githubusercontent.com/AtanasovAtanas/pb-interactive-csharp/master/assets/00.Console-example.png" srcset="https://raw.githubusercontent.com/AtanasovAtanas/pb-interactive-csharp/master/assets/00.Console-example.png 320w"/]
 
-[image srcset="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/00.Console-example.png 1.5x"/]
+[image srcset="https://raw.githubusercontent.com/AtanasovAtanas/pb-interactive-csharp/master/assets/00.Console-example.png 1.5x"/]
 
-[image srcset="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/00.Console-example.png 320w"/]
+[image srcset="https://raw.githubusercontent.com/AtanasovAtanas/pb-interactive-csharp/master/assets/00.Console-example.png 320w"/]
 
 In most operating systems, the **console** is available as a standalone application on which we write console commands. 
 
