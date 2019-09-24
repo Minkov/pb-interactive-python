@@ -10,7 +10,7 @@ It usually looks like a black colored window like this one:
 
 [image srcset="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/00.Console-example.png 1.5x"/]
 
-[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/00.Console-example.png 320w"/]
+[image srcset="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/00.Console-example.png 320w"/]
 
 In most operating systems, the **console** is available as a standalone application on which we write console commands. 
 
