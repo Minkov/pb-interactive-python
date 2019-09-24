@@ -13,8 +13,8 @@ It usually looks like a black colored window like this two:
 [image 
     srcSet="https://raw.githubusercontent.com/AtanasovAtanas/pb-interactive-csharp/master/assets/00.Console-example-320w.png 320w,
             https://raw.githubusercontent.com/AtanasovAtanas/pb-interactive-csharp/master/assets/00.Console-example-640w.png 640w"
-    sizes="(max-width: 320px) 320px,
-            (max-width: 480px) 480px"
+    sizes="(max-width: 320px) 300px,
+            (max-width: 640px) 620px"
     src="https://raw.githubusercontent.com/AtanasovAtanas/pb-interactive-csharp/master/assets/00.Console-example-640w.png"
 /]
 
