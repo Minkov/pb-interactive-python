@@ -1,5 +1,3 @@
 [slide]
-
-blablabla 
-
+# Variable Lifetime
 [/slide]
