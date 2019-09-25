@@ -15,7 +15,7 @@ Write a program that knows whether the tank of a vehicle needs refueling or not.
 
 The input is consists of 2 lines:
 
-- First you have to read from the console the type of fuel - text with options: "Diesel", "Gasoline" or "Gas"
+- First you have to read from the console the type of fuel - text with options: "diesel", "gasoline" or "gas"
 
 - The second line of input reads the liters fuel in the tank
 
@@ -33,19 +33,19 @@ If a fuel other than the specified is introduced, "Invalid fuel!" shall be print
 
 | **Input** | | **Output** |
 | --- | --- | --- |
-| Diesel | | Fill your tank with diesel! |
+| diesel | | Fill your tank with diesel! |
 | 10 | | |
 
 | **Input** | | **Output** |
 | --- | --- | --- |
-| Gas | | You have enough gas. |
+| gas | | You have enough gas. |
 | 25 | | |
 
 [/task-description]
 [tests]
 [test]
 [input]
-Diesel
+diesel
 10
 [/input]
 [output]
@@ -54,7 +54,7 @@ Fill your tank with diesel!
 [/test]
 [test]
 [input]
-Gasoline
+gasoline
 40
 [/input]
 [output]
@@ -63,7 +63,7 @@ You have enough gasoline.
 [/test]
 [test]
 [input]
-Gas
+gas
 25
 [/input]
 [output]
@@ -72,7 +72,7 @@ You have enough gas.
 [/test]
 [test]
 [input]
-Kerosene
+kerosene
 200
 [/input]
 [output]
@@ -81,7 +81,7 @@ Invalid fuel!
 [/test]
 [test]
 [input]
-Diesel
+diesel
 25
 [/input]
 [output]
@@ -90,7 +90,7 @@ You have enough diesel.
 [/test]
 [test]
 [input]
-Gasoline
+gasoline
 28
 [/input]
 [output]
@@ -99,7 +99,7 @@ You have enough gasoline.
 [/test]
 [test]
 [input]
-Gas
+gas
 20
 [/input]
 [output]
@@ -108,7 +108,7 @@ Fill your tank with gas!
 [/test]
 [test]
 [input]
-Kerosene
+kerosene
 20
 [/input]
 [output]
