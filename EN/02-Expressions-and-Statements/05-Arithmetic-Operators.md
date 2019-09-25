@@ -7,25 +7,25 @@ We can add, subtract, multiply and divide numbers using the operators `+`, `-`, 
 ## Summing up Numbers
 We can **sum** up numbers using the `+` operator:
 ```py live
-a = 5;
-b = 7;
-sum = a + b;
+a = 5
+b = 7
+sum = a + b
 print(sum); // 12 
 ```
 
 ## Subtracting Numbers
 **Subtracting** numbers is done using the `-` operator:
 ```py live
-a = 15;
-b = 7;
+a = 15
+b = 7
 print(a - b); // 8
 ```
 
 ## Multiplying Numbers
 For **multiplication** of numbers we use the `*` operator:
 ```py live
-a = 5;
-b = 7;
+a = 5
+b = 7
 print(a * b); // 35
 ```
 
@@ -109,7 +109,6 @@ Console.WriteLine(4 % 2);
 [vimeo-video videoId="341512905" startTimeInSeconds="5968" endTimeInSeconds="6610" /]
 
 [/slide]
-///////
 
 [slide]
 # Simple Operations
