@@ -90,11 +90,10 @@ Console.WriteLine(4 % 2);
 [vimeo-video videoId="341512905" startTimeInSeconds="5968" endTimeInSeconds="6610" /]
 
 [/slide]
-///////
 
 [slide]
 # Simple Operations
-
+////
 # Concatenating Text and Numbers
 Examples:
 
