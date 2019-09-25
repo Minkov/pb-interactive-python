@@ -67,20 +67,20 @@ print(b)
 
 ### Remainder
 The remainder operator `%` computes the remainder after dividing its left-hand operand by its right-hand operand.
-```cs live
-int a = 7;
-int b = 2;
-Console.WriteLine(a % b);
-Console.WriteLine(3.5 % 1);
+```py live
+a = 7
+b = 2
+print(a % b)
+print(3.5 % 1)
 ```
 It is useful if we want to check whether a number is **even** or **odd**.
 
 If the remainder when dividing by 2 is equal to 0, then the number is even, otherwise it is odd.
 
 See the following example: 
-```cs live
-Console.WriteLine(3 % 2);
-Console.WriteLine(4 % 2);
+```py live
+print(3 % 2);
+print(4 % 2);
 ```
 [/slide]
 
