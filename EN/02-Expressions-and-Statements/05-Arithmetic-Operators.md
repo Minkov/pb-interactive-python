@@ -10,7 +10,7 @@ We can **sum** up numbers using the `+` operator:
 a = 5
 b = 7
 sum = a + b
-print(sum); // 12 
+print(sum) # 12 
 ```
 
 ## Subtracting Numbers
@@ -18,7 +18,7 @@ print(sum); // 12
 ```py live
 a = 15
 b = 7
-print(a - b); // 8
+print(a - b) # 8
 ```
 
 ## Multiplying Numbers
@@ -26,23 +26,35 @@ For **multiplication** of numbers we use the `*` operator:
 ```py live
 a = 5
 b = 7
-print(a * b); // 35
+print(a * b) # 35
 ```
 
 ## Dividing Numbers
 **Dividing** numbers is done using the `/` and `//` operators. 
 
+### Division
 `/` does **floating point division**.
 * Regardless of whether we divide two integers, floating point with integer or two floating points, the obtained output is **always floating point**.
  * Example: `5 / 2 = 2.5`
 
-`//` is used for **floor division**.
+### Floor division
+`//` is used for **floor division**. 
+The output of a floor division represents how many times one number fits into another, without any decimal points or remainders.
+
 * The result is a **floating point** number only if one of the operands is.
  * Example: `5 // 2.0 = 2.0`
 * Otherwise the result is an **integer** number.
  * Example: `5 // 2 = 2`
 
-Here are a few examples with the division operator:
+Keep in mind that this type of division rounds down to the nearest low number and not to the next lowest absolute value.
+
+See the example:
+```py live
+print(11//2)
+print(-11//2)
+```
+
+Here are a few more examples with the division operators:
 ```py live
 a = 25
 i = a / 4
@@ -52,37 +64,6 @@ print(f)
 b = a // 4
 print(b)
 ```
-
-### Dividing Integers
-Let's examine a few examples for **integer division** (remember that when we **divide integers** in C# the result is an **integer**):
-```cs live
-int a = 25;
-Console.WriteLine(a / 4);
-```
-
-Dividing an integer by zero leads to an error.
-``` cs live
-int a = 5;
-Console.WriteLine(a / 0);
-```
-
-### Dividing Floating-Point Numbers
-Let's look at a few examples for **floating division**. 
-
-When we divide floating point numbers, the result is always a **float number** and the division never fails.
-
-It also works correctly with the special values **+∞** and **-∞**:
-```cs live
-int a = 15;
-Console.WriteLine(a / 2.0);
-Console.WriteLine(a / 0.0);
-Console.WriteLine(-a / 0.0);
-Console.WriteLine(0.0 / 0.0);
-```
-
-When printing the values ∞ and -∞, the console output may be `?`.
-
-This happens because the console in Windows does not work correctly with Unicode and breaks most of the non-standard symbols, letters and special characters.
 
 ### Remainder
 The remainder operator `%` computes the remainder after dividing its left-hand operand by its right-hand operand.
@@ -109,6 +90,7 @@ Console.WriteLine(4 % 2);
 [vimeo-video videoId="341512905" startTimeInSeconds="5968" endTimeInSeconds="6610" /]
 
 [/slide]
+///////
 
 [slide]
 # Simple Operations
