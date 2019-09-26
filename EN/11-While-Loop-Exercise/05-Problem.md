@@ -9,7 +9,7 @@
 [task-description]
 # Description 
 
-Write a program in which Martin solves problems for exams until he receives message from his lecturer: "**Enough**". Every time he solves a problem, he get a grade. **The program should ends either** Martin receives "Enough" command, **or obtain the number of poor grades**. A poor grade is a grade less or equal to 4.00.
+Write a program in which Martin solves problems for exams until he receives message from his lecturer: "**Enough**". Every time he solves a problem, he gets a grade. **The program should end either** Martin receives "Enough" command, **or obtain the number of poor grades**. A poor grade is a grade less or equal to 4.00.
 
 # Input
 
