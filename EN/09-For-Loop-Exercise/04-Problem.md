@@ -15,11 +15,8 @@ Write a program that **prints the numbers in the range** \[1...1000\], which **e
 
 | **Input** | | **Output** |
 | --- | --- | --- |
-| (no input) | | 7 |
-| | | 17 |
-| | | 27 |
-| | | ... |
-| | | 997 |
+| (no input) | | 7 17 27 ... 997 |
+
 [/task-description]
 [tests]
 [test]
