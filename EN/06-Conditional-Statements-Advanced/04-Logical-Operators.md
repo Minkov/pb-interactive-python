@@ -39,38 +39,38 @@ The following table of truthfulness is applicable:
 
 | Operand1 | Operand2 | AND |
 |---|---|---|---|
-| true | true | true |
-| true | false | false |
-| false | true | false |
-| false | false | false |
+| True | True | True |
+| True | False | False |
+| False | True | False |
+| False | False | False |
 
 # How Does the `and` Operator Work?
-The `and` operator accepts **a couple of Boolean** (conditional) statements, which have a `true` or `false` value, and returns one statement as a result. 
+The `and` operator accepts **a couple of Boolean** (conditional) statements, which have a `True` or `False` value, and returns one statement as a result. 
 
 Using it instead of a couple of nested `if` blocks, makes the code **more readable**, **ordered** and **easy** to maintain. 
 
 But how does it **work**, when we put a **few** conditions one after another? 
 
-As we saw above, the logical **"AND"** returns `true`, **only** when it accepts as **arguments statements** with value `true`. 
+As we saw above, the logical **"AND"** returns `True`, **only** when it accepts as **arguments statements** with value `True`. 
 
-Respectively, when we have a **sequence** of arguments, the logical **"AND"** **checks** either until one of the arguments is **over**, or until it **meets** an argument with value `false`. 
+Respectively, when we have a **sequence** of arguments, the logical **"AND"** **checks** either until one of the arguments is **over**, or until it **meets** an argument with value `False`. 
 
 # Example
 ```py live
-a = true
-b = true
-c = false
-d = true
+a = True
+b = True
+c = False
+d = True
 result = a and b and c and d
 print(result)
 ```
 
 The program will run in the **following** way: 
-- **It starts** the check form `a`, **reads** it and accepts that it has a `true` value, after which it **checks** `b`. 
-- After it has **accepted** that `a` and `b` return `true`, **it checks the next** argument. 
-- It gets to `c` and sees that the variable has a `false` value. 
-- After the program accepts that the argument `c` has a `false` value, it calculates the expression **before** `c`, **independent** of what the value of `d` is. 
-- That is why the evaluation of `d` is being **skipped** and the whole expression is calculated as `false`.
+- **It starts** the check form `a`, **reads** it and accepts that it has a `True` value, after which it **checks** `b`. 
+- After it has **accepted** that `a` and `b` return `True`, **it checks the next** argument. 
+- It gets to `c` and sees that the variable has a `False` value. 
+- After the program accepts that the argument `c` has a `False` value, it calculates the expression **before** `c`, **independent** of what the value of `d` is. 
+- That is why the evaluation of `d` is being **skipped** and the whole expression is calculated as `False`.
 
 # Example: Point in a Rectangle
 Checks whether **`point {x, y}`** is placed **inside the rectangle {x1, y1} – {x2, y2}**. 
@@ -227,16 +227,16 @@ Write a program that applies bonus to given points
 # Logical OR Operator
 The logical **OR** (operator `or`) means that **at least one** among a few conditions is fulfilled. 
 
-Similar to the operator `and`, the logical **OR** accepts a few arguments of **bool** (conditional) type and returns `true` or `false`. 
+Similar to the operator `and`, the logical **OR** accepts a few arguments of **bool** (conditional) type and returns `True` or `False`. 
 
-We can easily guess that we **obtain** a value `true` every time when at least one of the arguments has a `true` value. 
+We can easily guess that we **obtain** a value `True` every time when at least one of the arguments has a `True` value. 
 
 | Operand1 | Operand2 | OR |
 |---|---|---|---|
-| true | true | true |
-| true | false | true |
-| false | true | true |
-| false | false | false |
+| True | True | True |
+| True | False | True |
+| False | True | True |
+| False | False | False |
 
 At school the teacher says: "John or Peter should clean the board". To fulfill this condition (to clean the board), it is possible either just for John to clean it, or just for Peter to clean it, or both of them to do it.
 
@@ -245,24 +245,24 @@ We have already learned what the logical **OR** represents. But how is it actual
 
 Just like with the logical **"AND"**, the program **checks** from left to right **the arguments** that are given. 
 
-In order to obtain `true` from the expression, it is necessary for **just one** argument to have a `true` value. 
+In order to obtain `True` from the expression, it is necessary for **just one** argument to have a `True` value. 
 
 Respectively, the checking **continues** until an **argument** with **such** value is met or until the arguments **are over**.
 
 Here is one **example** of the `||` operator in action:
 
 ```py live
-a = false
-b = true
-c = false
-d = true
+a = False
+b = True
+c = False
+d = True
 result = a or b or c or d
 print(result)
 ```
 
-The programs **checks** `a`, accepts that it has a value `false` and continues. 
+The programs **checks** `a`, accepts that it has a value `False` and continues. 
 
-Reaching `b`, it understands that it has a `true` value and the whole **expression** is calculated as `true`, without having to check `c` or `d`, because their values **wouldn't change** the result of the expression.
+Reaching `b`, it understands that it has a `True` value and the whole **expression** is calculated as `True`, without having to check `c` or `d`, because their values **wouldn't change** the result of the expression.
 [/slide]
 
 [slide]
@@ -387,7 +387,7 @@ Logical negation (operator `not`) means a given condition is **not fulfilled**.
 
 | a | not a |
 |---|---|
-| true | false |
+| True | False |
 
 The operator `not` accepts as an **argument** a bool variable and **returns** its value.
 
