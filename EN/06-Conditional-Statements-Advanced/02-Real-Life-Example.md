@@ -1,8 +1,10 @@
 [slide]
 # Real Life Example: Marketplace
-Market offers different prices based on the day of the week
+A market offers different prices for certain products based on the day of the week
 
-|Product|Weekday|Weekend|
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/03-conditional-statements-advanced-example.png"/]
+
+|Product|Weekday|Weekend| 
 |-------|-------|-------|
 |Banana|2.50|2.70|
 |Apple|1.30|1.60|
@@ -11,10 +13,11 @@ Market offers different prices based on the day of the week
 We want to calculate the price for certain product and day
 
 # Pseudocode
+
 ```
 Read the input 
 If product is banana
-  If its a weekday the price is 2.50
+  If it is a weekday the price is 2.50
   Otherwise the price is 2.70
 If product is apple
   If its a weekday the price is 1.30
@@ -22,5 +25,11 @@ If product is apple
 If product is kiwi
   If its a weekday the price is 2.20
   Otherwise the price is 3.00
-```
+``` 
+[/slide]
+
+[slide]
+# Video
+
+
 [/slide]

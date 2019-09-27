@@ -1,52 +1,41 @@
 [slide]
 # Revision
-
-# Comparison Operators
-Suitable for numbers, dates, other comparable data types
-
-* Equal to (==)
-* Not equal to (!=)
-* Greater than (>)
-* Greater than or equal to (>=)
-* Less than (<)
-* Less than or equal to (<=)
-
-# The if Statement
-Very often you want to perform different actions for different conditions
-
-The if statement executes a statement if a specified condition is true
-
-```python
-hour = int(input())
-
-if hour < 18:
-    print("Good day")
+Let's revise what we learned in the last lesson:
+- Numbers can be **compared** by the `==`, `<`, `>`, `<=`, `>=` and `!=` operators:
+```py live
+print(5 <= 10)  # true
 ```
 
-# The else Statement
-If the condition is false, another statement can be executed
+- Simple **if-conditions** check a condition and execute a code block if it is **true**:
+```py live
+a = 10
+if a > 5:
+    print("The number `a` is bigger than 5")
+```
 
-```python
-hour = int(input())
-
-if hour < 18:
-    print("Good day")
+- The **if-else construction** executes one of two blocks depending on whether a condition is **true** or **false**:
+```py live
+a = 10
+if a > 5:
+    print("The number `a` is bigger than 5")
 else:
-    print("Good evening")
+    print("The number `a` is smaller or equal than 5")
 ```
 
-# The elif Statement
-
-The ***if-else*** statement can be in a series
-
-```python
-hour = int(input())
-
-if hour < 10:
-    print("Good morning")
-elif hour < 18:
-    print("Good day")
+- If-else constructions can be chained as **if-elif-else sequences**:
+```py live
+a = 10
+if a > 100:
+    print("The number `a` is bigger than 100")
+elif a > 20:
+    print("The number `a` is bigger than 20")
 else:
-    print("Good evening")
+    print("The number `a` is smaller or equal than 20")
 ```
+[/slide]
+
+[slide]
+# Video
+
+
 [/slide]
