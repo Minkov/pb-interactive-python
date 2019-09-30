@@ -1,15 +1,33 @@
 [slide]
 # Range
-Range is a function in python, which generates a collection of numbers in a given range
+`range()` is a function in python, which generates a collection of numbers between given start and stop integers.
+
+It takes three arguments:
+* **start** - lower limit - 0 by default
+* **stop** - upper limit 
+  * not included in the result
+* **step** - difference between each number in the result - 1 by default
+[image src="https://github.com/AtanasovAtanas/pb-interactive-python/blob/master/assets/for-loop-range-use-case.png"/]
+
+**Note:** All parameters must be whole numbers (integers), positive or negative
+
+Positive step means incrementing the values in the range, while negative - decrementing. The step value must **not** be **zero**.
 
 ```python
-range(1, 5) # start and end
+range(10, 4, -2) # negative step -2
+# 10 8 6
 ```
 
 ```python
-range(1, 10, 2) # start, end, step (optional)
+range(1, 10, 2) # positive step 2
 # 1 3 5 7 9
 ```
+
+```python
+range(1, 5) # step 1 by default
+# 1 2 3 4 
+```
+
 [/slide]
 
 [slide]
