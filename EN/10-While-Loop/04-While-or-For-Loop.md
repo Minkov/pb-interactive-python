@@ -1,40 +1,77 @@
 [slide]
-# While or For Loop
-***While*** and ***for*** loops both **repeat** a block of **code**
+# While or For Loop?
 
-Use ***for*** when you know the **number of repetitions**
+`while` and `for` loops both **repeat** a block of **code**.
 
-Use ***while*** when you don't know when you will meet the end condition
+But there are different situations when writing code that require either the first loop, or the other.
+
+When you know **exactly how many times** you want to loop through a block of code, use the `for` loop.
+```py
+for i in range(1, 5)
+    print(i)
+```
+It is usually appropriate for loops in which the initialization and increment are single statements and logically related. 
+
+It is more compact than `while` and it keeps the loop control statements together in one place.
+
+But, there could be many **complex** problems where number of iterations depend upon a certain **condition** and can't be predicated beforehand. 
+
+That means we don't know in advance **how many times** to repeat a loop.
+
+In those situation it is better to use `while` loop.
+```py
+i = int(input())
+
+while i != 10
+    print(i)
+    i = int(input())
+```
 [/slide]
 
 [slide]
 # Problem: Odd Number
-[code-task title="Odd Number" executionStrategy="python-code" requiresInput]
+[code-task title="Odd Number" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Reads numbers from the console until it gets an **odd number**
 * Prints the **odd** number
+# Example
+## Input
+- 2
+- 4
+- 8
+- 3
+## Output
+- 3
 [/task-description]
+[tests]
+[test]
+[input]
+2
+4
+8
+5
+[/input]
+[output]
+5
+[/output]
+[/test]
+[/tests]
 [code-io /]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|2|3|
-|4||
-|8||
-|3||
+
 [/slide]
 
 [slide]
 # Solution: Odd Number
-[code-task title="Odd Number" executionStrategy="python-code" requiresInput]
+[code-task title="Odd Number" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 number = int(input())
@@ -44,52 +81,82 @@ print(number)
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Reads numbers from the console until it gets an **odd number**
 * Prints the **odd** number
+# Example
+## Input
+- 2
+- 4
+- 8
+- 3
+## Output
+- 3
 [/task-description]
+[tests]
+[test]
+[input]
+2
+4
+8
+5
+[/input]
+[output]
+5
+[/output]
+[/test]
+[/tests]
 [code-io /]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|2|3|
-|4||
-|8||
-|3||
+
 [/slide]
 
 [slide]
 # Problem: Number Manipulator
-[code-task title="Number Manipulator" executionStrategy="python-code" requiresInput]
+[code-task title="Number Manipulator" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write code here
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
-* Reads a number from the console
-* Reads the following commands:
-* **Add** - Аdds 1 to the number
-* **Subtract** - Subtracts 1 from the number
-* **END** -  Prints the number and stops the program
+* Reads numbers from the console until it gets an **odd number**
+* Prints the **odd** number
+# Example
+## Input
+- 2
+- 4
+- 8
+- 3
+## Output
+- 3
 [/task-description]
+[tests]
+[test]
+[input]
+2
+4
+8
+5
+[/input]
+[output]
+5
+[/output]
+[/test]
+[/tests]
 [code-io /]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|5|6|
-|Add||
-|END||
+
 [/slide]
 
 [slide]
 # Solution: Number Manipulator
-[code-task title="Number Manipulator" executionStrategy="python-code" requiresInput]
+[code-task title="Number Manipulator" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 number = int(input())
@@ -106,20 +173,34 @@ print(number)
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
-* Reads a number from the console
-* Reads the following commands:
-* **Add** - Аdds 1 to the number
-* **Subtract** - Subtracts 1 from the number
-* **END** -  Prints the number and stops the program
+* Reads numbers from the console until it gets an **odd number**
+* Prints the **odd** number
+# Example
+## Input
+- 2
+- 4
+- 8
+- 3
+## Output
+- 3
 [/task-description]
+[tests]
+[test]
+[input]
+2
+4
+8
+5
+[/input]
+[output]
+5
+[/output]
+[/test]
+[/tests]
 [code-io /]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|5|6|
-|Add||
-|END||
+
 [/slide]

@@ -1,13 +1,20 @@
 [slide]
 # Homework
-Now, it's your turn to practice what you have learned in the training session.
+Welcome to the homework. 
 
-We have prepared some simple problems for you to solve. If you struggle you can see the solution after each problem.
+Now we are going to write a couple of console applications, by which we are going to make a few more steps into programming. 
+
+We have prepared some problems for you to solve.
+
+Let's solve a few problems to confirm what we have learned.
+
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/homeowrk.png"/]
 [/slide]
+
 
 [slide]
 # Problem: Sum Digits
-[code-task title="Sum Digits" executionStrategy="python-code" requiresInput]
+[code-task title="Sum Digits" taskId="p-01" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -58,7 +65,7 @@ Write a program, which:
 
 [slide]
 # Problem: Favorite Book
-[code-task title="Favorite Book" executionStrategy="python-code" requiresInput]
+[code-task title="Favorite Book" taskId="p-02" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -114,7 +121,7 @@ Write a program, which:
 
 [slide]
 # Problem: Find Min and Max
-[code-task title="Find Min and Max" executionStrategy="python-code" requiresInput]
+[code-task title="Find Min and Max" taskId="p-03" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 import math
@@ -183,7 +190,7 @@ Write a program, which:
 
 [slide]
 # Problem: Special Number
-[code-task title="Special Number" executionStrategy="python-code" requiresInput]
+[code-task title="Special Number" taskId="p-04" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -245,7 +252,7 @@ Write a program, which:
 
 [slide]
 # Problem: Special Bonus
-[code-task title="Special Bonus" executionStrategy="python-code" requiresInput]
+[code-task title="Special Bonus" taskId="p-05" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -306,7 +313,7 @@ Write a program, which:
 
 [slide]
 # Problem: Sequence 2k + 1
-[code-task title="Sequence 2k + 1" executionStrategy="python-code" requiresInput]
+[code-task title="Sequence 2k + 1" taskId="p-06" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -362,7 +369,7 @@ Write a program, which:
 
 [slide]
 # Problem: Account Balance
-[code-task title="Account Balance" executionStrategy="python-code" requiresInput]
+[code-task title="Account Balance" taskId="p-07" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
