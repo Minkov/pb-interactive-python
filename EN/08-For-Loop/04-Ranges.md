@@ -40,7 +40,7 @@ We can use ranges in `for` loops.
 
 As you already know loops are all about executing a block of code multiple times.
 
-When we use range() with a `for` loop, we can iterate over the numbers produced by the function.
+When we use `range()` with a `for` loop, we can iterate over the numbers produced by the function.
 
 Here is a detailed **example** that explains the whole concept step by step:
 ```python
@@ -56,7 +56,7 @@ At first it will be equal to the **start** value of the range.
 
 Each time the program goes inside the body of the loop its value will be incremented (increased) along with the execution of the code inside the loop body.
 
-`num` is increased with the step we have chosen. In our case num += 3
+`num` is increased with the step we have chosen. In our case `num += 3`
 
 In order for the loop to keep iterating the updated value must not exceed the **stop** value of the range.
 
@@ -66,31 +66,68 @@ The moment this condition becomes false the loop will break and the program will
 
 [slide]
 # Problem: Print Sum of N Numbers
-[code-task title="Print Sum of N Numbers" executionStrategy="python-code" requiresInput]
+[code-task title="Print Sum of N Numbers" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Reads number n from the console
-* Sums all numbers from 1 to n
-* Prints the sum on the console
+* **Prints** all numbers from **1** to **n**
+* **Sums** all numbers from **1** to **n**
+* **Prints** the sum on the console at the end
+# Example
+## Input
+- 5
+## Output
+- 1
+- 2
+- 3
+- 4
+- 5
+- 15
 [/task-description]
+[tests]
+[test]
+[input]
+5
+[/input]
+[output]
+1
+2
+3
+4
+5
+15
+[/output]
+[/test]
+[test]
+[input]
+6
+[/input]
+[output]
+1
+2
+3
+4
+5
+6
+21
+[/output]
+[/test]
+[/tests]
 [code-io /]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|5|15|
-|6|21|
+
 [/slide]
 
 [slide]
 # Solution: Print Sum of N Numbers
-[code-task title="Print Sum of N Numbers" executionStrategy="python-code" requiresInput]
+[code-task title="Print Sum of N Numbers" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 n = int(input())
@@ -101,55 +138,101 @@ print(sum)
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Reads number n from the console
-* Sums all numbers from 1 to n
-* Prints the sum on the console
+* **Prints** all numbers from **1** to **n**
+* **Sums** all numbers from **1** to **n**
+* **Prints** the sum on the console at the end
+# Example
+## Input
+- 5
+## Output
+- 1
+- 2
+- 3
+- 4
+- 5
+- 15
 [/task-description]
+[tests]
+[test]
+[input]
+5
+[/input]
+[output]
+1
+2
+3
+4
+5
+15
+[/output]
+[/test]
+[test]
+[input]
+6
+[/input]
+[output]
+1
+2
+3
+4
+5
+6
+21
+[/output]
+[/test]
+[/tests]
 [code-io /]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|5|15|
-|6|21|
+
 [/slide]
 
 [slide]
 # Problem: Calculate Monthly Salary
-[code-task title="Calculate Monthly Salary" executionStrategy="python-code" requiresInput]
+[code-task title="Calculate Monthly Salary" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
-* Reads working days in the current month and salary for each day
-* Calculates the salary for the month
-* Prints the result on the console
+* Reads working days in the current month and salary per day - integers
+* **Calculates** the salary for the month
+* **Prints** the result on the console
+# Example
+## Input
+- 2
+- 100
+- 200
+## Output
+- 300
 [/task-description]
+[tests]
+[test]
+[input]
+2
+100
+300
+[/input]
+[output]
+400
+[/output]
+[/test]
+[/tests]
 [code-io /]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|30|300|
-|10||
 
-|Input|Output|
-|-----|------|
-|3|330|
-|100||
-|110||
-|120||
 [/slide]
 
 [slide]
 # Solution: Calculate Monthly Salary
-[code-task title="Calculate Monthly Salary" executionStrategy="python-code" requiresInput]
+[code-task title="Calculate Monthly Salary" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 days = int(input())
@@ -161,19 +244,33 @@ print(total_salary)
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
-* Reads working days in the current month and salary for each day
-* Calculates the salary for the month
-* Prints the result on the console
+* Reads working days in the current month and salary per day - integers
+* **Calculates** the salary for the month
+* **Prints** the result on the console
+# Example
+## Input
+- 2
+- 100
+- 200
+## Output
+- 300
 [/task-description]
+[tests]
+[test]
+[input]
+2
+100
+300
+[/input]
+[output]
+400
+[/output]
+[/test]
+[/tests]
 [code-io /]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|3|330|
-|100||
-|110||
-|120||
+
 [/slide]
