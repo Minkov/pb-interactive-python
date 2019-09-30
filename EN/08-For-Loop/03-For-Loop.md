@@ -303,7 +303,6 @@ Write a program, which:
 [slide]
 
 # For Loop: Definition and Syntax
-////
 Allows code to be executed repeatedly
 
 Repeating while the condition is met
