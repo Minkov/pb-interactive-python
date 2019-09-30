@@ -1,6 +1,6 @@
 [slide]
-# Problem: Travelling
-[code-task title="Travelling" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+# Problem: Combinations
+[code-task title="Combinations" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -9,321 +9,131 @@
 [task-description]
 # Description
 
-Annie likes to travel and she wants this year to visit **several** different destinations. When she choose a destination, she will decide how **much money she\'ll need** to go there and she will **start saving money**. When she saved **enough**, she will be able to travel.
+Write a program that calculates **how many solutions in natural numbers (including zero)** has the equation:
 
-# Input / Output
+**x1** \+ **x2** \+ **x3** \+ **x4** \+ **x5** = **n**
 
-- From the **console** every time will be **read first destination and the minimum budget** which will be needed for the trip.
-- It will then be read a **few sums** that Annie saves while working and **when she succeed in saving enough** for the trip, **she will go**, **as you should print on the console the following message**:
+# Input
 
-    "Going to \{destination\}!"
+The input consits a single number - n - integer
 
-- When Annie visit all the destinations she wants, **instead of destination she will enter** "End" and the program will end.
+# Output
+
+Print on the console the total number of solutions
 
 # Example
 
-| **Input** | | **Output** |
-| --- | --- | --- | 
-| Greece | | Going to Greece! |
-| 1000 | | Going to Spain! |
-| 200 | | |
-| 200 | | |
-| 300 | | |
-| 100 | | |
-| 150 | | |
-| 240 | | |
-| Spain | | |
-| 1200 | | |
-| 300 | | |
-| 500 | | |
-| 193 | | |
-| 423 | | |
-| End | | |
+| **Input** | **Output** | **Comments** | 
+| --- | --- | --- |
+| 25 | 23751 | Generate all combinations of 5 digits, the first is: |
+| | | 0\+0\+0\+0\+0=0, but because it is not equal to 25,|
+| | | continuing 0\+0\+0\+0\+1=1 - again, it\'s not 25, etc. |
+| | | We come to the first valid combination: |
+| | | 0\+0\+0\+0\+25=25, expanding the number of valid |
+| | | combinations of 1, the second valid combination is:| 
+| | | 0\+0\+0\+1\+24=25|
+| | | The third: 0\+0\+0\+2\+23=25  etc.|
+| | | After generating all possible combinations,|
+| | | the number of valid combinations is 23751.|
 [/task-description]
 [tests]
 [test]
 [input]
-Greece
-1000
-200
-200
-300
-100
-150
-240
-Spain
-1200
-300
-500
-193
-423
-End
+25
 [/input]
 [output]
-Going to Greece!
-Going to Spain!
+23751
 [/output]
 [/test]
 [test]
 [input]
-France
-2000
-300
-300
-200
-400
-190
-258
-360
-Portugal
-1450
-400
-400
-200
-300
-300
-Egypt
-1900
-1000
-280
-300
-500
-End
-[/input]
-[output]
-Going to France!
-Going to Portugal!
-Going to Egypt!
-[/output]
-[/test]
-[test]
-[input]
-Maldives
-2500
-1000
-340
-50
-50
-50
-50
-700
-700
-End
-[/input]
-[output]
-Going to Maldives!
-[/output]
-[/test]
-[test]
-[input]
-Bulgaria
-500
-200
-100
-300
-Austria
-700
-200
-200
-200
-200
-End
-[/input]
-[output]
-Going to Bulgaria!
-Going to Austria!
-[/output]
-[/test]
-[test]
-[input]
-Africa
-3000
-1000
-5000
-America
-2000
-2500
-China
-4000
-2000
-1800
-1800
-End
-[/input]
-[output]
-Going to Africa!
-Going to America!
-Going to China!
-[/output]
-[/test]
-[test]
-[input]
-Estonia
-1000
-300
-200
-200
-300
-Peru
-3000
-2000
-1000
-Uganda
-1000
-1000
-UAE
-5000
-3000
-4000
-Germany
-2000
-2000
-Portugal
-2050
-3000
-Portugal
-2050
-3000
-Portugal
-2050
-3000
-Portugal
-2050
-3000
-Portugal
-2050
-3000
-End
-[/input]
-[output]
-Going to Estonia!
-Going to Peru!
-Going to Uganda!
-Going to UAE!
-Going to Germany!
-Going to Portugal!
-Going to Portugal!
-Going to Portugal!
-Going to Portugal!
-Going to Portugal!
-[/output]
-[/test]
-[test]
-[input]
-End
-[/input]
-[output]
-[/output]
-[/test]
-[test]
-[input]
-France
-3000
-50
-50
-50
-50
-50
-50
-50
-50
-50
-50
-50
-250
-100
-106
-280
-400
-400
-50
-400
-600
-End
-[/input]
-[output]
-Going to France!
-[/output]
-[/test]
-[test]
-[input]
-Russia
-15000
-4500
-300
-300
-3000
-2000
-4500
-5000
-Japan
-1500.600
-67.60
-26.4052345
-250.78
-450.78945
-578.76
-98.60
-260.84
-End
-[/input]
-[output]
-Going to Russia!
-Going to Japan!
-[/output]
-[/test]
-[test]
-[input]
-South Africa
-2000
-1000
-1000
-Egypt
-300
-150
-100
 20
-20
-20
-End
 [/input]
 [output]
-Going to South Africa!
-Going to Egypt!
+10626
 [/output]
 [/test]
 [test]
 [input]
-Zambia
-3700.250
-450.300
-450.20414
-600.43
-640.23
-824.50
-1200.46
-End
+5
 [/input]
 [output]
-Going to Zambia!
+126
 [/output]
 [/test]
 [test]
 [input]
-Albania
-350.23414
-45.24
-23.124
-123.144
-145.23556
-45.2345
-End
+0
 [/input]
 [output]
-Going to Albania!
+1
+[/output]
+[/test]
+[test]
+[input]
+1
+[/input]
+[output]
+5
+[/output]
+[/test]
+[test]
+[input]
+2
+[/input]
+[output]
+15
+[/output]
+[/test]
+[test]
+[input]
+3
+[/input]
+[output]
+35
+[/output]
+[/test]
+[test]
+[input]
+4
+[/input]
+[output]
+70
+[/output]
+[/test]
+[test]
+[input]
+-1
+[/input]
+[output]
+0
+[/output]
+[/test]
+[test]
+[input]
+6
+[/input]
+[output]
+210
+[/output]
+[/test]
+[test]
+[input]
+10
+[/input]
+[output]
+1001
+[/output]
+[/test]
+[test]
+[input]
+13
+[/input]
+[output]
+2380
 [/output]
 [/test]
 [/tests]
-[code-io /]
+[code-io/]
 [/code-task]
 [/slide]

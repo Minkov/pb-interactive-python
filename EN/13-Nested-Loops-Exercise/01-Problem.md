@@ -1,6 +1,6 @@
 [slide]
-# Problem: Numbers 1...N with Step 3
-[code-task title="Numbers 1...N with Step 3" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+# Problem: Clock
+[code-task title="Clock" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -9,95 +9,100 @@
 [task-description]
 # Description
 
-Write a program that reads a **number n**, introduced by the user, and prints **the numbers from 1 to n in 3 (step 3)**.
+Write a program that prints **the hours of the day** from given hour and minutes to 23:59 (**inclusive**), each on a separate line. 
+
+# Input
+
+The input is consists of **2** lines:
+
+- First line - hours - integer in range \[0...23\]
+
+- Second line - minutes - integer in range \[0...59\]
+
+# Output
+
+Hours must be printed on the console in "\{hour\} : \{minutes\}" format.
 
 # Example
 
 | **Input** | | **Output** |
-| --- | --- | --- | 
-| 10 | | 1 |
-| | | 4 |
-| | | 7 |
-| | | 10 |
-
-
-| **Input** | | **Output** |
 | --- | --- | --- |
-| 7| | 1|
-| | | 4|
-| | | 7|
+| 13 | | 13 : 29 |
+| 29 | | 13 : 30 |
+| | | 13 : 31 |
+| | | ... |
+| | | 23 : 57 |
+| | | 23 : 58 |
+| | | 23 : 59 |
+
 [/task-description]
 [tests]
 [test]
 [input]
-1
+23
+0
 [/input]
 [output]
-1
-[/output]
-[/test]
-[test]
-[input]
-4
-[/input]
-[output]
-1
-4
-[/output]
-[/test]
-[test]
-[input]
-20
-[/input]
-[output]
-1
-4
-7
-10
-13
-16
-19
-[/output]
-[/test]
-[test]
-[input]
-100
-[/input]
-[output]
-1
-4
-7
-10
-13
-16
-19
-22
-25
-28
-31
-34
-37
-40
-43
-46
-49
-52
-55
-58
-61
-64
-67
-70
-73
-76
-79
-82
-85
-88
-91
-94
-97
-100
+23 : 0
+23 : 1
+23 : 2
+23 : 3
+23 : 4
+23 : 5
+23 : 6
+23 : 7
+23 : 8
+23 : 9
+23 : 10
+23 : 11
+23 : 12
+23 : 13
+23 : 14
+23 : 15
+23 : 16
+23 : 17
+23 : 18
+23 : 19
+23 : 20
+23 : 21
+23 : 22
+23 : 23
+23 : 24
+23 : 25
+23 : 26
+23 : 27
+23 : 28
+23 : 29
+23 : 30
+23 : 31
+23 : 32
+23 : 33
+23 : 34
+23 : 35
+23 : 36
+23 : 37
+23 : 38
+23 : 39
+23 : 40
+23 : 41
+23 : 42
+23 : 43
+23 : 44
+23 : 45
+23 : 46
+23 : 47
+23 : 48
+23 : 49
+23 : 50
+23 : 51
+23 : 52
+23 : 53
+23 : 54
+23 : 55
+23 : 56
+23 : 57
+23 : 58
+23 : 59
 [/output]
 [/test]
 [/tests]
