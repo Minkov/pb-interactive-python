@@ -7,6 +7,10 @@ It takes three arguments:
 * **stop** - upper limit 
   * not included in the result
 * **step** - difference between each number in the result - 1 by default
+
+Having a **default** value means that we don't have to specify it and the function will use 0 or 1 as parameter depending on whether it is start or step.
+
+**Example: range(0, 10, 2)**
 [image src="https://github.com/AtanasovAtanas/pb-interactive-python/blob/master/assets/for-loop-range-use-case.png"/]
 
 **Note:** All parameters must be whole numbers (integers), positive or negative
