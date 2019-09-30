@@ -51,11 +51,16 @@ for num in range(1, 10, 3):
 [image src="https://github.com/AtanasovAtanas/pb-interactive-python/blob/master/assets/for-loop-range-use-case-example.png"/]
 
 `num` is the variable that will represent the current number of iterations. 
-* At first it will be equal to the **start** value of the range.
-* Each time the program goes inside the body of the loop its value will be incremented (increased) along with the execution of the code inside the loop body.
-  * `num` is increased with the step we have chosen. In our case num += 3
-* In order for the loop to keep iterating the updated value must not exceed the **stop** value of the range.
-  * The moment this condition becomes false the loop will break and the program will go on with executing the lines of code after the loop.
+
+At first it will be equal to the **start** value of the range.
+
+Each time the program goes inside the body of the loop its value will be incremented (increased) along with the execution of the code inside the loop body.
+
+`num` is increased with the step we have chosen. In our case num += 3
+
+In order for the loop to keep iterating the updated value must not exceed the **stop** value of the range.
+
+The moment this condition becomes false the loop will break and the program will go on with executing the lines of code after the loop.
 
 [/slide]
 
