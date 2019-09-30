@@ -1,27 +1,25 @@
 [slide]
 # Revision 
+Before proceeding ahead, let's remind ourselves about the program concepts and techniques that we have learned in the last session.
 
 # Nested Conditions
-
-An **_if...else_** statement can exist within another **_if...else_** statement
-
-Generally used when we have to test one condition followed by another
-
-```python
-if expression:
-  if nested expression:
-    # Code to be executed
-  else:
-    # Code to be executed
+```py
+if condition1:
+    if condition2:
+        # body
+    else:
+        # body
 ```
 
-# Logical Operators
+# Complex Conditions with `and,` `or`, `not` and `()`
+```py
+if (x == left or x == right) and y >= top and y <= bottom:
+    print(…)
+```
+[/slide]
 
-Logical operators are used to perform logical operation such as **_and_**, **_or_**
+[slide]
+# Video
 
-The logical operators are:
 
-- AND (**and**)
-- OR (**or**)
-- Logical negation (**not**)
 [/slide]

@@ -399,7 +399,7 @@ For example, `75` and `220` are **invalid**, but `150` is **valid**.
 ```py live
 num = 75
 
-inRange = (num >= 100 and num <= 200) or num == 0)
+inRange = (num >= 100 and num <= 200) or num == 0
 if not inRange:
     print("invalid")
 ```
