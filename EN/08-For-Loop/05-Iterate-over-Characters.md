@@ -6,7 +6,7 @@ We can also use **for loops** to iterate over **characters**.
 
 Here is an example of how a loop can pass sequentially through some **letters** in the English alphabet:
 ```py live
-for a in range(65, 91):
+for a in range(65, 71):
     print(chr(a))
 ```
 We use the function `chr()` to get the character encoded by an ASCII code number.
@@ -81,6 +81,7 @@ f g h i j k l
 [code-task title="Latin Letters" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
+# throwing many exceptions ;( How do I make it work????
 start = input()
 end = input()
 
