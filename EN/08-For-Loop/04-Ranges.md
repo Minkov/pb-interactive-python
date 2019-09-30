@@ -36,24 +36,27 @@ range(1, 5) # step 1 by default
 
 [slide]
 # Range in Loop
-We can use ranges in for-loops
-```python
-for num in range(1, 5):
-  print(num)
-# 1
-# 2
-# 3
-# 4
-```
+We can use ranges in `for` loops.
 
+As you already know loops are all about executing a block of code multiple times.
+
+When we use range() with a `for` loop, we can iterate over the numbers produced by the function.
+
+Here is a detailed **example** that explains the whole concept step by step:
 ```python
-for num in range(4, 0, -1):
-  print(num)
-# 4
-# 3
-# 2
-# 1
+for num in range(1, 10, 3):
+  # loop body
+# rest of code
 ```
+[image src="https://github.com/AtanasovAtanas/pb-interactive-python/blob/master/assets/for-loop-range-use-case-example.png"/]
+
+`num` is the variable that will represent the current number of iterations. 
+* At first it will be equal to the **start** value of the range.
+* Each time the program goes inside the body of the loop its value will be incremented (increased) along with the execution of the code inside the loop body.
+  * `num` is increased with the step we have chosen. In our case num += 3
+* In order for the loop to keep iterating the updated value must not exceed the **stop** value of the range.
+  * The moment this condition becomes false the loop will break and the program will go on with executing the lines of code after the loop.
+
 [/slide]
 
 [slide]
