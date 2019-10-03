@@ -29,5 +29,6 @@ In case of an expression in **brackets**, it is calculated **first**, just like 
 [slide]
 # Video
 
+[vimeo-video videoId="341528681" startTimeInSeconds="4923" endTimeInSeconds="5034" /]
 
 [/slide]

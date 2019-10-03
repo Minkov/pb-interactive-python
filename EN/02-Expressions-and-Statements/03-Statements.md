@@ -46,7 +46,7 @@ Common actions include:
 [/slide]
 
 [slide]
-# Video
+# Video - no
 
 
 [/slide]

@@ -553,6 +553,7 @@ Town A has population of 123456 and area 789 square km.
 [slide]
 # Video
 
+[vimeo-video videoId="341528681" startTimeInSeconds="5359" endTimeInSeconds="9641" /]
 
 [/slide]
 
