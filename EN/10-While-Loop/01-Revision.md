@@ -29,3 +29,10 @@ range(10, 1, -2) # negative step
 # 10 8 6 4 2
 ```
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="343587107" startTimeInSeconds="1025" endTimeInSeconds="1220" /]
+
+[/slide]

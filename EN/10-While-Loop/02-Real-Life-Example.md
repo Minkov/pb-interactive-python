@@ -20,5 +20,6 @@ In this exmaple, you work until satisfying a given condition.
 [slide]
 # Video
 
+[vimeo-video videoId="343587107" startTimeInSeconds="1260" endTimeInSeconds="1330" /]
 
 [/slide]
