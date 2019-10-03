@@ -27,4 +27,6 @@ The above code **will not work**, because we are trying to access a variable **o
 [slide]
 # Video
 
+[vimeo-video videoId="341553633" startTimeInSeconds="3905" endTimeInSeconds="4025" /]
+
 [/slide]

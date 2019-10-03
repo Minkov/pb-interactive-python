@@ -47,5 +47,6 @@ a = b * 2
 [slide]
 # Video
 
+[vimeo-video videoId="341553633" startTimeInSeconds="1028" endTimeInSeconds="1397" /]
 
 [/slide]

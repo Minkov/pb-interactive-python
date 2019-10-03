@@ -56,6 +56,6 @@ Eventually, if none of the `if` statements are true, the last `else` **clause** 
 [slide]
 # Video
 
-
+[vimeo-video videoId="341553633" startTimeInSeconds="3225" endTimeInSeconds="4025" /]
 
 [/slide]

@@ -712,3 +712,10 @@ Write a program, which:
 |2||
 |3||
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341553633" startTimeInSeconds="7335" endTimeInSeconds="9327" /]
+
+[/slide]

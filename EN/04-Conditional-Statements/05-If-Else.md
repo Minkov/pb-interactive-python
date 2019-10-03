@@ -309,6 +309,6 @@ Greater number: 2
 [slide]
 # Video
 
-[vimeo-video videoId="341532970" startTimeInSeconds="2478" endTimeInSeconds="3566" /]
+[vimeo-video videoId="341553633" startTimeInSeconds="2429" endTimeInSeconds="2553" /]
 
 [/slide]

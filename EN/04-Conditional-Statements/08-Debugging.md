@@ -24,5 +24,6 @@ We can create breakpoints using `[Ctrl + F8]`
 [slide]
 # Video
 
+[vimeo-video videoId="341553633" startTimeInSeconds="4025" endTimeInSeconds="4222" /]
 
 [/slide]

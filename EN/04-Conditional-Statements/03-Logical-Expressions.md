@@ -65,6 +65,6 @@ A string is an object and every object has an instance, but this is a knowledge 
 [slide]
 # Video
 
-
+[vimeo-video videoId="341553633" startTimeInSeconds="1448" endTimeInSeconds="2019" /]
 
 [/slide]
