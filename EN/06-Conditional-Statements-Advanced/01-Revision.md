@@ -37,5 +37,6 @@ else:
 [slide]
 # Video
 
+[vimeo-video videoId="341568008" startTimeInSeconds="970" endTimeInSeconds="1027" /]
 
 [/slide]

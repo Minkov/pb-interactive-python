@@ -31,5 +31,6 @@ If product is kiwi
 [slide]
 # Video
 
+[vimeo-video videoId="341568008" startTimeInSeconds="1027" endTimeInSeconds="1120" /]
 
 [/slide]
