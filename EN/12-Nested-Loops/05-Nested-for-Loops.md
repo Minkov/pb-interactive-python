@@ -64,3 +64,10 @@ Write a program, which:
 ||\*\*\*\*|
 ||\*\*\*\*\*|
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="345185854" startTimeInSeconds="3024" endTimeInSeconds="3508" /]
+
+[/slide]
