@@ -39,5 +39,6 @@ Variables can be stored in the program's:
 [slide]
 # Video
 
+[vimeo-video videoId="341528681" startTimeInSeconds="1004" endTimeInSeconds="1092" /]
 
 [/slide]

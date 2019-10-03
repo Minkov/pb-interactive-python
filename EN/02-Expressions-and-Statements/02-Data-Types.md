@@ -83,5 +83,6 @@ UserLoginCount
 [slide]
 # Video
 
+[vimeo-video videoId="341528681" startTimeInSeconds="1873" endTimeInSeconds="2655" /]
 
 [/slide]

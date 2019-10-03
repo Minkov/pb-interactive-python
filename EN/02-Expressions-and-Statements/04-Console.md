@@ -340,5 +340,6 @@ print(sum);  # The sum is: 4
 [slide]
 # Video
 
+[vimeo-video videoId="341528681" startTimeInSeconds="3268" endTimeInSeconds="4092" /]
 
 [/slide]
