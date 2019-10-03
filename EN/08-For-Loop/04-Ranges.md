@@ -274,3 +274,10 @@ Write a program, which:
 [/code-task]
 
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="342410322" startTimeInSeconds="1656" endTimeInSeconds="2522" /]
+
+[/slide]

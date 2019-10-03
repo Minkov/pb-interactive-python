@@ -21,5 +21,6 @@ if (x == left or x == right) and y >= top and y <= bottom:
 [slide]
 # Video
 
+[vimeo-video videoId="342410322" startTimeInSeconds="996" endTimeInSeconds="1252" /]
 
 [/slide]

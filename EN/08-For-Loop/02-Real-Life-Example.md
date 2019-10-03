@@ -18,5 +18,6 @@ The whole idea is that you have to repeat a particular action a **count** of tim
 [slide]
 # Video
 
+[vimeo-video videoId="342410322" startTimeInSeconds="1272 " endTimeInSeconds="1329" /]
 
 [/slide]

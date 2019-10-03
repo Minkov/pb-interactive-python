@@ -175,9 +175,9 @@ i
 
 [/slide]
 
-
 [slide]
 # Video
 
+[vimeo-video videoId="342410322" startTimeInSeconds="1330" endTimeInSeconds="165" /]
 
 [/slide]

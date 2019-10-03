@@ -640,5 +640,6 @@ Write a program, which:
 [slide]
 # Video
 
+[vimeo-video videoId="342410322" startTimeInSeconds="2525" endTimeInSeconds="9456" /]
 
 [/slide]

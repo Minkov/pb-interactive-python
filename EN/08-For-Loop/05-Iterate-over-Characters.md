@@ -126,9 +126,3 @@ f g h i j k l
 [/code-task]
 
 [/slide]
-
-[slide]
-# Video
-
-
-[/slide]
