@@ -74,6 +74,6 @@ print(euro)
 [slide]
 # Video
 
-[vimeo-video videoId="342601566" startTimeInSeconds="1795" endTimeInSeconds="2769" /]
+[vimeo-video videoId="351878876" startTimeInSeconds="1761" endTimeInSeconds="2734" /]
 
 [/slide]

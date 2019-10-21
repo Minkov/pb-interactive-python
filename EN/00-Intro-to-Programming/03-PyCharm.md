@@ -94,6 +94,6 @@ Alternative IDE (online)
 [slide]
 # Video
 
-[vimeo-video videoId="342601566" startTimeInSeconds="3558" endTimeInSeconds="4633" /]
+[vimeo-video videoId="351878876" startTimeInSeconds="3260" endTimeInSeconds="3982" /]
 
 [/slide]

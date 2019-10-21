@@ -68,6 +68,6 @@ Hello Python
 [slide]
 # Video
 
-[vimeo-video videoId="342601566" startTimeInSeconds="4634" endTimeInSeconds="4688" /]
+[vimeo-video videoId="351878876" startTimeInSeconds="3984" endTimeInSeconds="4584" /]
 
 [/slide]
