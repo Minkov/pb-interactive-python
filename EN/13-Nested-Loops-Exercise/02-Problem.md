@@ -8,22 +8,16 @@
 [/code-editor]
 [task-description]
 # Description
-
 Write a program to print **the hours of the day** from given hour, minutes, seconds to 23:59:59 (**inclusive**), each on a separate line. 
 
 # Input
-
 The input is entered from the console as **3** lines:
-
 - First line - **hours** - integer in range \[0...23\]
-
 - Second line - **minutes** - integer in range \[0...59\]
-
 - Third line - **seconds** - integer in range \[0...59\]
 
 # Output
-
-The output should be printed in the following format "\{hour\} : \{minutes\} : \{seconds\}".
+- The output should be printed in the following format "\{hour\} : \{minutes\} : \{seconds\}".
 
 # Example
 
@@ -31,8 +25,8 @@ The output should be printed in the following format "\{hour\} : \{minutes\} : \
 | --- | --- | --- |
 | 21 | | 21 : 59 : 58 |
 | 59 | | 21 : 59 : 59 |
-| 58 | | 22 : 0 : 0 |
-| | | 22 : 0 : 1 |
+| 58 | | 22 : 00 : 00 |
+| | | 22 : 00 : 01 |
 | | | ... |
 | | | 23 : 59 : 58 |
 | | | 23 : 59 : 59 |

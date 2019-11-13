@@ -8,10 +8,12 @@
 [/code-editor]
 [task-description]
 # Description
+Write a program that **calculates the ASCII value of a few words**, as the word with the **highest value** is the winner.
 
-Write a program that **calculates the ASCII value of a few words**, as the word with the **highest value** is the winner. The value of a word is calculated when you sum the **ASCII values of all the letters of which it consists of**. From the console read words until the command "**STOP**", then print:
+The value of a word is calculated when you sum the **ASCII values of all the letters of which it consists of**. 
 
-"Winner is \{winner word\} – \{value of the word\}!"
+From the console read words until the command "**STOP**", then print:
+- "Winner is \{winner word\} – \{value of the word\}!"
 
 # Example
 
@@ -23,14 +25,9 @@ Write a program that **calculates the ASCII value of a few words**, as the word 
 | STOP | |
 
 ## Comments
+- The first letter is \'H\' and it\'s ASCII value is 72, \'o\' has value 111, \'u\' has value 117, \'s\' has value 115, \'e\' has value 101. Their sum is 516. 
+- Keep doing the same calculations for the other words and get that Destination has the highest value - 1154.
 
-The first letter is \'H\' and it\'s ASCII value is 72,
-
-\'o\' has value 111, \'u\' has value 117, \'s\' has value 115, \'e\' has value 101.
-
-Their sum is 516. Keep doing the same calculations for the other words
-
-and get that Destination has the highest value - 1154.
 [/task-description]
 [tests]
 [test]

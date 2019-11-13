@@ -11,18 +11,17 @@
 
 Write a program that calculates **how many solutions in natural numbers (including zero)** has the equation:
 
+```
 **x1** \+ **x2** \+ **x3** \+ **x4** \+ **x5** = **n**
+```
 
 # Input
-
-The input consits a single number - n - integer
+- The input consits a single number - n - integer
 
 # Output
-
-Print on the console the total number of solutions
+- Print on the console the total number of solutions
 
 # Example
-
 | **Input** | **Output** | **Comments** | 
 | --- | --- | --- |
 | 25 | 23751 | Generate all combinations of 5 digits, the first is: |

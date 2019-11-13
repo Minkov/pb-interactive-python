@@ -8,17 +8,16 @@
 [/code-editor]
 [task-description]
 # Description
+The course "Train the trainers" is ending and the final evaluation approaches.
 
-The course "Train the trainers" is ending and the final evaluation approaches. Help the jury which by writing a program to calculate the **average score** of **each presentation** by a student, and the **average of all of them**.
+Help the jury which by writing a program to calculate the **average score** of **each presentation** by a student, and the **average of all of them**.
 
 # Input
-
 - From the console of the first row read the number of people on the jury - **n** - an integer in the range \[1...20\]
 - Then on a separate line read the name of the presentation - **String**
 - For each presentation of the new line is read **n - the number of ratings** - real number in the interval \[2.00 ... 6.00\]
 
 # Output
-
 - After calculating the **average score** for a particular presentation, print to the console:   
    "\{name of the presentation\} \- \{average score\}."
 - After receiving the command "**Finish**" on the console, print:    
@@ -40,13 +39,10 @@ All scores must be formatted to the **second decimal point**.
 | Finish | | | 
 
 ## Comments
-
-2 – the number of people on the jury - therefore gain a 2 evaluations of the presentation:
-\(6.00 \+ 5.50\) / 2 = 5.75
-
-\(5.84 \+ 5.66\) / 2 = 5.75
-
-\(6.00 \+ 5.50 \+ 5.84 \+ 5.66\) / 4 = 5.75 
+- 2 – the number of people on the jury - therefore gain a 2 evaluations of the presentation:
+    - \(6.00 \+ 5.50\) / 2 = 5.75
+    - \(5.84 \+ 5.66\) / 2 = 5.75
+- \(6.00 \+ 5.50 \+ 5.84 \+ 5.66\) / 4 = 5.75 
 [/task-description]
 [tests]
 [test]
