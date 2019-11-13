@@ -6,18 +6,6 @@ It usually looks like a black colored window like this two:
 
 [image src="https://raw.githubusercontent.com/AtanasovAtanas/pb-interactive-csharp/master/assets/00.Console-example.png"/]
 
-[image src="https://github.com/AtanasovAtanas/pb-interactive-python/blob/master/assets/expressions-and-statements-inches-to-centimeters.png" srcSet="https://github.com/AtanasovAtanas/pb-interactive-python/blob/master/assets/expressions-and-statements-inches-to-centimeters.png 1.5x"/]
-
-[image srcset="https://raw.githubusercontent.com/AtanasovAtanas/pb-interactive-csharp/master/assets/00.Console-example.png 1.5x"/]
-
-[image 
-    srcSet="https://raw.githubusercontent.com/AtanasovAtanas/pb-interactive-csharp/master/assets/00.Console-example-320w.png 320w,
-            https://raw.githubusercontent.com/AtanasovAtanas/pb-interactive-csharp/master/assets/00.Console-example-640w.png 640w"
-    sizes="(max-width: 320px) 300px,
-            (max-width: 640px) 620px"
-    src="https://raw.githubusercontent.com/AtanasovAtanas/pb-interactive-csharp/master/assets/00.Console-example-640w.png"
-/]
-
 In most operating systems, the **console** is available as a standalone application on which we write console commands. 
 
 It is called a **Command Prompt** in Windows, and a **Terminal** in Linux and Mac. 
@@ -118,7 +106,7 @@ The above line of Python code **reads an integer** from the first line on the co
 
 Try to write a wrong number, for example **"hello"**. 
 
-You will get an error message during runtime (exception). This is normal. //???
+You will get an error message during runtime (exception). This is normal.
 
 Later on, we will find out how we can catch these kinds of errors and make the user enter a number again.
 
@@ -311,7 +299,7 @@ Here is how we can concatenate a text with a number by the `+` operator:
 firstName = "John"
 lastName = "Doe"
 age = 19
-str = firstName + " " + lastName + " @ " + age
+str = firstName + " " + lastName + " @ " + str(age)
 print(str)  # John Doe @ 19
 ```
 
@@ -320,7 +308,7 @@ Here is another **example** of concatenating text and numbers:
 ```py live
 a = 1.5
 b = 2.5
-sum = "The sum is: " + a + b
+sum = "The sum is: " + str(a) + str(b)
 print(sum);  # The sum is: 1.52.5
 ```
 
@@ -332,7 +320,7 @@ If we want to sum the numbers, we have to use **brackets**, in order to change t
 ```py live
 a = 1.5;
 b = 2.5;
-sum = "The sum is: " + (a + b);
+sum = "The sum is: " + str(a + b);
 print(sum);  # The sum is: 4
 ```
 [/slide]

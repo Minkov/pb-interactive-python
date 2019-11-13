@@ -160,14 +160,9 @@ Write a program, which:
 [code-editor language=python]
 ```
 number = int(input())
-command = input()
 
-while command != "END":
-    if command == "Add":
-        number += 1
-    elif command == "Subtract":
-        number -= 1
-    command = input()
+while number % 2 == 0:
+    number = int(input())
 
 print(number)
 ```

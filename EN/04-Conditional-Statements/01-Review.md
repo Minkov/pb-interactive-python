@@ -7,8 +7,7 @@ In programming **data** is stored in **variables**
   * Variables store data in a piece of the memory
   * Variable read: retrieve the stored data
   * Variable write: modify the stored information
-  
-Declaring, initializing, reading and changing a variable in Python: //Do I need all of them?
+
 ```py live
 age = 5
 age = age + 1
@@ -19,7 +18,7 @@ print(age)
 
 * Floating-point number – 3.14159, 0.5
 
-* Boolean – true or false
+* Boolean – True or False
 
 * Text (strings) and symbols (letters) –  'a', "Hello", "Python", '@', 'X'
 

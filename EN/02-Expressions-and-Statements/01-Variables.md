@@ -25,11 +25,11 @@ Each of the variables in Python has a name, a type and a value.
 Here is how we would declare a variable and assign it with a value at the same time:
 ```python
 name = "Bob"
-employed = true
+employed = True
 age = 35
 ```
 If you think of the variables as boxes that hold information, this is how they would look like:
-[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/expressions-and-statements-boxes.png"/]
+[image src="https://github.com/AtanasovAtanas/pb-interactive-python/blob/master/assets/boxes-with-variables.png"/]
 
 Variables can be stored in the program's:
   * Operational memory - in the execution **stack**

@@ -78,10 +78,9 @@ f g h i j k l
 
 [slide]
 # Solution: Latin Letters
-[code-task title="Latin Letters" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Latin Letters" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
 ```
-# throwing many exceptions ;( How do I make it work????
 start = input()
 end = input()
 

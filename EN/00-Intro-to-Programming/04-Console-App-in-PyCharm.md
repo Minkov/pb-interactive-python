@@ -7,7 +7,7 @@ We can create a new project by clicking `[Create New Project]`
 
 If an old project is opened, the way we create a new console project is: `[File]` → `[New Project]`.
 
-[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/01.Hello-csharp-01.png"/]
+[image src="https://github.com/AtanasovAtanas/pb-interactive-python/blob/master/assets/new-project-pycharm.png"/]
 
 We set **a meaningful name** to our program, for example `Hello`:
 

@@ -9,7 +9,7 @@ In the Python language, the scope in which a variable exists, starts from the li
 Thus, it is important to know that **any variable defined inside the body of certain** `if` **statement will not be available outside of it**, unless we have defined it higher in the code.
 
 # Variable Scope – Example
-In the example below, on the last line we are trying to print the variable `salary` that is defined in the `if` statement, we will get an **error** because we don't have access to it.
+In the example below, on the last line we are trying to print the variable `salary` that is defined in the `if` statement and if the program hasn't gone into the **if**, we will get an **error** because we don't have access to it.
 
 ```py
 my_money = 500

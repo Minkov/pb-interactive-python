@@ -2,7 +2,7 @@
 # While Loop
 In programming the `while` **loop** is used when we want to **repeat** the execution of a certain logic while a condition is in effect. 
 
-By **"condition"**, we understand every **expression** that returns `true` or `false`. When **the condition** is **wrong**, the while loop is **interrupted**, the program **continues** to execute the remaining code after the loop. 
+By **"condition"**, we understand every **expression** that returns `True` or `False`. When **the condition** is **wrong**, the while loop is **interrupted**, the program **continues** to execute the remaining code after the loop. 
 [image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/05-use-case-while.png"/]
 The while loop looks like this:
 ```py
@@ -10,17 +10,17 @@ while condition:
   # loop body
 ```
 
-In the code example above, condition is any **expression that returns a Boolean result** – `true` or `false`. 
+In the code example above, condition is any **expression that returns a Boolean result** – `True` or `False`. 
 
 It determines how long the loop body will be repeated and is called `loop condition`. 
 
-In this example the `loop body` is the programming code executed at each iteration of the loop, i.e. whenever the input condition is true.
+In this example the `loop body` is the programming code executed at each iteration of the loop, i.e. whenever the input condition is True.
 
-In the while loop, firstly the Boolean expression is evaluated and if it is `true`, the sequence of operations in the body of the loop is executed. 
+In the while loop, firstly the Boolean expression is evaluated and if it is `True`, the sequence of operations in the body of the loop is executed. 
 
-Then again the input condition is checked and if it is `true` again, the body of the loop is executed. 
+Then again the input condition is checked and if it is `True` again, the body of the loop is executed. 
 
-All this is repeated again and again **until at some point the conditional expression returns value** `false`.
+All this is repeated again and again **until at some point the conditional expression returns value** `False`.
 
 # Example: Sequence of Numbers 2k+1
 Write a program that prints all **numbers ≤ n** of the series: **1, 3, 7, 15, 31, …,** assuming that each next number = **previous number * 2 + 1**.

@@ -1,51 +1,28 @@
 [slide]
 # Homework
-Now, it's your turn to practice what you have learned in the training session.
+Welcome to the homework. 
 
-We have prepared some simple problems for you to solve. If you struggle you can see the solution after each problem.
+Now we are going to write a couple of console applications, by which we are going to make a few more steps into programming. 
+
+We have prepared some problems for you to solve.
+
+Let's solve a few problems to confirm what we have learned.
+
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/homeowrk.png"/]
 [/slide]
 
 [slide]
 # Problem: Building
-[code-task title="Building" executionStrategy="python-code" requiresInput]
+[code-task title="Building" taskId="p-01" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
-```
-[/code-editor]
-[task-description]
-Write a program, which:
-
-* Prints information about apartments (odd rows), offices (even rows) and the last floor (last row)
-* Apartment "A\{buildingNum\}\{apartmentNum\}"
-* Office "O\{floorNum\}\{officeNum\}"
-* Floor "L\{buildingNum\}\{apartmentNum\}"
-* The numbers always start from 0
-[/task-description]
-[code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|6|L60 L61 L62 L63 |
-|4|A50 A51 A52 A53 |
-||O40 O41 O42 O43 |
-||A30 A31 A32 A33 |
-||O20 O21 O22 O23 |
-||A10 A11 A12 A13 |
-[/slide]
-
-[slide]
-# Solution: Building
-[code-task title="Building" executionStrategy="python-code" requiresInput]
-[code-editor language=python]
-```
 floors = int(input())
 rooms = int(input()) 
 for i in range(floors, 0, -1):
   for j in range(0, rooms):
     if i == floors:
-      print(f"L{i}{j}", end=" ") 
+      print(f"L{i}{j}", end=" ")  
     elif i % 2 == 0:
       print(f"O{i}{j}", end=" ")
     elif i % 2 == 1:
@@ -61,50 +38,62 @@ Write a program, which:
 * Office "O\{floorNum\}\{officeNum\}"
 * Floor "L\{buildingNum\}\{apartmentNum\}"
 * The numbers always start from 0
+# Example
+## Input
+- 4
+- 5
+## Output
+```
+L40 L41 L42 L43 L44 
+A30 A31 A32 A33 A34 
+O20 O21 O22 O23 O24 
+A10 A11 A12 A13 A14 
+```
 [/task-description]
+[tests]
+[test]
+[input]
+5
+3
+[/input]
+[output]
+L50 L51 L52 
+O40 O41 O42 
+A30 A31 A32 
+O20 O21 O22 
+A10 A11 A12
+[/output]
+[/test]
+[test]
+[input]
+2
+4
+[/input]
+[output]
+L20 L21 L22 L23 
+A10 A11 A12 A13
+[/output]
+[/test]
+[test]
+[input]
+1
+1
+[/input]
+[output]
+L10 
+[/output]
+[/test]
+[/tests]
 [code-io /]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|6|L60 L61 L62 L63 |
-|4|A50 A51 A52 A53 |
-||O40 O41 O42 O43 |
-||A30 A31 A32 A33 |
-||O20 O21 O22 O23 |
-||A10 A11 A12 A13 |
 [/slide]
 
 [slide]
 # Problem: Passwords
-[code-task title="Passwords" executionStrategy="python-code" requiresInput]
+[code-task title="Passwords" taskId="p-02" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
-```
-[/code-editor]
-[task-description]
-Write a program, which:
-
-* Generates custom 3 digit passwords, which meet the following conditions:
-* The first digit is an even number
-* The second digit is an odd number
-* The third is the product of the first two
-[/task-description]
-[code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|6|212 236 2510 414 4312 4520 616 6318 6530 |
-|5|212 236 2510 414 4312 4520 |
-[/slide]
-
-[slide]
-# Solution: Passwords
-[code-task title="Passwords" executionStrategy="python-code" requiresInput]
-[code-editor language=python]
-```
 n = int(input())
 for i in range(1, n + 1):
   for j in range(1, n + 1):
@@ -113,56 +102,40 @@ for i in range(1, n + 1):
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
-* Generates custom 3 digit passwords, which meet the following conditions:
+* Receives a number **n**
+* Generates **n count** passwords, which meet the following conditions:
 * The first digit is an even number
 * The second digit is an odd number
-* The third is the product of the first two
+* The third part is the product of the first two
+# Example
+## Input
+5
+## Output
+212 236 2510 414 4312 4520 
 [/task-description]
+[tests]
+[test]
+[input]
+4
+[/input]
+[output]
+212 236 414 4312 
+[/output]
+[/test]
+[/tests]
 [code-io /]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|6|212 236 2510 414 4312 4520 616 6318 6530 |
-|5|212 236 2510 414 4312 4520 |
 [/slide]
 
 [slide]
 # Problem: Magic Number
-[code-task title="Magic Number" executionStrategy="python-code" requiresInput]
+[code-task title="Magic Number" taskId="p-03" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
-```
-[/code-editor]
-[task-description]
-Read a number - n, from the console
-
-Find all 3-digit numbers, which:
-
-* Form n as the product of the multiplication of their digits
-[/task-description]
-[code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|3|113|
-||131|
-||311|
-
-|Input|Output|
-|-----|------|
-|1|111|
-[/slide]
-
-[slide]
-# Solution: Magic Number
-[code-task title="Magic Number" executionStrategy="python-code" requiresInput]
-[code-editor language=python]
-```
 magic_number = int(input())
 for i in range(1, 10):
   for j in range(1, 10):
@@ -172,58 +145,72 @@ for i in range(1, 10):
 ```
 [/code-editor]
 [task-description]
-Read a number - n, from the console
+# Description
+Read a number - **n**, from the console
 
 Find all 3-digit numbers, which:
 
 * Form n as the product of the multiplication of their digits
+# Example
+## Input
+- 3
+## Output
+- 113
+- 131
+- 311
 [/task-description]
+[tests]
+[test]
+[input]
+5
+[/input]
+[output]
+115
+151
+511
+[/output]
+[/test]
+[test]
+[input]
+5
+[/input]
+[output]
+116
+123
+132
+161
+213
+231
+312
+321
+611
+[/output]
+[/test]
+[test]
+[input]
+4
+[/input]
+[output]
+114
+122
+141
+212
+221
+411
+[/output]
+[/test]
+[/tests]
 [code-io /]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|3|113|
-||131|
-||311|
 
-|Input|Output|
-|-----|------|
-|1|111|
 [/slide]
 
 [slide]
 # Problem: Travelling
-[code-task title="Travelling" executionStrategy="python-code" requiresInput]
+[code-task title="Travelling" taskId="p-04" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
-```
-[/code-editor]
-[task-description]
-Write a program, which:
-
-* Reads a destination and needed budget for destination
-* You must continue reading amount of money until you have enough for the destination
-* If you receive the command "End" end the program
-[/task-description]
-[code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|Greece|Going to Greece!|
-|1000||
-|550||
-|450||
-|End||
-[/slide]
-
-[slide]
-# Solution: Travelling
-[code-task title="Travelling" executionStrategy="python-code" requiresInput]
-[code-editor language=python]
-```
 town_name = input()
 current_money = 0
 needed_money = float(input())
@@ -238,54 +225,60 @@ while new_money != "End":
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Reads a destination and needed budget for destination
 * You must continue reading amount of money until you have enough for the destination
 * If you receive the command "End" end the program
+# Example
+## Input
+- Greece
+- 1000
+- 550
+- 450
+## Output
+- Going to Greece!
 [/task-description]
+[tests]
+[test]
+[input]
+London
+200
+100
+50
+50
+[/input]
+[output]
+Going to London!
+[/output]
+[/test]
+[test]
+[input]
+Dubai
+1000
+200
+300
+100
+End
+[/input]
+[output]
+[/output]
+[/test]
+[/tests]
 [code-io /]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|Greece|Going to Greece!|
-|1000||
-|550||
-|450||
-|End||
+
 [/slide]
 
 [slide]
 # Problem: Prime Numbers
-[code-task title="Prime Numbers" executionStrategy="python-code" requiresInput]
+[code-task title="Prime Numbers" taskId="p-05" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 import math
 
 # Write your code here
-```
-[/code-editor]
-[task-description]
-Read two number from the console
-
-Print the prime number in that range
-[/task-description]
-[code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|1|1 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47|
-|50||
-[/slide]
-
-[slide]
-# Solution: Prime Numbers
-[code-task title="Prime Numbers" executionStrategy="python-code" requiresInput]
-[code-editor language=python]
-```
-import math
 
 n = int(input())
 m = int(input())
@@ -304,54 +297,49 @@ for num in range(n, m + 1):
 ```
 [/code-editor]
 [task-description]
+# Description
 Read two number from the console
 
-Print the prime number in that range
+Print the prime numbers in that range
+# Example
+## Input
+- 1
+- 50
+## Output
+1 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47
 [/task-description]
+[tests]
+[test]
+[input]
+London
+1
+20
+[/input]
+[output]
+1 2 3 5 7 11 13 17 19
+[/output]
+[/test]
+[test]
+[input]
+15
+35
+[/input]
+[output]
+17 19 23 29 31 
+[/output]
+[/test]
+[/tests]
 [code-io /]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|1|1 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47|
-|50||
+
 [/slide]
 
 [slide]
 # Problem: Unique PIN Codes
-[code-task title="Unique PIN Codes" executionStrategy="python-code" requiresInput]
+[code-task title="Unique PIN Codes" taskId="p-06" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
-```
-[/code-editor]
-[task-description]
-Write a program, which:
-
-* Reads 3 digits - each of them is an upper limit
-* Generates unique  3 digit PIN Codes, which meet the following conditions:
-    * They are in the range
-    * The first and the third digit must be even
-    * The second digit must be a prime number in the range \[2…7\]
-[/task-description]
-[code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|3|222|
-|5|224|
-|5|232|
-||234|
-||252|
-||254|
-[/slide]
-
-[slide]
-# Solution: Unique PIN Codes
-[code-task title="Unique PIN Codes" executionStrategy="python-code" requiresInput]
-[code-editor language=python]
-```
 n1 = int(input())
 n2 = int(input())
 n3 = int(input())
@@ -363,63 +351,67 @@ for  first_digit in range(1, n1 + 1):
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Reads 3 digits - each of them is an upper limit
-* Generates unique  3 digit PIN Codes, which meet the following conditions:
+* Generates unique 3 digit PIN Codes, which meet the following conditions:
     * They are in the range
     * The first and the third digit must be even
     * The second digit must be a prime number in the range \[2…7\]
+# Example
+## Input
+3
+5
+5
+## Output
+222
+224
+232
+234
+252
+254
 [/task-description]
+[tests]
+[test]
+[input]
+4
+3
+5
+[/input]
+[output]
+212
+222
+232
+412
+422
+432
+[/output]
+[/test]
+[test]
+[input]
+2
+3
+4
+[/input]
+[output]
+212
+222
+232
+[/output]
+[/test]
+[/tests]
 [code-io /]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|3|222|
-|5|224|
-|5|232|
-||234|
-||252|
-||254|
+
 [/slide]
 
 [slide]
 # Problem: Letters Combinations
-[code-task title="Letters Combinations" executionStrategy="python-code" requiresInput]
+[code-task title="Letters Combinations" taskId="p-07" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
-```
-[/code-editor]
-[task-description]
-Write a program, which:
-
-* Prints letters combinations and the count of the printed combinations
-* You will receive the range of letters on the first and second line
-* On the third line, you will receive a letter, which you must ignore - don't print combinations with it
-[/task-description]
-[code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|a|aaa|
-|c|aab|
-|b|aba|
-||abb|
-||baa|
-||bab|
-||bba|
-||bbb|
-||8|
-[/slide]
-
-[slide]
-# Solution: Letters Combinations
-[code-task title="Letters Combinations" executionStrategy="python-code" requiresInput]
-[code-editor language=python]
-```
 start_letter = input()
 end_letter = input()
 avoid_letter = input()
@@ -434,64 +426,96 @@ print(counter)
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Prints letters combinations and the count of the printed combinations
 * You will receive the range of letters on the first and second line
 * On the third line, you will receive a letter, which you must ignore - don't print combinations with it
+# Example
+## Input
+a
+c
+b
+## Output
+aaa
+aab
+aba
+abb
+baa
+bab
+bba
+bbb
+8
 [/task-description]
+[tests]
+[test]
+[input]
+k
+l
+m
+[/input]
+[output]
+kkk
+kkl
+klk
+kll
+lkk
+lkl
+llk
+lll
+8
+[/output]
+[/test]
+[test]
+[input]
+e
+h
+f
+[/input]
+[output]
+eee
+eeg
+eeh
+ege
+egg
+egh
+ehe
+ehg
+ehh
+gee
+geg
+geh
+gge
+ggg
+ggh
+ghe
+ghg
+ghh
+hee
+heg
+heh
+hge
+hgg
+hgh
+hhe
+hhg
+hhh
+27
+[/output]
+[/test]
+[/tests]
 [code-io /]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|a|aaa|
-|c|aab|
-|b  |aba|
-||abb|
-||baa|
-||bab|
-||bba|
-||bbb|
-||8|
+
 [/slide]
 
 [slide]
 # Problem: Number Pattern
-[code-task title="Number Pattern" executionStrategy="python-code" requiresInput]
+[code-task title="Number Pattern" taskId="p-08" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
-```
-[/code-editor]
-[task-description]
-Write a program, which:
-
-* Receives a single number: n
-* Prints the pattern shown in the example
-[/task-description]
-[code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|3|1|
-||121|
-||12321|
-
-|Input|Output|
-|-----|------|
-|4|1|
-||121|
-||12321|
-||1234321|
-[/slide]
-
-[slide]
-# Solution: Number Pattern
-[code-task title="Number Pattern" executionStrategy="python-code" requiresInput]
-[code-editor language=python]
-```
 rows = int(input())
 for i in range(1, rows + 1):
   result = ''
@@ -503,26 +527,44 @@ for i in range(1, rows + 1):
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Receives a single number: n
 * Prints the pattern shown in the example
+# Example
+## Input
+3
+## Output
+- 1
+- 121
+- 12321
 [/task-description]
+[tests]
+[test]
+[input]
+4
+[/input]
+[output]
+1
+121
+12321
+1234321
+[/output]
+[/test]
+[test]
+[input]
+2
+[/input]
+[output]
+1
+121
+[/output]
+[/test]
+[/tests]
 [code-io /]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|3|1|
-||121|
-||12321|
 
-|Input|Output|
-|-----|------|
-|4|1|
-||121|
-||12321|
-||1234321|
 [/slide]
 
 [slide]

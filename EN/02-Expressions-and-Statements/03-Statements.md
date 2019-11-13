@@ -10,34 +10,19 @@ Python supports several different kinds of statements and here are a few of them
   * **Jump statements** - transfer control
   
 Common actions include:
--  **Declaring** a variable
-
-  Declaring a variable means **defining** its **type**. //??? should I leave this here?
-  ```cs
-  int counter;
-  ```
--  **Assigning** a value
-
-  After you declare a variable, you can assign a value to a variable. 
-  
-  Assigning a value to a variable means **storing** a **value** to a variable.
+- **Initializing**
   ```python
   counter = 1
   ```
 
-- Declaring + **initializing**
-  ```python
-  int counter = 1
-  ```
-
 - **Printing** a value
   ```python 
-  Console.WriteLine(counter)
+  print(counter)
   ```
 
 - **Modifying** a value
   ```python
-  counter++
+  counter+=1
   ```
   
   ```python

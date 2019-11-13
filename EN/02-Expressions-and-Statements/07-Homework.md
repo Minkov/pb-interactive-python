@@ -39,7 +39,7 @@ Write a program to calculate the speed by time and distance:
 2.0
 [/input]
 [output]
-5
+5.0
 [/output]
 [/test]
 [test]
@@ -186,7 +186,7 @@ Write a program to calculate a triangle area:
 2.5
 [/input]
 [output]
-13.13
+13.12
 [/output]
 [/test]
 [test]
@@ -346,72 +346,8 @@ Write a program to convert from days to minutes:
 [/slide]
 
 [slide]
-# Problem: Circle Area and Perimeter
-[code-task title="Circle Area and Perimeter" taskId="p-06" executionType="tests-execution" executionStrategy="python-code" requiresInput]
-[code-editor language=python]
-```
-# Write your code here
-```
-[/code-editor]
-[task-description]
-# Description
-Write a program to calculate a **circle** area and perimeter:
-  * Read a floating-point number: the **radius** of a circle
-  * Calculate the **area** and **perimeter** of a circle
-  * Print the calculated values
-# Example
-## Input
-- 7
-## Output
-- Area = 153.938040
-- Perimeter = 43.982297
-[/task-description]
-[tests]
-[test]
-[input]
-12.0
-[/input]
-[output]
-Area = 452.389342
-Perimeter = 75.398224
-[/output]
-[/test]
-[test]
-[input]
-10.0
-[/input]
-[output]
-Area = 314.159265
-Perimeter = 62.831853
-[/output]
-[/test]
-[test]
-[input]
-5.5
-[/input]
-[output]
-Area = 95.033178
-Perimeter = 34.557519
-[/output]
-[/test]
-[test]
-[input]
-9.4
-[/input]
-[output]
-Area = 277.591127
-Perimeter = 59.061942
-[/output]
-[/test]
-[/tests]
-[code-io/]
-[/code-task]
-
-[/slide]
-
-[slide]
 # Problem: Person Info
-[code-task title="Person Info" taskId="p-07" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Person Info" taskId="p-06" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -484,7 +420,7 @@ A B from C - D!
 
 [slide]
 # Problem: Town Info
-[code-task title="Town Info" taskId="p-08" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Town Info" taskId="p-07" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

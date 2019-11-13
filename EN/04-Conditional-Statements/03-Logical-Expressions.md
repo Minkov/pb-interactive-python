@@ -11,7 +11,7 @@ In programming, we can compare values using the following operators:
 | Less than |   **<** |
 | Less than or equal to |   **<=** |
 
-When compared, the result is a Boolean value `true` or `false`, depending on whether the result of the comparison is `true` or `false`.
+When compared, the result is a Boolean value `True` or `False`, depending on whether the result of the comparison is `True` or `False`.
 [/slide]
 
 [slide]
@@ -20,11 +20,11 @@ Examples of such an expression are as follows:
 ```py live
 a = 5
 b = 10
-print(a < b)      # true
-print(a > 100)    # false
-print(a <= 5)     # true
-print(b == 2 * a) # true
-print(a != b)     # true
+print(a < b)      # True
+print(a > 100)    # False
+print(a <= 5)     # True
+print(b == 2 * a) # True
+print(a != b)     # True
 ```
 
 You can also compare numeric expressions. 
@@ -39,7 +39,7 @@ The preceding complex expression includes literals, variables, and function call
 
 The expressions on both sides of the comparison operator are evaluated, and the resulting values are then compared using the `>=` comparison operator. 
 
-If the value of the expression on the left side is greater than or equal to the value of the expression on the right, the entire expression evaluates to `true`, otherwise, it evaluates to `false`.
+If the value of the expression on the left side is greater than or equal to the value of the expression on the right, the entire expression evaluates to `True`, otherwise, it evaluates to `False`.
 [/slide]
 
 [slide]
@@ -50,13 +50,13 @@ Two string operands are equal when both of them are `null` or both string instan
 ```py live
 a = "Examplе"
 b = a
-print(a == b) # true
+print(a == b) # True
 ```
 
 ```py
 a = "hello"
 b = "hello"
-print(a == b); # true
+print(a == b); # True
 print(a < b); # error
 ```
 A string is an object and every object has an instance, but this is a knowledge we will acquire later on throughout the course.

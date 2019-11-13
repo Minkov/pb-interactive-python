@@ -2,10 +2,10 @@
 # Infinite While Loop
 We call an infinite loop one that repeats infinitely the performance of its body. 
 
-In `while` and `do-while` loops the end check is a conditional expression that always returns `true`. 
+In `while` loops the end check is a conditional expression that always returns `True`. 
 
 ```py
-while true:
+while True:
   # Commands
 ```
 
@@ -16,7 +16,7 @@ while command != "End":
   print("Executing: " + command)
 ```
 
-In the example above, the condition is always `true` because it is never changed.
+In the example above, the condition is always `True` because it is never changed.
 
 # Example: Finite Loop (Bug Fixed)
 ```py
