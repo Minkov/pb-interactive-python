@@ -4,7 +4,6 @@
 [code-editor language=python]
 ```
 # Write your code here
-
 ```
 [/code-editor]
 [task-description]
