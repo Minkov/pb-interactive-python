@@ -8,34 +8,29 @@
 [/code-editor]
 [task-description]
 # Description 
+Write a program in which Martin solves problems for exams until he receives message from his trainer: "**Enough**". 
 
-Write a program in which Martin solves problems for exams until he receives message from his lecturer: "**Enough**". Every time he solves a problem, he gets a grade. **The program should end either** Martin receives "Enough" command, **or obtain the number of poor grades**. A poor grade is a grade less or equal to 4.00.
+Every time he solves a problem, he get a grade. **The program should ends either** Martin receives "Enough" command, **or obtain the number of poor grades**. 
+
+A poor grade is a grade less or equal to 4.00.
 
 # Input
-
 - On the first line – **number of poor grades** – integer in range \[1…5\]
 - **After that repeatedly two lines**:
-
   - **Name of a problem - text**
-
   - **Grade** - integer in range \[2…6\]
 
 # Output
-
 - If Martin reaches "**Enough**" command, print **3** lines:
-
   - "Average score: \{average grade\}"
   - "Number of problems: \{number of ALL problems\}"
   - "Last problem: \{last problem\'s name\}"
-
 - **If he gets the specified number of poor grades**:
-
   - "You need a break, \{number poor grades\} poor grades."
 
 **The average grade should be formatted to the second decimal point.**
 
 # Example
-
 | **Input** | **Output** |
 | --- | --- |
 | 3 | Average score: 5.25 |
@@ -50,25 +45,17 @@ Write a program in which Martin solves problems for exams until he receives mess
 | Enough | |
 
 ## Comments
+- The number of allowed poor grades is 3.
+- First problem\'s name is Money, Martin\'s grade is 6.
+- Second problem - Story, grade - 4.
+- Third problem - Spring Time, grade - 5.
+- Fourth problem - Bus, grade - 6.
+- Next command is Enough, the program ends.
+- Average grade: 21 / 4 = 5.25
+- Number of solved problems: 4
+- Last problem: Bus
 
-The number of allowed poor grades is 3.
-
-First problem\'s name is Money, Martin\'s grade is 6.
-
-Second problem - Story, grade - 4.
-
-Third problem - Spring Time, grade - 5.
-
-Fourth problem - Bus, grade - 6.
-
-Next command is Enough, the program ends.
-
-Average grade: 21 / 4 = 5.25
-
-Number of solved problems: 4
-
-Last problem: Bus
-
+# Example
 | **Input** | **Output** |
 | --- | --- | --- |
 | 2| You need a break, 2 poor grades. |
@@ -80,16 +67,11 @@ Last problem: Bus
 | 4| |
 
 ## Comments
-
-The number of allowed poor grades is 2.
-
-The first problem\'s name is Income, Martin\' grade is 3.
-
-Second problem - Game Info, grade - 6.
-
-Third problem - Best Player, grade - 4.
-
-Martin reaches the number of allowed poor grades, it is time for break.
+- The number of allowed poor grades is 2.
+- The first problem\'s name is Income, Martin\' grade is 3.
+- Second problem - Game Info, grade - 6.
+- Third problem - Best Player, grade - 4.
+- Martin reaches the number of allowed poor grades, it is time for break.
 [/task-description]
 [tests]
 [test]
