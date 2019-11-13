@@ -493,7 +493,7 @@ Write a program, which:
 [/slide]
 
 [slide]
-# Introduction
+# Video
 
 [vimeo-video videoId="345185854" startTimeInSeconds="3958" endTimeInSeconds="11286" /]
 
