@@ -8,24 +8,19 @@
 [/code-editor]
 [task-description]
 # Description
-
 Write a program that knows whether the tank of a vehicle needs refueling or not. 
 
 # Input
-
 The input is consists of 2 lines:
-
-- First you have to read from the console the type of fuel - text with options: "diesel", "gasoline" or "gas"
-
-- The second line of input reads the liters fuel in the tank
+- First you have to read from the console the type of fuel - text with options: "Diesel", "Gasoline" or "Gas"
+- The second line of input reads the fuel in the tank in liters
 
 # Output
-
-If the liters fuel are more than or equal to 25 print:
+If the fuel in the tank is more than or equal to 25 liters print:
 - "You have enough \{type of fuel\}."
 
 Otherwise print:
-- "Fill your tank with \{fuel type\}!". 
+- "Fill your tank with \{type of fuel\}!". 
 
 If a fuel other than the specified is introduced, "Invalid fuel!" shall be printed.
 
@@ -33,19 +28,19 @@ If a fuel other than the specified is introduced, "Invalid fuel!" shall be print
 
 | **Input** | | **Output** |
 | --- | --- | --- |
-| diesel | | Fill your tank with diesel! |
+| Diesel | | Fill your tank with diesel! |
 | 10 | | |
 
 | **Input** | | **Output** |
 | --- | --- | --- |
-| gas | | You have enough gas. |
+| Gas | | You have enough gas. |
 | 25 | | |
 
 [/task-description]
 [tests]
 [test]
 [input]
-diesel
+Diesel
 10
 [/input]
 [output]
@@ -54,7 +49,7 @@ Fill your tank with diesel!
 [/test]
 [test]
 [input]
-gasoline
+Gasoline
 40
 [/input]
 [output]
@@ -63,7 +58,7 @@ You have enough gasoline.
 [/test]
 [test]
 [input]
-gas
+Gas
 25
 [/input]
 [output]
@@ -72,7 +67,7 @@ You have enough gas.
 [/test]
 [test]
 [input]
-kerosene
+Kerosene
 200
 [/input]
 [output]
@@ -81,7 +76,7 @@ Invalid fuel!
 [/test]
 [test]
 [input]
-diesel
+Diesel
 25
 [/input]
 [output]
@@ -90,7 +85,7 @@ You have enough diesel.
 [/test]
 [test]
 [input]
-gasoline
+Gasoline
 28
 [/input]
 [output]
@@ -99,7 +94,7 @@ You have enough gasoline.
 [/test]
 [test]
 [input]
-gas
+Gas
 20
 [/input]
 [output]
@@ -108,7 +103,7 @@ Fill your tank with gas!
 [/test]
 [test]
 [input]
-kerosene
+Kerosene
 20
 [/input]
 [output]
