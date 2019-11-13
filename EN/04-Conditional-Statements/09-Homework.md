@@ -103,7 +103,7 @@ The water is not hot enough
 [/test]
 [/tests]
 [code-io /]
-
+[/code-task]
 [/slide]
 
 [slide]
@@ -151,7 +151,6 @@ Fast
 [/tests]
 [code-io /]
 [/code-task]
-
 [/slide]
 
 [slide]
@@ -167,7 +166,6 @@ import math
 [task-description]
 # Description
 Write a program to calculate the area of different figures:
-
   * Read a string: the figure **type**
   * Read number (the **size**) or two numbers for rectangle (sizes)
     * Numbers will be floating-point
