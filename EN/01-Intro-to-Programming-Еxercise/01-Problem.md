@@ -1,9 +1,9 @@
 [slide]
-# Problem: Print "Hello Python"
-[code-task title="Print Hello Python" executionType="tests-execution" executionStrategy="python-code"]
+# Problem: Print "Hello SoftUni"
+[code-task title="Print Hello SoftUni" executionType="tests-execution" executionStrategy="python-code"]
 [code-editor language=python]
 ```
-# Write code here
+# Write your code here
 ```
 [/code-editor]
 [task-description]
@@ -11,7 +11,7 @@
 
 Write a program, which:
 
-Prints "Hello Python" on the console
+Prints "Hello SoftUni" on the console
 [/task-description]
 [code-io /]
 [tests]
@@ -19,7 +19,7 @@ Prints "Hello Python" on the console
 [input]
 [/input]
 [output]
-Hello Python
+Hello SoftUni
 [/output]
 [/test]
 [/tests]

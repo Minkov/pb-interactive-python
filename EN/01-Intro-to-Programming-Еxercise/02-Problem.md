@@ -3,7 +3,7 @@
 [code-task title="Rectangle Area" executionType="tests-execution" executionStrategy="python-code"]
 [code-editor language=python]
 ```
-# Write code here
+# Write your code here
 ```
 [/code-editor]
 [task-description]
