@@ -103,12 +103,7 @@ The water is not hot enough
 [/test]
 [/tests]
 [code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|104.8|The water is boiling|
-|29|The water is not hot enough|
+
 [/slide]
 
 [slide]
@@ -425,6 +420,13 @@ Write a program, which:
 * Receives **3 numbers**
 * Prints ***"True"*** if the **sum** of **2** of them is **equal** to the **third one**
 * Prints ***"False"*** if the condition above is **NOT met**
+# Example
+## Input
+- 2
+- 6
+- 4
+## Output
+- True
 [/task-description]
 [tests]
 [test]
@@ -450,18 +452,7 @@ True
 [/tests]
 [code-io /]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|2|True|
-|6||
-|4||
 
-|Input|Output|
-|-----|------|
-|0|False|
-|2||
-|3||
 [/slide]
 
 [slide]

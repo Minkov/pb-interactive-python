@@ -321,7 +321,7 @@ If we want to sum the numbers, we have to use **brackets**, in order to change t
 a = 1.5;
 b = 2.5;
 sum = "The sum is: " + str(a + b);
-print(sum);  # The sum is: 4
+print(sum);  # The sum is: 4.0
 ```
 [/slide]
 

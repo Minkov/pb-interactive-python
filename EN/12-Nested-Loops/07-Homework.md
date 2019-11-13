@@ -17,17 +17,6 @@ Let's solve a few problems to confirm what we have learned.
 [code-editor language=python]
 ```
 # Write your code here
-floors = int(input())
-rooms = int(input()) 
-for i in range(floors, 0, -1):
-  for j in range(0, rooms):
-    if i == floors:
-      print(f"L{i}{j}", end=" ")  
-    elif i % 2 == 0:
-      print(f"O{i}{j}", end=" ")
-    elif i % 2 == 1:
-      print(f"A{i}{j}", end=" ")
-  print()
 ```
 [/code-editor]
 [task-description]
@@ -94,11 +83,6 @@ L10
 [code-editor language=python]
 ```
 # Write your code here
-n = int(input())
-for i in range(1, n + 1):
-  for j in range(1, n + 1):
-    if i % 2 == 0 and j % 2 != 0:
-      print(f"{i}{j}{i * j} ", end=" ")
 ```
 [/code-editor]
 [task-description]
@@ -136,12 +120,6 @@ Write a program, which:
 [code-editor language=python]
 ```
 # Write your code here
-magic_number = int(input())
-for i in range(1, 10):
-  for j in range(1, 10):
-    for k in range(1, 10):
-      if i * j * k == magic_number:
-        print(f"{i}{j}{k}")
 ```
 [/code-editor]
 [task-description]
@@ -172,7 +150,7 @@ Find all 3-digit numbers, which:
 [/test]
 [test]
 [input]
-5
+6
 [/input]
 [output]
 116
@@ -211,17 +189,6 @@ Find all 3-digit numbers, which:
 [code-editor language=python]
 ```
 # Write your code here
-town_name = input()
-current_money = 0
-needed_money = float(input())
-new_money = float(input())
-while new_money != "End":
-  new_money = float(new_money)
-  current_money += new_money
-  if current_money >= needed_money:
-    print(f"Going to {town_name}")
-    break
-  new_money = input()
 ```
 [/code-editor]
 [task-description]
@@ -279,21 +246,6 @@ End
 import math
 
 # Write your code here
-
-n = int(input())
-m = int(input())
-
-for num in range(n, m + 1):
-  prime = True
-  divider = 2
-  max_divider = int(math.sqrt(num))
-  while divider <= max_divider:
-    if num % divider == 0:
-      prime = False
-      break
-    divider += 1
-  if prime:
-    print(num, end=" ")
 ```
 [/code-editor]
 [task-description]
@@ -340,14 +292,6 @@ London
 [code-editor language=python]
 ```
 # Write your code here
-n1 = int(input())
-n2 = int(input())
-n3 = int(input())
-for  first_digit in range(1, n1 + 1):
-  for second_digit in range(1, n2 + 1):
-    for third_digit in range(1, n3 + 1):
-      if first_digit % 2 == 0 and third_digit % 2 == 0 and (third_digit == 2 or third_digit == 3 or third_digit == 5 or third_digit == 7):
-        print(f"{first_digit}{second_digit}{third_digit}")
 ```
 [/code-editor]
 [task-description]
@@ -412,17 +356,6 @@ Write a program, which:
 [code-editor language=python]
 ```
 # Write your code here
-start_letter = input()
-end_letter = input()
-avoid_letter = input()
-counter = 0
-for first in range(ord(start_letter), ord(end_letter) + 1):
-  for second in range(ord(start_letter), ord(end_letter) + 1):       
-    for third in range(ord(start_letter), ord(end_letter) + 1):      
-      if chr(first) != avoid_letter and chr(second) != avoid_letter and chr(third) != avoid_letter:
-        print(f"{chr(first)}{chr(second)}{chr(third)}")
-        counter += 1
-print(counter)
 ```
 [/code-editor]
 [task-description]
@@ -516,14 +449,6 @@ hhh
 [code-editor language=python]
 ```
 # Write your code here
-rows = int(input())
-for i in range(1, rows + 1):
-  result = ''
-  for ascending in range(1, i + 1):
-    result += str(ascending)
-  for descending in range(i - 1, 0, -1):
-    result += str(descending)
-  print(result)
 ```
 [/code-editor]
 [task-description]
