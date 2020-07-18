@@ -13,7 +13,7 @@ Let's solve a few problems to confirm what we have learned.
 
 [slide]
 # Problem: Print "Hello Python"
-[code-task title="Print Hello Python" taskId="p-01" executionType="tests-execution" executionStrategy="python-code"]
+[code-task title="Print Hello Python" taskId="p-0eqw1" executionType="tests-execution" executionStrategy="python-code"]
 [code-editor language=python]
 ```
 # Write your code here
@@ -40,7 +40,7 @@ Hello Python
 
 [slide]
 # Problem: Calculate and Print 5 * 5
-[code-task title="Calculate and Print 5 * 5" taskId="p-02" executionType="tests-execution" executionStrategy="python-code" ]
+[code-task title="Calculate and Print 5 * 5" taskId="p-eeeee02" executionType="tests-execution" executionStrategy="python-code" ]
 [code-editor language=python]
 ```
 # Write your code here
